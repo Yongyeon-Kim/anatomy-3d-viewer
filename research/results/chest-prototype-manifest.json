@@ -1,0 +1,101 @@
+{
+  "status": "internal_prototype_candidate",
+  "medical_validation": "pending",
+  "primary_asset": "samples/chest-review/chest-smooth.glb",
+  "fallback_asset": "samples/chest-review/lungs-smooth.glb",
+  "groups": {
+    "left_lung": {
+      "label_ko": "왼쪽 폐",
+      "members": [
+        "Inferior lobe of left lung",
+        "Superior lobe of left lung"
+      ]
+    },
+    "right_lung": {
+      "label_ko": "오른쪽 폐",
+      "members": [
+        "Inferior lobe of right lung",
+        "Middle lobe of right lung",
+        "Superior lobe of right lung"
+      ]
+    },
+    "heart_chambers": {
+      "label_ko": "심장 외형 검토 묶음",
+      "members": [
+        "Left atrium",
+        "Left ventricle",
+        "Right atrium",
+        "Right ventricle"
+      ]
+    },
+    "rib_cage": {
+      "label_ko": "갈비뼈·늑연골·흉골",
+      "members": [
+        "Body of sternum",
+        "Costal cartilage of eighth rib.l",
+        "Costal cartilage of eighth rib.r",
+        "Costal cartilage of fifth rib.l",
+        "Costal cartilage of fifth rib.r",
+        "Costal cartilage of first rib.l",
+        "Costal cartilage of first rib.r",
+        "Costal cartilage of fourth rib.l",
+        "Costal cartilage of fourth rib.r",
+        "Costal cartilage of ninth rib.l",
+        "Costal cartilage of ninth rib.r",
+        "Costal cartilage of second rib.l",
+        "Costal cartilage of second rib.r",
+        "Costal cartilage of seventh rib.l",
+        "Costal cartilage of seventh rib.r",
+        "Costal cartilage of sixth rib.l",
+        "Costal cartilage of sixth rib.r",
+        "Costal cartilage of tenth rib.l",
+        "Costal cartilage of tenth rib.r",
+        "Costal cartilage of third rib.l",
+        "Costal cartilage of third rib.r",
+        "Eighth rib.l",
+        "Eighth rib.r",
+        "Eleventh rib.l",
+        "Eleventh rib.r",
+        "Fifth rib.l",
+        "Fifth rib.r",
+        "First rib.l",
+        "First rib.r",
+        "Fourth rib.l",
+        "Fourth rib.r",
+        "Manubrium of sternum",
+        "Ninth rib.l",
+        "Ninth rib.r",
+        "Second rib.r",
+        "Second rib.l",
+        "Seventh rib.l",
+        "Seventh rib.r",
+        "Sixth rib.l",
+        "Sixth rib.r",
+        "Tenth rib.l",
+        "Tenth rib.r",
+        "Third rib.l",
+        "Third rib.r",
+        "Twelfth rib.l",
+        "Twelfth rib.r",
+        "Xiphoid process"
+      ]
+    },
+    "diaphragm": {
+      "label_ko": "횡격막",
+      "members": [
+        "Diaphragm"
+      ]
+    },
+    "trachea": {
+      "label_ko": "기관",
+      "members": [
+        "Trachea"
+      ]
+    }
+  },
+  "limitations": [
+    "Heart chambers are a subset, not a complete heart.",
+    "Trachea excludes bronchial tree.",
+    "Known mesh openings; cutting and deformation not approved."
+  ]
+}

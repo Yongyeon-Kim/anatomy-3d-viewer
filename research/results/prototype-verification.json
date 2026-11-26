@@ -1,0 +1,183 @@
+{
+  "timestamp": "2026-11-06T08:59:31.354Z",
+  "scope": "internal prototype, current execution environment only",
+  "environment": {
+    "platform": "linux",
+    "release": "6.18.33.2-microsoft-standard-WSL2",
+    "arch": "x64",
+    "node": "v22.23.2"
+  },
+  "unit": {
+    "status": "passed",
+    "tests": 3,
+    "restorationCycles": 1000,
+    "maximumRestorationError": 0,
+    "evidence": "tests/model.test.mjs assertions against actual GLB; executed while generating this report"
+  },
+  "browser": {
+    "startTime": "2026-11-06T08:57:58.736Z",
+    "duration": 35267.718,
+    "expected": 15,
+    "skipped": 1,
+    "unexpected": 0,
+    "flaky": 0,
+    "cases": [
+      {
+        "title": "full interaction: load → orbit → select/focus → hide/isolate → spread → independent restores",
+        "project": "desktop-chromium",
+        "outcome": "passed"
+      },
+      {
+        "title": "full interaction: load → orbit → select/focus → hide/isolate → spread → independent restores",
+        "project": "mobile-emulation",
+        "outcome": "passed"
+      },
+      {
+        "title": "canvas raycast selection, keyboard orbit, wheel/button zoom clamps and layout width",
+        "project": "desktop-chromium",
+        "outcome": "passed"
+      },
+      {
+        "title": "canvas raycast selection, keyboard orbit, wheel/button zoom clamps and layout width",
+        "project": "mobile-emulation",
+        "outcome": "passed"
+      },
+      {
+        "title": "failure, lung fallback with unavailable groups, and full retry recovery",
+        "project": "desktop-chromium",
+        "outcome": "passed"
+      },
+      {
+        "title": "failure, lung fallback with unavailable groups, and full retry recovery",
+        "project": "mobile-emulation",
+        "outcome": "passed"
+      },
+      {
+        "title": "invalid GLB retry and failed fallback never leave stale active controls",
+        "project": "desktop-chromium",
+        "outcome": "passed"
+      },
+      {
+        "title": "invalid GLB retry and failed fallback never leave stale active controls",
+        "project": "mobile-emulation",
+        "outcome": "passed"
+      },
+      {
+        "title": "WebGL unavailable provides a visible explanation",
+        "project": "desktop-chromium",
+        "outcome": "passed"
+      },
+      {
+        "title": "WebGL unavailable provides a visible explanation",
+        "project": "mobile-emulation",
+        "outcome": "passed"
+      },
+      {
+        "title": "slow request times out and can retry successfully",
+        "project": "desktop-chromium",
+        "outcome": "passed"
+      },
+      {
+        "title": "slow request times out and can retry successfully",
+        "project": "mobile-emulation",
+        "outcome": "passed"
+      },
+      {
+        "title": "graphics context loss suspends controls and restores the model",
+        "project": "desktop-chromium",
+        "outcome": "passed"
+      },
+      {
+        "title": "graphics context loss suspends controls and restores the model",
+        "project": "mobile-emulation",
+        "outcome": "passed"
+      },
+      {
+        "title": "touch orbit, pinch, cancel and next tap do not conflict with selection",
+        "project": "desktop-chromium",
+        "outcome": "skipped"
+      },
+      {
+        "title": "touch orbit, pinch, cancel and next tap do not conflict with selection",
+        "project": "mobile-emulation",
+        "outcome": "passed"
+      }
+    ],
+    "environments": [
+      {
+        "project": "desktop-chromium",
+        "browser": "158.0.8127.18",
+        "graphics": {
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+          "vendor": "Google Inc. (Google)"
+        },
+        "loadedMeshes": 58,
+        "renderedTriangles": 240979,
+        "timings": {
+          "transferMs": 185.5,
+          "parseAndValidateMs": 13.199999988079071,
+          "firstRenderMs": 226.10000002384186,
+          "bytes": 3868328
+        }
+      },
+      {
+        "project": "mobile-emulation",
+        "browser": "158.0.8127.18",
+        "graphics": {
+          "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+          "vendor": "Google Inc. (Google)"
+        },
+        "loadedMeshes": 58,
+        "renderedTriangles": 240979,
+        "timings": {
+          "transferMs": 144.5999999642372,
+          "parseAndValidateMs": 13.5,
+          "firstRenderMs": 185.19999998807907,
+          "bytes": 3868328
+        }
+      }
+    ],
+    "skippedReason": "Desktop duplicate of touch-only mobile emulation case; physical device coverage is not claimed"
+  },
+  "production": {
+    "timestamp": "2026-11-06T08:59:30.957Z",
+    "status": "passed",
+    "browser": "158.0.8127.18",
+    "userAgent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.8127.18 Safari/537.36",
+    "graphics": {
+      "renderer": "ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)",
+      "vendor": "Google Inc. (Google)"
+    },
+    "loadedMeshes": 58,
+    "renderedTriangles": 240979,
+    "timings": {
+      "transferMs": 56.10000002384186,
+      "parseAndValidateMs": 14.199999988079071,
+      "firstRenderMs": 99.30000001192093,
+      "bytes": 3868328
+    },
+    "restoreMaxError": 0,
+    "pageErrors": [],
+    "failedRequests": []
+  },
+  "sourceSha256": {
+    "index.html": "d526d9d34628d5a484d3eb5a3078a8835bd84c66d49ee1c847ca8fdef5865dcc",
+    "src/main.js": "3c3d74d0e7eb24f28c81de1fdf3599495410c4b37726c09a0e952f4bbca9dbf7",
+    "src/model.js": "f98a5675fca3f09d1cf42d8ab641e2f20e059f0551e7949c885b1960cbcc1cfe",
+    "src/style.css": "230904a28c8e1e405ab6e0ee044911505fe38eef1ef2d27941b17eb0f44c83cd",
+    "vite.config.js": "92eff99e11a734b7540860ff500acf66af90126a2857544d48cb850a98ee3a67",
+    "package-lock.json": "93f14a03f7c05675d78d8f0d38d9cf41fd6507776a462d977a19e6d0dae5c285",
+    "tests/model.test.mjs": "934ecdaba31391941cbe0e7b68e7dfef2216bf8e4a7ba05b0d7fb67bc10ac6e9",
+    "tests/browser/viewer.spec.js": "bcd556501b54fa5ab9f0c6b2739fb100c9317eee87fd2ac0c77a129cd9b4a448",
+    "playwright.config.js": "233160c096904a1486bed922fc8eab5e29837b158cbfb10453b4c575dca0ecfa",
+    "scripts/prepare-viewer-assets.mjs": "c1cb04a4a9e79a2ac5dc0138d225b89c112b4be80b1e665c6b430191328ef6c3"
+  },
+  "limitations": [
+    "Physical phone/tablet verification pending",
+    "Medical expert review pending",
+    "Human usability study pending",
+    "Real device FPS/memory/thermal and network benchmarking pending",
+    "Mobile panels require scrolling; interaction convenience unvalidated",
+    "Known geometry openings and incomplete heart/bronchial structures"
+  ]
+}

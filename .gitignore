@@ -1,0 +1,12 @@
+research/raw/
+research/samples/
+research/results/*.png
+research/results/*.svg
+research/results/bodyparts-audit.json
+.venv/
+__pycache__/
+node_modules/
+dist/
+public/models/
+test-results/
+playwright-report/

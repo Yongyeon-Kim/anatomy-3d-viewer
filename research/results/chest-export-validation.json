@@ -1,0 +1,35 @@
+[
+  {
+    "path": "samples/chest-review/lungs-smooth.glb",
+    "nodes": 5,
+    "triangles": 10342,
+    "bytes": 203056,
+    "bounds_max_error_source_units": 1.225952186434398e-07,
+    "per_node_bounds_max_error_source_units": 1.3735740966858145e-07,
+    "node_names_and_per_node_triangle_counts_match": true,
+    "sha256_matches": true,
+    "finite_positions_and_normals": true
+  },
+  {
+    "path": "samples/chest-review/lungs-subdivision1.glb",
+    "nodes": 5,
+    "triangles": 42144,
+    "bytes": 776508,
+    "bounds_max_error_source_units": 1.2261477766450923e-07,
+    "per_node_bounds_max_error_source_units": 1.3815886545920364e-07,
+    "node_names_and_per_node_triangle_counts_match": true,
+    "sha256_matches": true,
+    "finite_positions_and_normals": true
+  },
+  {
+    "path": "samples/chest-review/chest-smooth.glb",
+    "nodes": 58,
+    "triangles": 240979,
+    "bytes": 3861948,
+    "bounds_max_error_source_units": 7.923574685264612e-09,
+    "per_node_bounds_max_error_source_units": 1.7974525690078735e-07,
+    "node_names_and_per_node_triangle_counts_match": true,
+    "sha256_matches": true,
+    "finite_positions_and_normals": true
+  }
+]

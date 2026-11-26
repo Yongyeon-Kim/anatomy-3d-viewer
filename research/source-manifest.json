@@ -1,0 +1,72 @@
+{
+  "acquired_at_utc": "2026-11-06T07:46:38.708738+00:00",
+  "z_anatomy_commit": "d909eb1e89bf47180b575e4dfacce639c90044b8",
+  "files": [
+    {
+      "path": "raw/bodyparts3d/README_e.html",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/README_e.html",
+      "bytes": 19263,
+      "sha256": "f9a90b4d945ad0fe50db45c712e931aa54e52667187b30d7085b6cc394f40107"
+    },
+    {
+      "path": "raw/bodyparts3d/isa_BP3D_4.0_obj_99.zip",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+      "bytes": 142903898,
+      "sha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e"
+    },
+    {
+      "path": "raw/bodyparts3d/isa_element_parts.txt",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_element_parts.txt",
+      "bytes": 1142159,
+      "sha256": "a3de74423f943b0d724ae8f59b3a817f87c423a544f8db98113b1980817cbeaf"
+    },
+    {
+      "path": "raw/bodyparts3d/isa_parts_list_e.txt",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_parts_list_e.txt",
+      "bytes": 128086,
+      "sha256": "ab7796deedd49205e77f3609a1cb8c53e2bbee14ecb5c9a6ca05227469780513"
+    },
+    {
+      "path": "raw/bodyparts3d/license-page.html",
+      "url": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+      "bytes": 14694,
+      "sha256": "ffd954b9cb31a6648cc90190f5be452e6499b96b3eb4a2bf0030f2db10fd42a6"
+    },
+    {
+      "path": "raw/bodyparts3d/partof_BP3D_4.0_obj_99.zip",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_BP3D_4.0_obj_99.zip",
+      "bytes": 64888505,
+      "sha256": "9fbc713fffeee924a5a657d9813d84d7eb957bded63adb854931dd5e3eb61c97"
+    },
+    {
+      "path": "raw/bodyparts3d/partof_element_parts.txt",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_element_parts.txt",
+      "bytes": 651179,
+      "sha256": "3f5f6df1028eb122b30de77c711597b6bb8e5541658e5985859fd228adbf88ea"
+    },
+    {
+      "path": "raw/bodyparts3d/partof_parts_list_e.txt",
+      "url": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/partof_parts_list_e.txt",
+      "bytes": 59351,
+      "sha256": "9224080557053e6f1322f1e13ab27f0ecde0db19bb3b505f0631afad230eeebd"
+    },
+    {
+      "path": "raw/z-anatomy/License.txt",
+      "url": "https://raw.githubusercontent.com/Z-Anatomy/Models-of-human-anatomy/d909eb1e89bf47180b575e4dfacce639c90044b8/License.txt",
+      "bytes": 2754,
+      "sha256": "196b66b56551a862e59872f7cdb70e6d9a6ad84e9105962fca8ec28c14e97520"
+    },
+    {
+      "path": "raw/z-anatomy/Readme.md",
+      "url": "https://raw.githubusercontent.com/Z-Anatomy/Models-of-human-anatomy/d909eb1e89bf47180b575e4dfacce639c90044b8/Readme.md",
+      "bytes": 4243,
+      "sha256": "2439e8ccea759c644bbaf2f6fd48551fe054bfda30fd3d97d8384f75273466b3"
+    },
+    {
+      "path": "raw/z-anatomy/Z-Anatomy.zip",
+      "url": "https://raw.githubusercontent.com/Z-Anatomy/Models-of-human-anatomy/d909eb1e89bf47180b575e4dfacce639c90044b8/Z-Anatomy.zip",
+      "bytes": 86734957,
+      "sha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+    }
+  ]
+}

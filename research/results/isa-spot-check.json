@@ -1,0 +1,26 @@
+[
+  {
+    "id": "FJ2417",
+    "partof_vertices": 708,
+    "isa_vertices": 708,
+    "partof_faces": 1272,
+    "isa_faces": 1272,
+    "same_indexed_geometry": true
+  },
+  {
+    "id": "FJ3131",
+    "partof_vertices": 35527,
+    "isa_vertices": 35527,
+    "partof_faces": 68522,
+    "isa_faces": 68522,
+    "same_indexed_geometry": true
+  },
+  {
+    "id": "FJ2041",
+    "partof_vertices": 158,
+    "isa_vertices": 158,
+    "partof_faces": 290,
+    "isa_faces": 290,
+    "same_indexed_geometry": true
+  }
+]

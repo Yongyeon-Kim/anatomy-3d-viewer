@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Inferior lobe of left lung",
+    "path": "samples/z-anatomy/Inferior_lobe_of_left_lung.obj",
+    "vertices": 1142,
+    "triangles": 2275,
+    "modifiers": [
+      "SUBSURF"
+    ]
+  },
+  {
+    "name": "Inferior lobe of right lung",
+    "path": "samples/z-anatomy/Inferior_lobe_of_right_lung.obj",
+    "vertices": 1040,
+    "triangles": 2074,
+    "modifiers": [
+      "SUBSURF"
+    ]
+  },
+  {
+    "name": "Middle lobe of right lung",
+    "path": "samples/z-anatomy/Middle_lobe_of_right_lung.obj",
+    "vertices": 914,
+    "triangles": 1818,
+    "modifiers": [
+      "SUBSURF"
+    ]
+  },
+  {
+    "name": "Superior lobe of left lung",
+    "path": "samples/z-anatomy/Superior_lobe_of_left_lung.obj",
+    "vertices": 1141,
+    "triangles": 2265,
+    "modifiers": [
+      "SUBSURF"
+    ]
+  },
+  {
+    "name": "Superior lobe of right lung",
+    "path": "samples/z-anatomy/Superior_lobe_of_right_lung.obj",
+    "vertices": 968,
+    "triangles": 1910,
+    "modifiers": [
+      "SUBSURF"
+    ]
+  }
+]

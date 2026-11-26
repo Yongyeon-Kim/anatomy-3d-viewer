@@ -1,0 +1,117 @@
+[
+  {
+    "name": "Inferior lobe of left lung",
+    "vertices": 1142,
+    "triangles": 2275,
+    "bytes": 76548,
+    "sha256": "1de82eb7d391a8cd9382c6b759140d9c7f1c4bd62f3e1a7fb971c9d167767376",
+    "exact_weld_watertight": false,
+    "boundary_edges": 7,
+    "nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "bounds": [
+      [
+        0.0170899853,
+        -0.1016692,
+        1.16608477
+      ],
+      [
+        0.130164981,
+        0.0830968916,
+        1.36346984
+      ]
+    ]
+  },
+  {
+    "name": "Inferior lobe of right lung",
+    "vertices": 1040,
+    "triangles": 2074,
+    "bytes": 70157,
+    "sha256": "9f4af99561bebdd58a09989da872978f1a4dd141b86ddaa087d46e365ca51323",
+    "exact_weld_watertight": false,
+    "boundary_edges": 8,
+    "nonmanifold_edges": 5,
+    "degenerate_triangles": 0,
+    "bounds": [
+      [
+        -0.131658971,
+        -0.0947614759,
+        1.16960871
+      ],
+      [
+        -0.00152436015,
+        0.0838631019,
+        1.35326004
+      ]
+    ]
+  },
+  {
+    "name": "Middle lobe of right lung",
+    "vertices": 914,
+    "triangles": 1818,
+    "bytes": 61810,
+    "sha256": "415df27e8ca29143316128a0d8ecc649cc5fd86a5b869892a0e4e5f2b6e767df",
+    "exact_weld_watertight": false,
+    "boundary_edges": 10,
+    "nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "bounds": [
+      [
+        -0.124498971,
+        -0.102710202,
+        1.21303999
+      ],
+      [
+        -0.00525907008,
+        0.0480863713,
+        1.31956685
+      ]
+    ]
+  },
+  {
+    "name": "Superior lobe of left lung",
+    "vertices": 1141,
+    "triangles": 2265,
+    "bytes": 76923,
+    "sha256": "658049f10fb0cacb69eaff5508f88915f9c5b805fae558597ea0b103aa918368",
+    "exact_weld_watertight": false,
+    "boundary_edges": 17,
+    "nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "bounds": [
+      [
+        0.00712781493,
+        -0.102262199,
+        1.21882999
+      ],
+      [
+        0.123719446,
+        0.0712061748,
+        1.43209994
+      ]
+    ]
+  },
+  {
+    "name": "Superior lobe of right lung",
+    "vertices": 968,
+    "triangles": 1910,
+    "bytes": 65161,
+    "sha256": "e2839316b3d7f4c89bd3e8aa0fde2d76a22a746df75f4d3b63c4c8c628f396d7",
+    "exact_weld_watertight": false,
+    "boundary_edges": 30,
+    "nonmanifold_edges": 0,
+    "degenerate_triangles": 0,
+    "bounds": [
+      [
+        -0.119167969,
+        -0.085850805,
+        1.29133999
+      ],
+      [
+        -0.0067449403,
+        0.0728532821,
+        1.43078005
+      ]
+    ]
+  }
+]

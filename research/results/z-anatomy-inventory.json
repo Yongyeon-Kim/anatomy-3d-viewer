@@ -1,0 +1,985 @@
+{
+  "blender_version": "3.6.23",
+  "autoexec_enabled": false,
+  "total_objects": 7184,
+  "matching_meshes": [
+    {
+      "name": "(Pyramidal lobe).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Anterior basal segment of left lung (SVIII).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Anterior basal segment of right lung (SVIII).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Anterior border of lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Anterior segment of left lung (SIII).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Anterior segment of right lung (SIII).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Anterior surface of heart.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "5: Cardiovascular system"
+      ]
+    },
+    {
+      "name": "Apex of heart.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "5: Cardiovascular system"
+      ]
+    },
+    {
+      "name": "Apex of lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Apical segment of right lung (SI).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Apicoposterior segment of left lung (SI+SII).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Arteries of heart.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "5: Cardiovascular system",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Base of heart.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "5: Cardiovascular system"
+      ]
+    },
+    {
+      "name": "Base of lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Cardiac impression of lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Cardiac notch of left lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Caudate lobe.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Costal surface of lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Diaphragm",
+      "vertices": 4796,
+      "polygons": 4921,
+      "materials": [
+        "Diaphragm",
+        "Tendon"
+      ],
+      "collections": [
+        "4: Muscular system",
+        "Muscles",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Diaphragm.o1l",
+      "vertices": 70,
+      "polygons": 90,
+      "materials": [
+        "Origin-Diaphragm"
+      ],
+      "collections": [
+        "2: Muscular insertions"
+      ]
+    },
+    {
+      "name": "Diaphragm.o1r",
+      "vertices": 70,
+      "polygons": 90,
+      "materials": [
+        "Origin-Diaphragm"
+      ],
+      "collections": [
+        "2: Muscular insertions"
+      ]
+    },
+    {
+      "name": "Diaphragm.o2l",
+      "vertices": 43,
+      "polygons": 45,
+      "materials": [
+        "Origin-Diaphragm"
+      ],
+      "collections": [
+        "2: Muscular insertions"
+      ]
+    },
+    {
+      "name": "Diaphragm.o2r",
+      "vertices": 43,
+      "polygons": 45,
+      "materials": [
+        "Origin-Diaphragm"
+      ],
+      "collections": [
+        "2: Muscular insertions"
+      ]
+    },
+    {
+      "name": "Diaphragm.o3l",
+      "vertices": 25,
+      "polygons": 23,
+      "materials": [
+        "Origin-Diaphragm"
+      ],
+      "collections": [
+        "2: Muscular insertions"
+      ]
+    },
+    {
+      "name": "Diaphragm.o3r",
+      "vertices": 25,
+      "polygons": 23,
+      "materials": [
+        "Origin-Diaphragm"
+      ],
+      "collections": [
+        "2: Muscular insertions"
+      ]
+    },
+    {
+      "name": "Diaphragm.o4l",
+      "vertices": 306,
+      "polygons": 453,
+      "materials": [
+        "Origin-Diaphragm"
+      ],
+      "collections": [
+        "2: Muscular insertions"
+      ]
+    },
+    {
+      "name": "Diaphragm.o4r",
+      "vertices": 306,
+      "polygons": 453,
+      "materials": [
+        "Origin-Diaphragm"
+      ],
+      "collections": [
+        "2: Muscular insertions"
+      ]
+    },
+    {
+      "name": "Diaphragm.o5l",
+      "vertices": 61,
+      "polygons": 73,
+      "materials": [
+        "Origin-Diaphragm"
+      ],
+      "collections": [
+        "2: Muscular insertions"
+      ]
+    },
+    {
+      "name": "Diaphragm.o5r",
+      "vertices": 61,
+      "polygons": 73,
+      "materials": [
+        "Origin-Diaphragm"
+      ],
+      "collections": [
+        "2: Muscular insertions"
+      ]
+    },
+    {
+      "name": "Diaphragm.ol",
+      "vertices": 200,
+      "polygons": 158,
+      "materials": [
+        "Origin-Diaphragm"
+      ],
+      "collections": [
+        "2: Muscular insertions"
+      ]
+    },
+    {
+      "name": "Diaphragm.or",
+      "vertices": 200,
+      "polygons": 158,
+      "materials": [
+        "Origin-Diaphragm"
+      ],
+      "collections": [
+        "2: Muscular insertions"
+      ]
+    },
+    {
+      "name": "Diaphragmatic fascia",
+      "vertices": 2428,
+      "polygons": 2391,
+      "materials": [
+        "Fascia"
+      ],
+      "collections": [
+        "4: Muscular system",
+        "Abdominal part of muscular system",
+        "Fascia",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Diaphragmatic surface of liver.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Diaphragmatic surface of lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Diaphragmatic surface of spleen.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "6: Lymphoid organs"
+      ]
+    },
+    {
+      "name": "Frontal lobe.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Frontal lobe",
+        "Head"
+      ]
+    },
+    {
+      "name": "Hilum of lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Horizontal fissure of right lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Inferior border of heart.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "5: Cardiovascular system"
+      ]
+    },
+    {
+      "name": "Inferior border of lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Inferior diaphragmatic nodes",
+      "vertices": 516,
+      "polygons": 576,
+      "materials": [
+        "Lymph-1"
+      ],
+      "collections": [
+        "6: Lymphoid organs",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Inferior lingular segment of left lung (SV).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Inferior lobar artery of left lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "5: Cardiovascular system"
+      ]
+    },
+    {
+      "name": "Inferior lobe of left lung",
+      "vertices": 1142,
+      "polygons": 1177,
+      "materials": [
+        "Lung-base",
+        "Lung-6",
+        "Lung-7",
+        "Lung-8",
+        "Lung-9",
+        "Lung-1"
+      ],
+      "collections": [
+        "8: Visceral systems",
+        "Lungs",
+        "Respiratory system",
+        "Thorax",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Inferior lobe of right lung",
+      "vertices": 1040,
+      "polygons": 1076,
+      "materials": [
+        "Lung-base",
+        "Lung-6",
+        "Lung-7",
+        "Lung-8",
+        "Lung-9",
+        "Lung-1"
+      ],
+      "collections": [
+        "8: Visceral systems",
+        "Lungs",
+        "Respiratory system",
+        "Thorax",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Inferior surface of heart.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "5: Cardiovascular system"
+      ]
+    },
+    {
+      "name": "Interlobar surface of lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Lateral basal segment of left lung (SIX).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Lateral basal segment of right lung (SIX).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Lateral segment of right lung (SIV).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Left lobe of liver.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Left lobe of thymus",
+      "vertices": 4596,
+      "polygons": 9188,
+      "materials": [
+        "Gland"
+      ],
+      "collections": [
+        "6: Lymphoid organs",
+        "Lymphoid system",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Left lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems",
+        "Respiratory system"
+      ]
+    },
+    {
+      "name": "Left surface of heart.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "5: Cardiovascular system"
+      ]
+    },
+    {
+      "name": "Limbic lobe.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Head",
+        "Limbic lobe"
+      ]
+    },
+    {
+      "name": "Lingula of left lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Lobe of lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Lobe of thyroid gland.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Lungs.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems",
+        "Respiratory system"
+      ]
+    },
+    {
+      "name": "Medial basal segment of left lung (SVII).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Medial basal segment of right lung (SVII).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Medial segment of right lung (SV).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Medial surface of lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Mediastinal surface of lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Middle lobe of right lung",
+      "vertices": 914,
+      "polygons": 940,
+      "materials": [
+        "Lung-base",
+        "Lung-4",
+        "Lung-5"
+      ],
+      "collections": [
+        "8: Visceral systems",
+        "Lungs",
+        "Respiratory system",
+        "Thorax",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Oblique fissure of left lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Oblique fissure of right lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Occipital lobe.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Head",
+        "Occipital lobe"
+      ]
+    },
+    {
+      "name": "Paratracheal cervical nodes",
+      "vertices": 516,
+      "polygons": 576,
+      "materials": [
+        "Lymph-1"
+      ],
+      "collections": [
+        "6: Lymphoid organs",
+        "Neck",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Paratracheal thoracic nodes",
+      "vertices": 860,
+      "polygons": 960,
+      "materials": [
+        "Lymph-4"
+      ],
+      "collections": [
+        "6: Lymphoid organs"
+      ]
+    },
+    {
+      "name": "Parietal lobe.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Head",
+        "Parietal lobe"
+      ]
+    },
+    {
+      "name": "Pelvic diaphragm.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "4: Muscular system",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Right surface of heart.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "5: Cardiovascular system"
+      ]
+    },
+    {
+      "name": "Posterior basal segment of left lung (SX).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Posterior basal segment of right lung (SX).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Posterior segment of right lung (SII).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Pretracheal nodes.l",
+      "vertices": 258,
+      "polygons": 288,
+      "materials": [
+        "Lymph-2"
+      ],
+      "collections": [
+        "6: Lymphoid organs",
+        "Neck",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Pretracheal nodes.r",
+      "vertices": 258,
+      "polygons": 288,
+      "materials": [
+        "Lymph-2"
+      ],
+      "collections": [
+        "6: Lymphoid organs",
+        "Neck",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Quadrate lobe.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Right border of heart.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "5: Cardiovascular system"
+      ]
+    },
+    {
+      "name": "Right lobe of liver.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Right lobe of thymus",
+      "vertices": 3228,
+      "polygons": 6452,
+      "materials": [
+        "Gland"
+      ],
+      "collections": [
+        "6: Lymphoid organs",
+        "Lymphoid system",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Right lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems",
+        "Respiratory system"
+      ]
+    },
+    {
+      "name": "Root of lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Superior diaphragmatic nodes",
+      "vertices": 516,
+      "polygons": 576,
+      "materials": [
+        "Lymph-3"
+      ],
+      "collections": [
+        "6: Lymphoid organs"
+      ]
+    },
+    {
+      "name": "Superior lingular segment of left lung (SIV).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Superior lobar artery of left lung.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "5: Cardiovascular system"
+      ]
+    },
+    {
+      "name": "Superior lobe of left lung",
+      "vertices": 1141,
+      "polygons": 1190,
+      "materials": [
+        "Lung-base",
+        "Lung-1",
+        "Lung-2",
+        "Lung-3",
+        "Lung-4",
+        "Lung-5"
+      ],
+      "collections": [
+        "8: Visceral systems",
+        "Lungs",
+        "Respiratory system",
+        "Thorax",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Superior lobe of right lung",
+      "vertices": 968,
+      "polygons": 982,
+      "materials": [
+        "Lung-base",
+        "Lung-1",
+        "Lung-2",
+        "Lung-3"
+      ],
+      "collections": [
+        "8: Visceral systems",
+        "Lungs",
+        "Respiratory system",
+        "Thorax",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Superior segment of left lung (SVI).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Superior segment of right lung (SVI).j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "8: Visceral systems"
+      ]
+    },
+    {
+      "name": "Temporal lobe.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "7: Nervous system & Sense organs",
+        "Head",
+        "Temporal lobe"
+      ]
+    },
+    {
+      "name": "Trachea",
+      "vertices": 2400,
+      "polygons": 4516,
+      "materials": [
+        "Bronchi"
+      ],
+      "collections": [
+        "8: Visceral systems",
+        "Bronchi",
+        "Respiratory system",
+        "Thorax",
+        "Trunk"
+      ]
+    },
+    {
+      "name": "Valvular complex of heart.j",
+      "vertices": 2,
+      "polygons": 0,
+      "materials": [],
+      "collections": [
+        "5: Cardiovascular system"
+      ]
+    }
+  ]
+}

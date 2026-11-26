@@ -1,0 +1,35 @@
+{
+  "file": "abdomen-smooth.glb",
+  "sha256": "285570e07fbe0e5c3f658f531cfe1c14a61c325b6887429272a001dbab6f9516",
+  "bytes": 2761852,
+  "triangles": 152456,
+  "source_project": "Z-Anatomy - The libre 3D atlas of anatomy",
+  "source_commit": "d909eb1e89bf47180b575e4dfacce639c90044b8",
+  "source_license": "raw/z-anatomy/License.txt",
+  "scope": "간·담낭·위·췌장·비장, 십이지장·공장, 결장, 양쪽 콩팥과 주변의 횡격막·허리뼈를 볼 수 있습니다.",
+  "groups": {
+    "liver": { "label_ko": "간", "members": ["Liver"] },
+    "gallbladder": { "label_ko": "담낭", "members": ["Gallbladder"] },
+    "stomach": { "label_ko": "위", "members": ["Stomach"] },
+    "pancreas": { "label_ko": "췌장", "members": ["Pancreas"] },
+    "spleen": { "label_ko": "비장", "members": ["Spleen"] },
+    "small_intestine": { "label_ko": "소장(십이지장·공장)", "members": ["Duodenum", "Jejunum"] },
+    "colon": {
+      "label_ko": "대장(결장)",
+      "members": ["Ascending colon", "Transverse colon", "Descending colon", "Sigmoid colon"]
+    },
+    "left_kidney": { "label_ko": "왼쪽 콩팥(신장)", "members": ["Kidney.l"] },
+    "right_kidney": { "label_ko": "오른쪽 콩팥(신장)", "members": ["Kidney.r"] },
+    "diaphragm": {
+      "label_ko": "횡격막",
+      "description": "흉부와 복부의 경계에서 간과 위 위쪽에 놓이는 근육입니다.",
+      "visibleByDefault": false,
+      "direction": [0, 0.5, -0.14],
+      "members": ["Diaphragm"]
+    },
+    "lumbar_spine": {
+      "label_ko": "허리뼈(요추)",
+      "members": ["Vertebra L1", "Vertebra L2", "Vertebra L3", "Vertebra L4", "Vertebra L5"]
+    }
+  }
+}

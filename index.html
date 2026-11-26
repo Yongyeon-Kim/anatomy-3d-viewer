@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#141613" />
+    <title>전신 탐색 · Anatomy 3D</title>
+    <meta name="description" content="전신 골격과 주요 장기를 살펴보고 부위별 구조를 조작하는 3D 인체 탐색 시제품" />
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="apple-touch-icon" href="./app-icon-192.png?v=layers" />
+  </head>
+  <body>
+    <header class="app-header">
+      <div class="header-content">
+        <a class="brand" href="./">
+          <img class="brand-mark" src="./app-icon-192.png?v=layers" width="34" height="34" alt="" />
+          <span>Anatomy <b>3D</b></span>
+        </a>
+        <details class="help">
+          <summary><span class="help-icon" aria-hidden="true">?</span> 조작 도움</summary>
+          <div class="help-content">
+            <h2>3D 모델 조작</h2>
+            <dl>
+              <dt>회전</dt><dd>드래그 또는 방향키</dd>
+              <dt>확대·축소</dt><dd>휠, 두 손가락 벌리기·오므리기 또는 +/− 키</dd>
+              <dt>화면 이동</dt><dd>오른쪽 버튼으로 드래그하거나 두 손가락으로 이동</dd>
+              <dt>선택·해제</dt><dd>모델을 누르거나 목록에서 선택 · Esc로 해제</dd>
+            </dl>
+            <p>배치만 복원하면 선택·표시·시점이 유지됩니다. 화면 초기화는 선택·표시·배치·시점을 모두 되돌립니다.</p>
+            <p>앞·뒤·옆은 원본 모델의 좌표축을 기준으로 합니다. 열린 메시 경계와 일부 구조 누락이 있습니다.</p>
+          </div>
+        </details>
+      </div>
+    </header>
+
+    <main>
+      <div class="page-heading">
+        <h1><span id="region-title">전신 탐색</span><span id="region-en" class="region-en" lang="en">Whole body</span></h1>
+        <button id="reset-all" class="secondary" disabled><span class="button-icon" aria-hidden="true">↺</span> 화면 초기화</button>
+      </div>
+
+      <section id="offline-panel" class="offline-panel" aria-label="오프라인 사용" hidden>
+        <p id="offline-status" role="status"></p>
+        <progress id="offline-progress" max="100" aria-label="오프라인 저장 진행률" hidden></progress>
+        <button id="save-offline" class="secondary" type="button">오프라인 저장</button>
+        <a id="offline-link" href="./?offline=1" hidden>저장된 버전 열기</a>
+      </section>
+
+      <div class="workspace">
+        <section class="viewer-panel" aria-labelledby="region-title">
+          <div class="model-toolbar">
+            <div class="model-picker">
+              <label for="model-view">부위 선택</label>
+              <select id="model-view"></select>
+            </div>
+            <div class="model-actions">
+              <button id="overview-home" class="secondary" type="button" hidden><span aria-hidden="true">←</span> 전신 개요</button>
+              <button id="open-region" type="button" hidden>부위 열기</button>
+            </div>
+            <div id="visibility-controls" class="visibility-controls" role="group" aria-label="빠른 구조 표시" hidden></div>
+          </div>
+
+          <div id="viewport">
+            <div class="viewport-frame" aria-hidden="true"></div>
+            <span class="viewer-top live-dot" id="asset-status">모델 준비 중</span>
+            <canvas id="scene" aria-label="3D 모델, 드래그로 회전하고 휠 또는 두 손가락으로 확대·축소" tabindex="0"></canvas>
+            <div id="load-overlay" role="status">
+              <span class="loader" aria-hidden="true"></span>
+              <strong id="load-title">전신 모델을 불러오는 중</strong>
+              <p id="load-detail">로컬 자산을 준비하고 있습니다.</p>
+              <div class="load-actions">
+                <button id="retry" hidden>다시 시도</button>
+                <button id="fallback" class="secondary" hidden></button>
+              </div>
+            </div>
+          </div>
+
+          <section class="spacing-panel" aria-labelledby="spacing-heading">
+            <div class="spacing-header">
+              <div class="spacing-title">
+                <h2 id="spacing-heading">구조 사이 간격</h2>
+                <output id="spacing-value" for="spacing">20%</output>
+              </div>
+              <button id="restore-layout" class="secondary" disabled><span class="button-icon" aria-hidden="true">↩</span> 배치만 복원</button>
+            </div>
+            <input id="spacing" type="range" min="0" max="100" value="20" step="1" aria-labelledby="spacing-heading" aria-describedby="spacing-note" disabled />
+            <div class="range-labels" aria-hidden="true"><span>원래 위치</span><span>벌려 보기</span></div>
+            <p id="spacing-note">구조를 구분하기 위한 설명용 배치입니다.</p>
+          </section>
+
+          <div class="viewer-toolbar">
+            <div class="camera-presets">
+              <span class="toolbar-label" aria-hidden="true">시점</span>
+              <div class="button-group" role="group" aria-label="시점">
+                <button id="view-front" disabled>앞</button>
+                <button id="view-back" disabled>뒤</button>
+                <button id="view-side" disabled>옆</button>
+              </div>
+            </div>
+            <div class="button-group zoom-controls" role="group" aria-label="확대 및 시점 복원">
+              <button id="zoom-out" aria-label="축소" title="축소" disabled>−</button>
+              <button id="zoom-in" aria-label="확대" title="확대" disabled>+</button>
+              <button id="reset-camera" aria-label="카메라 초기화" title="카메라 초기화" disabled>↺</button>
+            </div>
+            <div id="closeup-views" class="closeup-views" role="group" aria-label="손발 자세히 보기" hidden></div>
+          </div>
+          <details class="scene-tools">
+            <summary>설명 장면</summary>
+            <div class="scene-actions">
+              <button id="save-scene" class="secondary" type="button" disabled>이 기기에 저장</button>
+              <button id="load-scene" class="secondary" type="button" disabled>저장 장면 열기</button>
+              <button id="share-scene" class="secondary" type="button" disabled>장면 링크 복사</button>
+              <button id="export-scene" class="secondary" type="button" disabled>모델 이미지 저장</button>
+            </div>
+            <p id="scene-feedback" role="status"></p>
+            <input id="scene-link" aria-label="공유 장면 링크" type="url" readonly hidden />
+          </details>
+        </section>
+
+        <aside class="structure-panel" aria-labelledby="group-heading">
+          <div class="panel-title"><h2 id="group-heading">부위·구조 목록</h2><span id="group-count"></span></div>
+          <label class="search-field">
+            <span class="search-icon" aria-hidden="true"></span>
+            <span class="sr-only">부위 또는 구조 검색</span>
+            <input id="group-search" type="search" placeholder="이름으로 찾기" />
+          </label>
+          <div id="group-list"></div>
+          <p id="group-empty" class="panel-hint" role="status" hidden>일치하는 항목이 없습니다.</p>
+          <section class="structure-tools" aria-labelledby="structure-tools-heading">
+            <h3 id="structure-tools-heading">보기 조작</h3>
+            <div class="selection-actions">
+              <button id="focus" disabled><span class="button-icon" aria-hidden="true">◎</span> 선택 중심으로 보기</button>
+              <button id="surroundings-translucent" class="secondary" type="button" aria-pressed="false" disabled>주변 반투명</button>
+              <button id="isolate" class="secondary" disabled>선택만 보기</button>
+              <button id="hide-selected" class="secondary" disabled>선택 숨기기</button>
+              <button id="show-all" class="secondary" disabled>전체 다시 표시</button>
+              <button id="clear-selection" class="text-button" disabled>선택 해제</button>
+            </div>
+          </section>
+        </aside>
+
+        <aside class="inspector-panel" aria-labelledby="inspector-heading">
+          <div class="panel-title"><h2 id="inspector-heading">해부학 설명</h2></div>
+          <div id="selection-members" class="member-control" hidden>
+            <label for="selection-member">구성 구조</label>
+            <select id="selection-member"></select>
+          </div>
+          <figure id="anatomy-plate" class="anatomy-plate" hidden>
+            <canvas id="anatomy-plate-image" width="640" height="460" role="img"></canvas>
+            <figcaption>
+              <strong id="anatomy-plate-name"></strong>
+              <span id="anatomy-plate-view"></span>
+              <span class="anatomy-plate-credit">원본 모델 기반 도판 · <a href="https://github.com/Z-Anatomy/Models-of-human-anatomy" target="_blank" rel="noopener noreferrer">Z-Anatomy</a> · <a id="anatomy-plate-license" target="_blank" rel="noopener noreferrer"></a></span>
+            </figcaption>
+          </figure>
+          <div class="selection-summary">
+            <p id="selection-context" hidden></p>
+            <h3 id="selection-title">전신 개요</h3>
+            <p id="selection-en" class="selection-en" lang="en">Whole body</p>
+            <p id="selection-description">모델을 눌러 부위를 선택하거나 목록에서 상세 모델을 열 수 있습니다.</p>
+            <dl id="selection-facts" hidden>
+              <dt id="selection-location-heading">위치</dt><dd id="selection-location"></dd>
+              <dt id="selection-function-heading">역할</dt><dd id="selection-function"></dd>
+            </dl>
+            <p id="selection-reference" hidden><a id="selection-source" target="_blank" rel="noopener noreferrer">해부학 출처</a></p>
+          </div>
+          <div class="scope-note">
+            <h3>모델에 포함된 구조</h3>
+            <p id="model-scope"></p>
+          </div>
+        </aside>
+      </div>
+
+      <footer>
+        <p>내부 검토용 · 해부학적 정확성 및 실물 기기 검증 미완료</p>
+      </footer>
+      <p id="announcement" class="sr-only" role="status" aria-live="polite"></p>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

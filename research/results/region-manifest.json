@@ -1,0 +1,3829 @@
+{
+  "sourceCommit": "d909eb1e89bf47180b575e4dfacce639c90044b8",
+  "sourceLicense": "raw/z-anatomy/License.txt",
+  "evaluatedMeshes": [
+    "Liver",
+    "Gallbladder",
+    "Stomach",
+    "Pancreas",
+    "Spleen",
+    "Duodenum",
+    "Ascending colon",
+    "Transverse colon",
+    "Descending colon",
+    "Sigmoid colon",
+    "Kidney.l",
+    "Kidney.r"
+  ],
+  "regions": {
+    "body": {
+      "title": "전신 개요",
+      "heading": "전신 탐색",
+      "en": "Whole body",
+      "scope": "전신 골격과 주요 장기, Z-Anatomy 원본의 동맥·정맥 659개 표면, 복벽 근육과 배가로근막을 표시합니다.",
+      "groups": {
+        "head-neck": {
+          "label_ko": "머리·목",
+          "en": "Head and neck",
+          "color": "#b6a88d",
+          "direction": [
+            0,
+            0.58,
+            0
+          ],
+          "target": "head-neck",
+          "members": [
+            "Frontal bone",
+            "Occipital bone",
+            "Parietal bone.l",
+            "Parietal bone.r",
+            "Temporal bone.l",
+            "Temporal bone.r",
+            "Mandible",
+            "Atlas (C1)",
+            "Axis (C2)",
+            "Vertebra C3",
+            "Vertebra C4",
+            "Vertebra C5",
+            "Vertebra C6",
+            "Vertebra C7"
+          ]
+        },
+        "chest": {
+          "label_ko": "흉부",
+          "en": "Thorax",
+          "color": "#b6a88d",
+          "direction": [
+            0,
+            0.09,
+            0.4
+          ],
+          "target": "chest",
+          "memberColors": {
+            "Inferior lobe of left lung": "#cc877e",
+            "Superior lobe of left lung": "#cc877e",
+            "Inferior lobe of right lung": "#cc877e",
+            "Middle lobe of right lung": "#cc877e",
+            "Superior lobe of right lung": "#cc877e",
+            "Left atrium": "#a65458",
+            "Left ventricle": "#a65458",
+            "Right atrium": "#a65458",
+            "Right ventricle": "#a65458",
+            "Trachea": "#8eafa7"
+          },
+          "members": [
+            "Body of sternum",
+            "Eighth rib.l",
+            "Eighth rib.r",
+            "Eleventh rib.l",
+            "Eleventh rib.r",
+            "Fifth rib.l",
+            "Fifth rib.r",
+            "First rib.l",
+            "First rib.r",
+            "Fourth rib.l",
+            "Fourth rib.r",
+            "Manubrium of sternum",
+            "Ninth rib.l",
+            "Ninth rib.r",
+            "Second rib.r",
+            "Second rib.l",
+            "Seventh rib.l",
+            "Seventh rib.r",
+            "Sixth rib.l",
+            "Sixth rib.r",
+            "Tenth rib.l",
+            "Tenth rib.r",
+            "Third rib.l",
+            "Third rib.r",
+            "Twelfth rib.l",
+            "Twelfth rib.r",
+            "Xiphoid process",
+            "Trachea",
+            "Inferior lobe of left lung",
+            "Superior lobe of left lung",
+            "Inferior lobe of right lung",
+            "Middle lobe of right lung",
+            "Superior lobe of right lung",
+            "Left atrium",
+            "Left ventricle",
+            "Right atrium",
+            "Right ventricle"
+          ]
+        },
+        "abdomen": {
+          "label_ko": "복부",
+          "en": "Abdomen",
+          "color": "#b67065",
+          "direction": [
+            0,
+            -0.09,
+            0.57
+          ],
+          "target": "abdomen",
+          "memberColors": {
+            "Liver": "#8d554a",
+            "Stomach": "#d88471",
+            "Pancreas": "#c6a067",
+            "Spleen": "#9d6d86"
+          },
+          "members": [
+            "Liver",
+            "Stomach",
+            "Spleen",
+            "Pancreas",
+            "Kidney.l",
+            "Kidney.r",
+            "Transverse colon"
+          ]
+        },
+        "back-spine": {
+          "label_ko": "등·척추",
+          "en": "Back and spine",
+          "color": "#b6a88d",
+          "direction": [
+            0,
+            0,
+            -0.58
+          ],
+          "target": "back-spine",
+          "members": [
+            "Vertebra T1",
+            "Vertebra T2",
+            "Vertebra T3",
+            "Vertebra T4",
+            "Vertebra T5",
+            "Vertebra T6",
+            "Vertebra T7",
+            "Vertebra T8",
+            "Vertebra T9",
+            "Vertebra T10",
+            "Vertebra T11",
+            "Vertebra T12",
+            "Vertebra L1",
+            "Vertebra L2",
+            "Vertebra L3",
+            "Vertebra L4",
+            "Vertebra L5"
+          ]
+        },
+        "pelvis": {
+          "label_ko": "골반·회음",
+          "en": "Pelvis and perineum",
+          "color": "#b6a88d",
+          "direction": [
+            0,
+            -0.24,
+            -0.19
+          ],
+          "target": "pelvis",
+          "members": [
+            "Hip bone.l",
+            "Hip bone.r",
+            "Sacrum",
+            "Coccyx"
+          ]
+        },
+        "left-arm": {
+          "label_ko": "왼쪽 어깨·팔·손",
+          "en": "Left shoulder, arm and hand",
+          "color": "#b6a88d",
+          "direction": [
+            0.61,
+            0.06,
+            0
+          ],
+          "target": "left-arm",
+          "members": [
+            "Clavicle.l",
+            "Scapula.l",
+            "Humerus.l",
+            "Radius.l",
+            "Ulna.l",
+            "Scaphoid bone.l",
+            "Lunate bone.l",
+            "Triquetrum bone.l",
+            "Pisiform bone.l",
+            "Trapezium bone.l",
+            "Trapezoid bone.l",
+            "Capitate bone.l",
+            "Hamate bone.l",
+            "First metacarpal bone.l",
+            "Second metacarpal bone.l",
+            "Third metacarpal bone.l",
+            "Fourth metacarpal bone.l",
+            "Fifth metacarpal bone.l",
+            "Distal phalanx of first finger of hand.l",
+            "Proximal phalanx of first finger of hand.l",
+            "Distal phalanx of second finger of hand.l",
+            "Middle phalanx of second finger of hand.l",
+            "Proximal phalanx of second finger of hand.l",
+            "Distal phalanx of third finger of hand.l",
+            "Middle phalanx of third finger of hand.l",
+            "Proximal phalanx of third finger of hand.l",
+            "Distal phalanx of fourth finger of hand.l",
+            "Middle phalanx of fourth finger of hand.l",
+            "Proximal phalanx of fourth finger of hand.l",
+            "Distal phalanx of fifth finger of hand.l",
+            "Middle phalanx of fifth finger of hand.l",
+            "Proximal phalanx of fifth finger of hand.l"
+          ]
+        },
+        "right-arm": {
+          "label_ko": "오른쪽 어깨·팔·손",
+          "en": "Right shoulder, arm and hand",
+          "color": "#b6a88d",
+          "direction": [
+            -0.61,
+            0.06,
+            0
+          ],
+          "target": "right-arm",
+          "members": [
+            "Clavicle.r",
+            "Scapula.r",
+            "Humerus.r",
+            "Radius.r",
+            "Ulna.r",
+            "Scaphoid bone.r",
+            "Lunate bone.r",
+            "Triquetrum bone.r",
+            "Pisiform bone.r",
+            "Trapezium bone.r",
+            "Trapezoid bone.r",
+            "Capitate bone.r",
+            "Hamate bone.r",
+            "First metacarpal bone.r",
+            "Second metacarpal bone.r",
+            "Third metacarpal bone.r",
+            "Fourth metacarpal bone.r",
+            "Fifth metacarpal bone.r",
+            "Distal phalanx of first finger of hand.r",
+            "Proximal phalanx of first finger of hand.r",
+            "Distal phalanx of second finger of hand.r",
+            "Middle phalanx of second finger of hand.r",
+            "Proximal phalanx of second finger of hand.r",
+            "Distal phalanx of third finger of hand.r",
+            "Middle phalanx of third finger of hand.r",
+            "Proximal phalanx of third finger of hand.r",
+            "Distal phalanx of fourth finger of hand.r",
+            "Middle phalanx of fourth finger of hand.r",
+            "Proximal phalanx of fourth finger of hand.r",
+            "Distal phalanx of fifth finger of hand.r",
+            "Middle phalanx of fifth finger of hand.r",
+            "Proximal phalanx of fifth finger of hand.r"
+          ]
+        },
+        "left-leg": {
+          "label_ko": "왼쪽 엉덩이·다리·발",
+          "en": "Left hip, leg and foot",
+          "color": "#b6a88d",
+          "direction": [
+            0.35,
+            -0.48,
+            0
+          ],
+          "target": "left-leg",
+          "members": [
+            "Femur.l",
+            "Patella.l",
+            "Tibia.l",
+            "Fibula.l",
+            "Talus.l",
+            "Calcaneus.l",
+            "Navicular bone.l",
+            "Medial cuneiform bone.l",
+            "Intermediate cuneiform bone.l",
+            "Lateral cuneiform bone.l",
+            "Cuboid bone.l",
+            "First metatarsal bone.l",
+            "Second metatarsal bone.l",
+            "Third metatarsal bone.l",
+            "Fourth metatarsal bone.l",
+            "Fifth metatarsal bone.l",
+            "Distal phalanx of first finger of foot.l",
+            "Proximal phalanx of first finger of foot.l",
+            "Distal phalanx of second finger of foot.l",
+            "Middle phalanx of second finger of foot.l",
+            "Proximal phalanx of second finger of foot.l",
+            "Distal phalanx of third finger of foot.l",
+            "Middle phalanx of third finger of foot.l",
+            "Proximal phalanx of third finger of foot.l",
+            "Distal phalanx of fourth finger of foot.l",
+            "Middle phalanx of fourth finger of foot.l",
+            "Proximal phalanx of fourth finger of foot.l",
+            "Distal phalanx of fifth finger of foot.l",
+            "Middle phalanx of fifth finger of foot.l",
+            "Proximal phalanx of fifth finger of foot.l"
+          ]
+        },
+        "right-leg": {
+          "label_ko": "오른쪽 엉덩이·다리·발",
+          "en": "Right hip, leg and foot",
+          "color": "#b6a88d",
+          "direction": [
+            -0.35,
+            -0.48,
+            0
+          ],
+          "target": "right-leg",
+          "members": [
+            "Femur.r",
+            "Patella.r",
+            "Tibia.r",
+            "Fibula.r",
+            "Talus.r",
+            "Calcaneus.r",
+            "Navicular bone.r",
+            "Medial cuneiform bone.r",
+            "Intermediate cuneiform bone.r",
+            "Lateral cuneiform bone.r",
+            "Cuboid bone.r",
+            "First metatarsal bone.r",
+            "Second metatarsal bone.r",
+            "Third metatarsal bone.r",
+            "Fourth metatarsal bone.r",
+            "Fifth metatarsal bone.r",
+            "Distal phalanx of first finger of foot.r",
+            "Proximal phalanx of first finger of foot.r",
+            "Distal phalanx of second finger of foot.r",
+            "Middle phalanx of second finger of foot.r",
+            "Proximal phalanx of second finger of foot.r",
+            "Distal phalanx of third finger of foot.r",
+            "Middle phalanx of third finger of foot.r",
+            "Proximal phalanx of third finger of foot.r",
+            "Distal phalanx of fourth finger of foot.r",
+            "Middle phalanx of fourth finger of foot.r",
+            "Proximal phalanx of fourth finger of foot.r",
+            "Distal phalanx of fifth finger of foot.r",
+            "Middle phalanx of fifth finger of foot.r",
+            "Proximal phalanx of fifth finger of foot.r"
+          ]
+        },
+        "body_arteries": {
+          "label_ko": "동맥",
+          "en": "Arteries",
+          "description": "기존 원본의 전신 동맥 표면입니다. 몸순환·폐순환 동맥과 심장 동맥 가지를 함께 볼 수 있습니다.",
+          "synonyms": [
+            "혈관",
+            "동맥",
+            "대동맥",
+            "경동맥",
+            "관상동맥",
+            "폐동맥",
+            "망막동맥"
+          ],
+          "color": "#ff455a",
+          "direction": [
+            0.34,
+            0,
+            0.3
+          ],
+          "members": [
+            "(Deep branch of transverse cervical artery).l",
+            "(Deep branch of transverse cervical artery).r",
+            "(Superficial branch of transverse cervical artery).l",
+            "(Superficial branch of transverse cervical artery).r",
+            "(Ulnar recurrent artery).l",
+            "(Ulnar recurrent artery).r",
+            "?x.l",
+            "?x.r",
+            "Abdominal aorta",
+            "Accessory branch of middle meningeal artery.l",
+            "Accessory branch of middle meningeal artery.r",
+            "Angular artery.l",
+            "Angular artery.r",
+            "Anterior basal segmental artery of left lung",
+            "Anterior basal segmental artery of right lung",
+            "Anterior branch of renal artery.l",
+            "Anterior branch of renal artery.r",
+            "Anterior cerebral artery.l",
+            "Anterior cerebral artery.r",
+            "Anterior circumflex humeral artery.l",
+            "Anterior circumflex humeral artery.r",
+            "Anterior communicating artery",
+            "Anterior deep temporal artery.l",
+            "Anterior deep temporal artery.r",
+            "Anterior division of internal iliac artery.l",
+            "Anterior division of internal iliac artery.r",
+            "Anterior ethmoidal artery.l",
+            "Anterior ethmoidal artery.r",
+            "Anterior inferior cerebellar artery.l",
+            "Anterior inferior cerebellar artery.r",
+            "Anterior inferior pancreaticoduodenal artery",
+            "Anterior interventricular artery",
+            "Anterior segmental artery of left lung",
+            "Anterior segmental artery of right lung",
+            "Anterior septal branches of anterior ethmoidal artery.l",
+            "Anterior septal branches of anterior ethmoidal artery.r",
+            "Anterior spinal artery.l",
+            "Anterior spinal artery.r",
+            "Anterior temporal branch.l",
+            "Anterior temporal branch.r",
+            "Anterior tibial artery.l",
+            "Anterior tibial artery.r",
+            "Aortic arch",
+            "Apical segmental artery of left lung",
+            "Apical segmental artery of right lung",
+            "Appendicular artery",
+            "Arcuate artery.l",
+            "Arcuate artery.r",
+            "Artery of central sulcus.l",
+            "Artery of central sulcus.r",
+            "Artery of precentral sulcus.l",
+            "Artery of precentral sulcus.r",
+            "Artery of pterygoid canal.l",
+            "Artery of pterygoid canal.r",
+            "Ascending aorta",
+            "Ascending branch of left colic artery",
+            "Ascending pharyngeal artery.l",
+            "Ascending pharyngeal artery.r",
+            "Axillary artery.l",
+            "Axillary artery.r",
+            "Basilar artery",
+            "Bifurcation of pulmonary trunk",
+            "Brachial artery.l",
+            "Brachial artery.r",
+            "Brachiocephalic trunk",
+            "Branch to angular gyrus.l",
+            "Branch to angular gyrus.r",
+            "Buccal artery.l",
+            "Buccal artery.r",
+            "Calcaneal branches of fibular artery.l",
+            "Calcaneal branches of fibular artery.r",
+            "Calcaneal branches of posterior tibial artery.l",
+            "Calcaneal branches of posterior tibial artery.r",
+            "Callosomarginal artery.l",
+            "Callosomarginal artery.r",
+            "Central retinal artery.l",
+            "Central retinal artery.r",
+            "Circumflex artery of heart",
+            "Circumflex scapular artery.l",
+            "Circumflex scapular artery.r",
+            "Coeliac trunk",
+            "Colic branch of ileocolic artery",
+            "Common hepatic artery",
+            "Common iliac artery.l",
+            "Common iliac artery.r",
+            "Common interosseous artery.l",
+            "Common interosseous artery.r",
+            "Common palmar digital arteries.l",
+            "Common palmar digital arteries.r",
+            "Common plantar digital arteries.l",
+            "Common plantar digital arteries.r",
+            "Costocervical trunk.l",
+            "Costocervical trunk.r",
+            "Deep artery of penis.l",
+            "Deep artery of penis.r",
+            "Deep brachial artery.l",
+            "Deep brachial artery.r",
+            "Deep cervical artery.l",
+            "Deep cervical artery.r",
+            "Deep external pudendal artery.l",
+            "Deep external pudendal artery.r",
+            "Deep femoral artery.l",
+            "Deep femoral artery.r",
+            "Deep palmar arch.l",
+            "Deep palmar arch.r",
+            "Deep plantar artery.l",
+            "Deep plantar artery.r",
+            "Descending branch of lateral circumflex femoral artery",
+            "Descending branch of lateral circumflex femoral artery.l",
+            "Descending branch of left colic artery",
+            "Descending palatine artery.l",
+            "Descending palatine artery.r",
+            "Distal lateral striate branches.l",
+            "Distal lateral striate branches.r",
+            "Dorsal artery of penis.l",
+            "Dorsal artery of penis.r",
+            "Dorsal carpal anastomosis.l",
+            "Dorsal carpal anastomosis.r",
+            "Dorsal carpal branch of ulnar artery.l",
+            "Dorsal carpal branch of ulnar artery.r",
+            "Dorsal digital arteries of foot.l",
+            "Dorsal digital arteries of foot.r",
+            "Dorsal digital arteries of hand.l",
+            "Dorsal digital arteries of hand.r",
+            "Dorsal metacarpal arteries.l",
+            "Dorsal metacarpal arteries.r",
+            "Dorsal metatarsal arteries.l",
+            "Dorsal metatarsal arteries.r",
+            "Dorsalis pedis artery.l",
+            "Dorsalis pedis artery.r",
+            "External carotid artery.l",
+            "External carotid artery.r",
+            "External iliac artery.l",
+            "External iliac artery.r",
+            "Facial artery.l",
+            "Facial artery.r",
+            "Femoral artery.l",
+            "Femoral artery.r",
+            "Fibular artery.l",
+            "Fibular artery.r",
+            "First posterior intercostal artery.l",
+            "First posterior intercostal artery.r",
+            "Frontal branch of superficial temporal artery.l",
+            "Frontal branch of superficial temporal artery.r",
+            "Frontal branches of callosomarginal artery.l",
+            "Frontal branches of callosomarginal artery.r",
+            "Gastroduodenal artery",
+            "Greater palatine artery.l",
+            "Greater palatine artery.r",
+            "Ileal branch of ileocolic artery",
+            "Ileocolic artery",
+            "Iliacus branch of iliolumbar artery.l",
+            "Iliacus branch of iliolumbar artery.r",
+            "Iliolumbar artery.l",
+            "Iliolumbar artery.r",
+            "Inferior alveolar artery.l",
+            "Inferior alveolar artery.r",
+            "Inferior epigastric artery.l",
+            "Inferior epigastric artery.r",
+            "Inferior gluteal artery.l",
+            "Inferior gluteal artery.r",
+            "Inferior labial artery.l",
+            "Inferior labial artery.r",
+            "Inferior lateral genicular artery.l",
+            "Inferior lateral genicular artery.r",
+            "Inferior lingular artery of left lung",
+            "Inferior lobar artery of right lung",
+            "Inferior medial genicular artery.l",
+            "Inferior medial genicular artery.r",
+            "Inferior mesenteric artery",
+            "Inferior pancreaticoduodenal artery",
+            "Inferior phrenic artery",
+            "Inferior suprarenal artery.l",
+            "Inferior suprarenal artery.r",
+            "Inferior thyroid artery.l",
+            "Inferior thyroid artery.r",
+            "Inferior ulnar collateral artery.l",
+            "Inferior ulnar collateral artery.r",
+            "Infra-orbital artery.l",
+            "Infra-orbital artery.r",
+            "Insular branches of middle cerebral artery (M2).r",
+            "Insular branches of middle cerebral artery (M2-segment).l",
+            "Internal carotid artery.l",
+            "Internal carotid artery.r",
+            "Internal iliac artery.l",
+            "Internal iliac artery.r",
+            "Internal pudendal artery.l",
+            "Internal pudendal artery.r",
+            "Internal thoracic artery.l",
+            "Internal thoracic artery.r",
+            "Intrarenal arteries of left kidney",
+            "Intrarenal arteries of right kidney",
+            "Lacrimal artery.l",
+            "Lacrimal artery.r",
+            "Lateral basal segmental artery of left lung",
+            "Lateral basal segmental artery of right lung",
+            "Lateral circumflex femoral artery.l",
+            "Lateral circumflex femoral artery.r",
+            "Lateral frontobasal artery.l",
+            "Lateral frontobasal artery.r",
+            "Lateral occipital artery.l",
+            "Lateral occipital artery.r",
+            "Lateral plantar artery.l",
+            "Lateral plantar artery.r",
+            "Lateral pontine branches of basilar artery.l",
+            "Lateral pontine branches of basilar artery.r",
+            "Lateral segmental artery of right lung",
+            "Lateral tarsal artery.l",
+            "Lateral tarsal artery.r",
+            "Lateral thoracic artery.l",
+            "Lateral thoracic artery.r",
+            "Left colic artery",
+            "Left common carotid artery",
+            "Left coronary artery",
+            "Left gastric artery",
+            "Left pulmonary artery",
+            "Left renal artery",
+            "Left subclavian artery",
+            "Left testicular artery",
+            "Long posterior ciliary arteries.l",
+            "Long posterior ciliary arteries.r",
+            "Lumbar arteries.l",
+            "Lumbar arteries.r",
+            "Lumbar branch of iliolumbar artery.l",
+            "Lumbar branch of iliolumbar artery.r",
+            "Marginal artery",
+            "Maxillary artery.l",
+            "Maxillary artery.r",
+            "Medial basal segmental artery of left lung",
+            "Medial basal segmental artery of right lung",
+            "Medial circumflex femoral artery.l",
+            "Medial circumflex femoral artery.r",
+            "Medial occipital artery.l",
+            "Medial occipital artery.r",
+            "Medial plantar artery.l",
+            "Medial plantar artery.r",
+            "Medial pontine branches of basilar artery.l",
+            "Medial pontine branches of basilar artery.r",
+            "Medial segmental artery of right lung",
+            "Median sacral artery",
+            "Mental branch of inferior alveolar artery.l",
+            "Mental branch of inferior alveolar artery.r",
+            "Middle cerebral artery (M1-segment).l",
+            "Middle cerebral artery (M1-segment).r",
+            "Middle cerebral artery (M3 segment).l",
+            "Middle cerebral artery (M3-segment).r",
+            "Middle colic artery",
+            "Middle collateral artery.l",
+            "Middle collateral artery.r",
+            "Middle genicular artery.l",
+            "Middle genicular artery.r",
+            "Middle lobar artery of right lung",
+            "Middle meningeal artery.l",
+            "Middle meningeal artery.r",
+            "Musculophrenic artery.l",
+            "Musculophrenic artery.r",
+            "Mylohyoid branch of inferior alveolar artery.l",
+            "Mylohyoid branch of inferior alveolar artery.r",
+            "Obturator artery.l",
+            "Obturator artery.r",
+            "Occipital artery.l",
+            "Occipital artery.r",
+            "Ophthalmic artery.l",
+            "Ophthalmic artery.r",
+            "Orbitofrontal branches of anterior cerebral artery.l",
+            "Orbitofrontal branches of anterior cerebral artery.r",
+            "Palmar carpal branch of radial artery.l",
+            "Palmar carpal branch of radial artery.r",
+            "Palmar metacarpal arteries.l",
+            "Palmar metacarpal arteries.r",
+            "Parietal branches of middle cerebral artery.l",
+            "Parietal branches of middle cerebral artery.r",
+            "Parieto-occipital artery.l",
+            "Parieto-occipital artery.r",
+            "Patellar anastomosis.l",
+            "Patellar anastomosis.r",
+            "Pectoral branches of thoraco-acromial artery.l",
+            "Pectoral branches of thoraco-acromial artery.r",
+            "Perforating branches of plantar metatarsal arteries.l",
+            "Perforating branches of plantar metatarsal arteries.r",
+            "Perforating femoral arteries.l",
+            "Perforating femoral arteries.r",
+            "Pericallosal artery.l",
+            "Pericallosal artery.r",
+            "Plantar arch.l",
+            "Plantar arch.r",
+            "Plantar metatarsal arteries.l",
+            "Plantar metatarsal arteries.r",
+            "Popliteal artery.l",
+            "Popliteal artery.r",
+            "Postcentral arterial branch.l",
+            "Postcentral arterial branch.r",
+            "Posterior basal segmental artery of left lung",
+            "Posterior basal segmental artery of right lung",
+            "Posterior branch of renal artery.l",
+            "Posterior branch of renal artery.r",
+            "Posterior cerebral artery.l",
+            "Posterior cerebral artery.r",
+            "Posterior circumflex humeral artery.l",
+            "Posterior circumflex humeral artery.r",
+            "Posterior communicating artery.l",
+            "Posterior communicating artery.r",
+            "Posterior deep temporal artery.l",
+            "Posterior deep temporal artery.r",
+            "Posterior division of internal iliac artery.l",
+            "Posterior division of internal iliac artery.r",
+            "Posterior ethmoidal artery.l",
+            "Posterior ethmoidal artery.r",
+            "Posterior inferior cerebellar artery.l",
+            "Posterior inferior cerebellar artery.r",
+            "Posterior intercostal arteries.l",
+            "Posterior intercostal arteries.r",
+            "Posterior interosseous artery.l",
+            "Posterior interosseous artery.r",
+            "Posterior lateral nasal branches of sphenopalatine artery..l",
+            "Posterior lateral nasal branches of sphenopalatine artery..r",
+            "Posterior parietal artery.l",
+            "Posterior parietal artery.r",
+            "Posterior segmental artery of left lung",
+            "Posterior segmental artery of right lung",
+            "Posterior septal branches of sphenopalatine artery.l",
+            "Posterior septal branches of sphenopalatine artery.r",
+            "Posterior superior alveolar artery.l",
+            "Posterior superior alveolar artery.r",
+            "Posterior temporal branch.l",
+            "Posterior temporal branch.r",
+            "Posterior tibial artery.l",
+            "Posterior tibial artery.r",
+            "Prefrontal artery.l",
+            "Prefrontal artery.r",
+            "Proper hepatic artery",
+            "Proper palmar digital arteries.l",
+            "Proper palmar digital arteries.r",
+            "Proper plantar digital arteries.l",
+            "Proper plantar digital arteries.r",
+            "Proximal lateral striate branches.l",
+            "Proximal lateral striate branches.r",
+            "Pulmonary trunk",
+            "Radial artery.l",
+            "Radial artery.r",
+            "Radial collateral artery.l",
+            "Radial collateral artery.r",
+            "Recurrent interosseous artery.l",
+            "Recurrent interosseous artery.r",
+            "Right colic artery",
+            "Right common carotid artery",
+            "Right coronary artery",
+            "Right inferolateral branch of right coronary artery",
+            "Right pulmonary artery",
+            "Right renal artery",
+            "Right subclavian artery",
+            "Right testicular artery.r",
+            "Second posterior intercostal artery.l",
+            "Second posterior intercostal artery.r",
+            "Septal branches of anterior interventricular artery",
+            "Septal branches of posterior ethmoidal artery.l",
+            "Septal branches of posterior ethmoidal artery.r",
+            "Short posterior ciliary arteries.l",
+            "Short posterior ciliary arteries.r",
+            "Sigmoid arteries",
+            "Spinal branch of iliolumbar artery.l",
+            "Spinal branch of iliolumbar artery.r",
+            "Splenic artery",
+            "Subcostal artery.l",
+            "Subcostal artery.r",
+            "Submental artery.l",
+            "Submental artery.r",
+            "Subscapular artery.l",
+            "Subscapular artery.r",
+            "Superficial branch of medial plantar artery.l",
+            "Superficial branch of medial plantar artery.r",
+            "Superficial epigastric artery.l",
+            "Superficial epigastric artery.r",
+            "Superficial external pudendal artery.l",
+            "Superficial external pudendal artery.r",
+            "Superficial palmar arch.l",
+            "Superficial palmar arch.r",
+            "Superficial temporal artery.l",
+            "Superficial temporal artery.r",
+            "Superior anorectal artery",
+            "Superior cerebellar artery.l",
+            "Superior cerebellar artery.r",
+            "Superior epigastric artery.l",
+            "Superior epigastric artery.r",
+            "Superior gluteal artery.l",
+            "Superior gluteal artery.r",
+            "Superior labial artery.l",
+            "Superior labial artery.r",
+            "Superior lateral genicular artery.l",
+            "Superior lateral genicular artery.r",
+            "Superior lingular artery of left lung",
+            "Superior lobar artery of right lung",
+            "Superior medial genicular artery.l",
+            "Superior medial genicular artery.r",
+            "Superior mesenteric artery",
+            "Superior phrenic arteries",
+            "Superior segmental artery of left lung",
+            "Superior segmental artery of right lung",
+            "Superior ulnar collateral artery.l",
+            "Superior ulnar collateral artery.r",
+            "Supra-orbital artery.l",
+            "Supra-orbital artery.r",
+            "Suprascapular artery.l",
+            "Suprascapular artery.r",
+            "Supratrochlear artery.l",
+            "Supratrochlear artery.r",
+            "Supreme intercostal artery.l",
+            "Supreme intercostal artery.r",
+            "Temporal branches of middle cerebral artery.l",
+            "Temporal branches of middle cerebral artery.r",
+            "Temporo-occipital branch.l",
+            "Temporo-occipital branch.r",
+            "Thoracic aorta",
+            "Thoraco-acromial artery.l",
+            "Thoraco-acromial artery.r",
+            "Thoracodorsal artery.l",
+            "Thoracodorsal artery.r",
+            "Thyrocervical trunk.l",
+            "Thyrocervical trunk.r",
+            "Transverse cervical artery.l",
+            "Transverse cervical artery.r",
+            "Transverse facial artery.l",
+            "Transverse facial artery.r",
+            "Ulnar artery.l",
+            "Ulnar artery.r",
+            "Vertebral artery.l",
+            "Vertebral artery.r"
+          ],
+          "sourceCollections": [
+            "Systemic arteries",
+            "Pulmonary arteries",
+            "Arteries of heart"
+          ],
+          "exportRatio": 0,
+          "kind": "vessel"
+        },
+        "body_veins": {
+          "label_ko": "정맥",
+          "en": "Veins",
+          "description": "기존 원본의 전신 정맥 표면입니다. 몸순환·폐순환 정맥과 심장 정맥 가지를 함께 볼 수 있습니다.",
+          "synonyms": [
+            "혈관",
+            "정맥",
+            "상대정맥",
+            "하대정맥",
+            "아래대정맥",
+            "폐정맥",
+            "간문맥"
+          ],
+          "color": "#519aff",
+          "direction": [
+            -0.34,
+            0,
+            0.3
+          ],
+          "members": [
+            "????????",
+            "Accessory hemi-azygos vein",
+            "Angular vein.l",
+            "Angular vein.r",
+            "Anterior circumflex humeral vein.l",
+            "Anterior circumflex humeral vein.r",
+            "Anterior division of retromandibular vein.l",
+            "Anterior division of retromandibular vein.r",
+            "Anterior intercavernous sinus",
+            "Anterior jugular vein.l",
+            "Anterior jugular vein.r",
+            "Anterior tibial veins.l",
+            "Anterior tibial veins.r",
+            "Anterior vein of left lung",
+            "Anterior vein of right lung",
+            "Apical vein of right lung",
+            "Apicoposterior vein of left lung",
+            "Axillary vein.l",
+            "Axillary vein.r",
+            "Azygos vein",
+            "Basilar venous plexus",
+            "Basilic vein.l",
+            "Basilic vein.r",
+            "Brachial veins.l",
+            "Brachial veins.r",
+            "Cavernous sinus.l",
+            "Cavernous sinus.r",
+            "Cephalic vein.l",
+            "Cephalic vein.r",
+            "Circumflex scapular vein.l",
+            "Circumflex scapular vein.r",
+            "Common facial vein.l",
+            "Common facial vein.r",
+            "Common iliac vein.l",
+            "Common iliac vein.r",
+            "Coronary sinus",
+            "Deep dorsal vein of penis",
+            "Deep femoral vein.l",
+            "Deep femoral vein.r",
+            "Deep venous palmar arch.l",
+            "Deep venous palmar arch.r",
+            "Dorsal digital veins of foot.l",
+            "Dorsal digital veins of foot.r",
+            "Dorsal digital veins of hand.l",
+            "Dorsal digital veins of hand.r",
+            "Dorsal metatarsal veins.l",
+            "Dorsal metatarsal veins.r",
+            "Dorsal venous arch of foot.l",
+            "Dorsal venous arch of foot.r",
+            "Dorsal venous network of hand.l",
+            "Dorsal venous network of hand.r",
+            "External iliac vein.l",
+            "External iliac vein.r",
+            "External jugular vein.l",
+            "External jugular vein.r",
+            "External pudendal veins.l",
+            "External pudendal veins.r",
+            "Facial vein.l",
+            "Facial vein.r",
+            "Femoral vein.l",
+            "Femoral vein.r",
+            "Fibular veins.l",
+            "Fibular veins.r",
+            "Genicular veins.l",
+            "Genicular veins.r",
+            "Great cardiac vein",
+            "Great saphenous vein.l",
+            "Great saphenous vein.r",
+            "Hemi-azygos vein",
+            "Hepatic portal vein",
+            "Hepatic veins",
+            "Iliolumbar vein.l",
+            "Iliolumbar vein.r",
+            "Inferior basal vein of left lung",
+            "Inferior basal vein of right lung",
+            "Inferior epigastric vein.l",
+            "Inferior epigastric vein.r",
+            "Inferior gluteal veins.l",
+            "Inferior gluteal veins.r",
+            "Inferior labial veins.l",
+            "Inferior labial veins.r",
+            "Inferior lingular vein of left lung",
+            "Inferior mesenteric vein",
+            "Inferior ophthalmic vein.l",
+            "Inferior ophthalmic vein.r",
+            "Inferior petrosal sinus.l",
+            "Inferior petrosal sinus.r",
+            "Inferior sagittal sinus",
+            "Inferior vein of left ventricle",
+            "Inferior vein of left ventricle (//Posterior '')",
+            "Inferior vena cava (abdominal part)",
+            "Inferior vena cava (thoracic part)",
+            "Intercapitular veins of foot.l",
+            "Intercapitular veins of foot.r",
+            "Internal iliac vein.l",
+            "Internal iliac vein.r",
+            "Internal jugular vein.l",
+            "Internal jugular vein.r",
+            "Internal pudendal vein.l",
+            "Internal pudendal vein.r",
+            "Internal thoracic veins.l",
+            "Internal thoracic veins.r",
+            "Intrarenal veins of left kidney",
+            "Intrarenal veins of right kidney",
+            "Lateral circumflex femoral veins.l",
+            "Lateral circumflex femoral veins.r",
+            "Lateral plantar veins.l",
+            "Lateral plantar veins.r",
+            "Lateral sacral veins.l",
+            "Lateral sacral veins.r",
+            "Lateral thoracic vein.l",
+            "Lateral thoracic vein.r",
+            "Lateral vein of right lung",
+            "Left ascending lumbar vein",
+            "Left brachiocephalic vein",
+            "Left gastro-omental vein",
+            "Left inferior pulmonary vein",
+            "Left renal vein",
+            "Left subclavian vein",
+            "Left subcostal vein",
+            "Left superior intercostal vein",
+            "Left superior pulmonary vein",
+            "Left testicular vein",
+            "Lingual vein.l",
+            "Lingual vein.r",
+            "Lingular vein of left lung",
+            "Lumbar veins.l",
+            "Lumbar veins.r",
+            "Maxillary veins.l",
+            "Maxillary veins.r",
+            "Medial circumflex femoral veins.l",
+            "Medial circumflex femoral veins.r",
+            "Medial plantar veins.l",
+            "Medial plantar veins.r",
+            "Medial vein of right lung",
+            "Median antebrachial vein.l",
+            "Median antebrachial vein.r",
+            "Median cubital vein.l",
+            "Median cubital vein.r",
+            "Middle cardiac vein",
+            "Middle colic vein",
+            "Musculophrenic veins.l",
+            "Musculophrenic veins.r",
+            "Occipital sinus",
+            "Occipital vein.l",
+            "Occipital vein.r",
+            "Palmar digital veins.l",
+            "Palmar digital veins.r",
+            "Perforating veins.l",
+            "Perforating veins.r",
+            "Plantar digital veins.l",
+            "Plantar digital veins.r",
+            "Plantar metatarsal veins.l",
+            "Plantar metatarsal veins.r",
+            "Plantar venous arch.l",
+            "Plantar venous arch.r",
+            "Popliteal vein.l",
+            "Popliteal vein.r",
+            "Posterior auricular vein.l",
+            "Posterior auricular vein.r",
+            "Posterior circumflex humeral vein.l",
+            "Posterior circumflex humeral vein.r",
+            "Posterior division of retromandibular vein.l",
+            "Posterior division of retromandibular vein.r",
+            "Posterior intercavernous sinus",
+            "Posterior tibial veins.l",
+            "Posterior tibial veins.r",
+            "Posterior vein of right lung",
+            "Radial veins.l",
+            "Radial veins.r",
+            "Retromandibular vein.l",
+            "Retromandibular vein.r",
+            "Right ascending lumbar vein",
+            "Right brachiocephalic vein",
+            "Right colic vein",
+            "Right gastro-omental vein",
+            "Right inferior pulmonary vein",
+            "Right renal vein",
+            "Right subclavian vein",
+            "Right subcostal vein",
+            "Right superior intercostal vein",
+            "Right superior phrenic vein",
+            "Right superior pulmonary vein",
+            "Right testicular vein",
+            "Sigmoid sinus.l",
+            "Sigmoid sinus.r",
+            "Sigmoid veins",
+            "Small saphenous vein.l",
+            "Small saphenous vein.r",
+            "Splenic vein",
+            "Straight sinus",
+            "Submental vein.l",
+            "Submental vein.r",
+            "Subscapular vein.l",
+            "Subscapular vein.r",
+            "Superficial dorsal veins of penis",
+            "Superficial epigastric vein.l",
+            "Superficial epigastric vein.r",
+            "Superficial temporal veins.l",
+            "Superficial temporal veins.r",
+            "Superficial venous palmar arch.l",
+            "Superficial venous palmar arch.r",
+            "Superior basal vein of left lung",
+            "Superior basal vein of right lung",
+            "Superior epigastric veins.l",
+            "Superior epigastric veins.r",
+            "Superior gluteal veins.l",
+            "Superior gluteal veins.r",
+            "Superior labial vein.l",
+            "Superior labial vein.r",
+            "Superior lingular vein of left lung",
+            "Superior mesenteric vein",
+            "Superior ophthalmic vein.l",
+            "Superior ophthalmic vein.r",
+            "Superior petrosal sinus.l",
+            "Superior petrosal sinus.r",
+            "Superior sagittal sinus",
+            "Superior thyroid vein.l",
+            "Superior thyroid vein.r",
+            "Superior vein of left lung",
+            "Superior vein of right lung",
+            "Superior vena cava",
+            "Suprascapular vein.l",
+            "Suprascapular vein.r",
+            "Thoracodorsal vein.l",
+            "Thoracodorsal vein.r",
+            "Transverse sinus.l",
+            "Transverse sinus.r",
+            "Ulnar veins.l",
+            "Ulnar veins.r",
+            "Vertebral vein.l",
+            "Vertebral vein.r"
+          ],
+          "sourceCollections": [
+            "Systemic veins",
+            "Pulmonary veins",
+            "Cardiac veins"
+          ],
+          "exportRatio": 0,
+          "kind": "vessel"
+        },
+        "abdominal_wall": {
+          "label_ko": "복벽 근육",
+          "en": "Abdominal wall muscles",
+          "description": "좌우 배곧은근·배바깥빗근·배속빗근·배가로근을 함께 표시합니다.",
+          "synonyms": [
+            "복직근",
+            "외복사근",
+            "내복사근",
+            "복횡근"
+          ],
+          "color": "#b96f56",
+          "opacity": 0.2,
+          "direction": [
+            0,
+            0,
+            0.7
+          ],
+          "members": [
+            "Rectus abdominis muscle.l",
+            "Rectus abdominis muscle.r",
+            "External abdominal oblique muscle.l",
+            "External abdominal oblique muscle.r",
+            "Internal abdominal oblique muscle.l",
+            "Internal abdominal oblique muscle.r",
+            "Transversus abdominis muscle.l",
+            "Transversus abdominis muscle.r"
+          ],
+          "memberColors": {
+            "Rectus abdominis muscle.l": "#a76155",
+            "Rectus abdominis muscle.r": "#a76155",
+            "External abdominal oblique muscle.l": "#b96f56",
+            "External abdominal oblique muscle.r": "#b96f56",
+            "Internal abdominal oblique muscle.l": "#ae665f",
+            "Internal abdominal oblique muscle.r": "#ae665f",
+            "Transversus abdominis muscle.l": "#a65e68",
+            "Transversus abdominis muscle.r": "#a65e68"
+          }
+        },
+        "transversalis_fascia": {
+          "label_ko": "배가로근막",
+          "en": "Transversalis fascia",
+          "color": "#c8b699",
+          "direction": [
+            0,
+            -0.24,
+            0.55
+          ],
+          "description": "배가로근의 안쪽에 놓이는 근막입니다. 원본의 배가로근막 표면을 표시합니다.",
+          "synonyms": [
+            "횡근막",
+            "가로근막",
+            "복벽",
+            "근막"
+          ],
+          "members": [
+            "Transversalis fascia"
+          ],
+          "opacity": 0.2
+        }
+      },
+      "file": "body-region.glb",
+      "status": "전신 개요 모델",
+      "overviewRatio": 0.32,
+      "visibilityControls": [
+        {
+          "label": "전신 구조",
+          "groups": [
+            "head-neck",
+            "chest",
+            "abdomen",
+            "back-spine",
+            "pelvis",
+            "left-arm",
+            "right-arm",
+            "left-leg",
+            "right-leg",
+            "abdominal_wall",
+            "transversalis_fascia"
+          ]
+        },
+        {
+          "label": "전체 혈관",
+          "groups": [
+            "body_arteries",
+            "body_veins"
+          ]
+        },
+        {
+          "label": "복벽 근육",
+          "groups": [
+            "abdominal_wall"
+          ]
+        },
+        {
+          "label": "배가로근막",
+          "groups": [
+            "transversalis_fascia"
+          ]
+        }
+      ],
+      "cameraDirection": [
+        0.58,
+        0.61,
+        1
+      ],
+      "cameraPadding": 1.04,
+      "individualSpacingFrom": 40
+    },
+    "head-neck": {
+      "title": "머리·목",
+      "heading": "머리·목 탐색",
+      "en": "Head & neck",
+      "scope": "머리뼈·치아, 뇌줄기와 대뇌 백질, 네 대뇌엽의 대표 겉질 표면과 일부 소뇌, 눈·귀, 주요 뇌신경, 목뼈·근육·후두를 표시합니다.",
+      "groups": {
+        "skull": {
+          "label_ko": "두개골",
+          "en": "Cranium",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            0.52,
+            -0.2
+          ],
+          "synonyms": [
+            "머리뼈"
+          ],
+          "members": [
+            "Frontal bone",
+            "Occipital bone",
+            "Sphenoid bone",
+            "Ethmoid bone",
+            "Parietal bone.l",
+            "Parietal bone.r",
+            "Temporal bone.l",
+            "Temporal bone.r"
+          ]
+        },
+        "jaw": {
+          "label_ko": "턱뼈·광대뼈",
+          "en": "Jaw and facial bones",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.06,
+            0.65
+          ],
+          "synonyms": [
+            "하악골",
+            "상악골"
+          ],
+          "members": [
+            "Mandible",
+            "Maxilla.l",
+            "Maxilla.r",
+            "Zygomatic bone.l",
+            "Zygomatic bone.r"
+          ]
+        },
+        "teeth": {
+          "label_ko": "치아",
+          "en": "Teeth",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.42,
+            0.44
+          ],
+          "synonyms": [
+            "이빨"
+          ],
+          "members": [
+            "Lower canine.l",
+            "Lower canine.r",
+            "Lower first molar tooth.l",
+            "Lower first molar tooth.r",
+            "Lower first premolar.l",
+            "Lower first premolar.r",
+            "Lower lateral incisor.l",
+            "Lower lateral incisor.r",
+            "Lower medial incisor.l",
+            "Lower medial incisor.r",
+            "Lower second molar tooth.l",
+            "Lower second molar tooth.r",
+            "Lower second premolar.l",
+            "Lower second premolar.r",
+            "Upper canine.l",
+            "Upper canine.r",
+            "Upper first molar tooth.l",
+            "Upper first molar tooth.r",
+            "Upper first premolar.l",
+            "Upper first premolar.r",
+            "Upper lateral incisor.l",
+            "Upper lateral incisor.r",
+            "Upper medial incisor.l",
+            "Upper medial incisor.r",
+            "Upper second molar tooth.l",
+            "Upper second molar tooth.r",
+            "Upper second premolar.l",
+            "Upper second premolar.r"
+          ]
+        },
+        "brain": {
+          "label_ko": "뇌(백질·뇌줄기)",
+          "en": "Brain white matter and brainstem",
+          "color": "#b790ad",
+          "direction": [
+            0,
+            0.45,
+            0.61
+          ],
+          "description": "원본의 대뇌 백질과 뇌줄기 일부를 표시합니다.",
+          "synonyms": [
+            "대뇌",
+            "뇌간"
+          ],
+          "members": [
+            "White matter of telencephalon.l",
+            "White matter of telencephalon.r",
+            "Midbrain.l",
+            "Midbrain.r",
+            "Pons.l",
+            "Pons.r",
+            "Medulla oblongata.l"
+          ]
+        },
+        "frontal_cortex": {
+          "label_ko": "이마엽 겉질",
+          "en": "Frontal cortical landmarks",
+          "color": "#c18f83",
+          "direction": [
+            0,
+            0.38,
+            0.9
+          ],
+          "synonyms": [
+            "전두엽",
+            "대뇌피질",
+            "대뇌겉질",
+            "중심앞이랑"
+          ],
+          "members": [
+            "Precentral gyrus.l",
+            "Precentral gyrus.r",
+            "Superior frontal gyrus.l",
+            "Superior frontal gyrus.r",
+            "Middle frontal gyrus.l",
+            "Middle frontal gyrus.r",
+            "Orbital gyri.l",
+            "Orbital gyri.r"
+          ]
+        },
+        "parietal_cortex": {
+          "label_ko": "마루엽 겉질",
+          "en": "Parietal cortical landmarks",
+          "color": "#b99d84",
+          "direction": [
+            0,
+            0.75,
+            -0.15
+          ],
+          "synonyms": [
+            "두정엽",
+            "대뇌피질",
+            "대뇌겉질",
+            "중심뒤이랑"
+          ],
+          "members": [
+            "Postcentral gyrus.l",
+            "Postcentral gyrus.r",
+            "Superior parietal lobule.l",
+            "Superior parietal lobule.r",
+            "Angular gyrus.l",
+            "Angular gyrus.r",
+            "Supramarginal gyrus.l",
+            "Supramarginal gyrus.r",
+            "Precuneus.l",
+            "Precuneus.r"
+          ]
+        },
+        "temporal_cortex": {
+          "label_ko": "관자엽 겉질",
+          "en": "Temporal cortical landmarks",
+          "color": "#b08da7",
+          "direction": [
+            0,
+            0.15,
+            0.2
+          ],
+          "synonyms": [
+            "측두엽",
+            "대뇌피질",
+            "대뇌겉질",
+            "헤슐이랑"
+          ],
+          "members": [
+            "Superior temporal gyrus (Lateral part).l",
+            "Superior temporal gyrus (Lateral part).r",
+            "Middle temporal gyrus.l",
+            "Middle temporal gyrus.r",
+            "Inferior temporal gyrus.l",
+            "Inferior temporal gyrus.r",
+            "Transverse temporal gyri.l",
+            "Transverse temporal gyri.r"
+          ]
+        },
+        "occipital_cortex": {
+          "label_ko": "뒤통수엽 겉질",
+          "en": "Occipital cortical landmarks",
+          "color": "#8c9eb8",
+          "direction": [
+            0,
+            0.17,
+            -0.82
+          ],
+          "synonyms": [
+            "후두엽",
+            "대뇌피질",
+            "대뇌겉질",
+            "시각겉질"
+          ],
+          "members": [
+            "Cuneus.l",
+            "Cuneus.r",
+            "Lingual gyrus.l",
+            "Lingual gyrus.r",
+            "Occipital pole.l",
+            "Occipital pole.r",
+            "Superior occipital gyri.l",
+            "Superior occipital gyri.r"
+          ]
+        },
+        "cerebellum": {
+          "label_ko": "소뇌 일부",
+          "en": "Cerebellar lobules",
+          "color": "#a77993",
+          "direction": [
+            0,
+            0.16,
+            -0.62
+          ],
+          "members": [
+            "Biventral lobule.l",
+            "Biventral lobule.r",
+            "Superior semilunar lobule.l",
+            "Superior semilunar lobule.r",
+            "Inferior semilunar lobule.l",
+            "Inferior semilunar lobule.r",
+            "Anterior quadrangular lobule.l",
+            "Anterior quadrangular lobule.r"
+          ]
+        },
+        "eyes": {
+          "label_ko": "눈",
+          "en": "Eyes",
+          "color": "#94a7ac",
+          "direction": [
+            0.44,
+            0.1,
+            0.38
+          ],
+          "synonyms": [
+            "안구"
+          ],
+          "members": [
+            "Sclera.l",
+            "Sclera.r",
+            "Cornea.l",
+            "Cornea.r",
+            "Lens.l",
+            "Lens.r",
+            "Vitreous body.l",
+            "Vitreous body.r",
+            "Iris.l",
+            "Iris.r",
+            "Retina.l",
+            "Retina.r"
+          ]
+        },
+        "ears": {
+          "label_ko": "귀(귓속뼈·달팽이관)",
+          "en": "Ear ossicles and cochlea",
+          "color": "#b49b73",
+          "direction": [
+            -0.56,
+            0.16,
+            0.18
+          ],
+          "synonyms": [
+            "이소골",
+            "와우"
+          ],
+          "members": [
+            "Malleus.l",
+            "Malleus.r",
+            "Incus.l",
+            "Incus.r",
+            "Stapes.l",
+            "Stapes.r",
+            "Cochlea.l",
+            "Cochlea.r"
+          ]
+        },
+        "cranial_nerves": {
+          "label_ko": "주요 뇌신경",
+          "en": "Selected cranial nerves",
+          "color": "#d5bd78",
+          "direction": [
+            0,
+            -0.3,
+            0.5
+          ],
+          "synonyms": [
+            "후각신경",
+            "시각신경",
+            "삼차신경",
+            "얼굴신경",
+            "속귀신경",
+            "전정와우신경"
+          ],
+          "members": [
+            "Olfactory nerve (I).l",
+            "Olfactory nerve (I).r",
+            "Optic nerve (II).l",
+            "Optic nerve (II).r",
+            "Trigeminal nerve (V).l",
+            "Trigeminal nerve (V).r",
+            "Facial nerve (VII).l",
+            "Facial nerve (VII).r",
+            "Vestibulocochlear nerve (VIII).l",
+            "Vestibulocochlear nerve (VIII).r"
+          ]
+        },
+        "cervical_spine": {
+          "label_ko": "목뼈",
+          "en": "Cervical spine",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.14,
+            -0.57
+          ],
+          "synonyms": [
+            "경추"
+          ],
+          "members": [
+            "Atlas (C1)",
+            "Axis (C2)",
+            "Vertebra C3",
+            "Vertebra C4",
+            "Vertebra C5",
+            "Vertebra C6",
+            "Vertebra C7"
+          ]
+        },
+        "neck_muscles": {
+          "label_ko": "목 근육",
+          "en": "Neck muscles",
+          "color": "#b97770",
+          "direction": [
+            -0.62,
+            -0.16,
+            0.21
+          ],
+          "members": [
+            "Sternocleidomastoid muscle.l",
+            "Sternocleidomastoid muscle.r",
+            "Rectus anterior capitis muscle.l",
+            "Rectus anterior capitis muscle.r",
+            "Rectus lateralis capitis muscle.l",
+            "Rectus lateralis capitis muscle.r"
+          ]
+        },
+        "larynx": {
+          "label_ko": "후두",
+          "en": "Larynx",
+          "color": "#92b5ad",
+          "direction": [
+            0,
+            -0.47,
+            0.59
+          ],
+          "synonyms": [
+            "목뿔뼈"
+          ],
+          "members": [
+            "Hyoid bone",
+            "Thyroid cartilage",
+            "Cricoid cartilage"
+          ]
+        },
+        "tongue": {
+          "label_ko": "혀",
+          "en": "Tongue",
+          "color": "#b67065",
+          "direction": [
+            0,
+            0.01,
+            0.72
+          ],
+          "members": [
+            "Tongue"
+          ]
+        }
+      },
+      "file": "head-neck-region.glb"
+    },
+    "chest": {
+      "title": "전체 흉부",
+      "heading": "흉부 탐색",
+      "en": "Thorax",
+      "scope": "흉곽·폐·심장·횡격막, 기관과 주기관지, 원본 폐엽·구역기관지, 식도와 주요 혈관을 표시합니다.",
+      "groups": {
+        "left_lung": {
+          "label_ko": "왼쪽 폐",
+          "members": [
+            "Inferior lobe of left lung",
+            "Superior lobe of left lung"
+          ]
+        },
+        "right_lung": {
+          "label_ko": "오른쪽 폐",
+          "members": [
+            "Inferior lobe of right lung",
+            "Middle lobe of right lung",
+            "Superior lobe of right lung"
+          ]
+        },
+        "heart_chambers": {
+          "label_ko": "심장 외형 검토 묶음",
+          "members": [
+            "Left atrium",
+            "Left ventricle",
+            "Right atrium",
+            "Right ventricle"
+          ],
+          "description": "좌우 심방과 심실 네 구조를 함께 표시합니다. 판막 조각과 유두근은 별도 묶음으로 열 수 있습니다."
+        },
+        "rib_cage": {
+          "label_ko": "갈비뼈·늑연골·흉골",
+          "members": [
+            "Body of sternum",
+            "Costal cartilage of eighth rib.l",
+            "Costal cartilage of eighth rib.r",
+            "Costal cartilage of fifth rib.l",
+            "Costal cartilage of fifth rib.r",
+            "Costal cartilage of first rib.l",
+            "Costal cartilage of first rib.r",
+            "Costal cartilage of fourth rib.l",
+            "Costal cartilage of fourth rib.r",
+            "Costal cartilage of ninth rib.l",
+            "Costal cartilage of ninth rib.r",
+            "Costal cartilage of second rib.l",
+            "Costal cartilage of second rib.r",
+            "Costal cartilage of seventh rib.l",
+            "Costal cartilage of seventh rib.r",
+            "Costal cartilage of sixth rib.l",
+            "Costal cartilage of sixth rib.r",
+            "Costal cartilage of tenth rib.l",
+            "Costal cartilage of tenth rib.r",
+            "Costal cartilage of third rib.l",
+            "Costal cartilage of third rib.r",
+            "Eighth rib.l",
+            "Eighth rib.r",
+            "Eleventh rib.l",
+            "Eleventh rib.r",
+            "Fifth rib.l",
+            "Fifth rib.r",
+            "First rib.l",
+            "First rib.r",
+            "Fourth rib.l",
+            "Fourth rib.r",
+            "Manubrium of sternum",
+            "Ninth rib.l",
+            "Ninth rib.r",
+            "Second rib.r",
+            "Second rib.l",
+            "Seventh rib.l",
+            "Seventh rib.r",
+            "Sixth rib.l",
+            "Sixth rib.r",
+            "Tenth rib.l",
+            "Tenth rib.r",
+            "Third rib.l",
+            "Third rib.r",
+            "Twelfth rib.l",
+            "Twelfth rib.r",
+            "Xiphoid process"
+          ]
+        },
+        "diaphragm": {
+          "label_ko": "횡격막",
+          "members": [
+            "Diaphragm"
+          ]
+        },
+        "trachea": {
+          "label_ko": "기관",
+          "members": [
+            "Trachea"
+          ],
+          "en": "Trachea",
+          "description": "후두 아래쪽에서 양쪽 주기관지로 이어지는 기관입니다."
+        },
+        "bronchus_left": {
+          "label_ko": "왼쪽 주기관지",
+          "en": "Left main bronchus",
+          "color": "#92b5ad",
+          "direction": [
+            0.43,
+            -0.2,
+            0.45
+          ],
+          "members": [
+            "Left main bronchus"
+          ]
+        },
+        "bronchus_right": {
+          "label_ko": "오른쪽 주기관지",
+          "en": "Right main bronchus",
+          "color": "#92b5ad",
+          "direction": [
+            -0.43,
+            -0.2,
+            0.45
+          ],
+          "members": [
+            "Right main bronchus"
+          ]
+        },
+        "bronchial_tree_left": {
+          "label_ko": "왼쪽 폐내 기관지",
+          "en": "Left intrapulmonary bronchi",
+          "color": "#72a69b",
+          "direction": [
+            0.58,
+            0.04,
+            0.65
+          ],
+          "synonyms": [
+            "폐엽기관지",
+            "구역기관지",
+            "기관지 가지"
+          ],
+          "members": [
+            "(Anteromedial basal segmental bronchus of left lung)",
+            "Anterior basal segmental bronchus of left lung (BVIII)",
+            "Anterior segmental bronchus of left lung (BIII)",
+            "Apicoposterior segmental bronchus of left lung (BI+BII)",
+            "Inferior lingular segmental bronchus of left lung (BV)",
+            "Lateral basal segmental bronchus of left lung (BIX)",
+            "Left inferior lobar bronchus",
+            "Left superior lobar bronchus",
+            "Medial basal segmental bronchus of left lung (BVII)",
+            "Posterior basal segmental bronchus of left lung (BX)",
+            "Superior lingular segmental bronchus of left lung (BIV)",
+            "Superior segmental bronchus of left lung (BVI)"
+          ]
+        },
+        "bronchial_tree_right": {
+          "label_ko": "오른쪽 폐내 기관지",
+          "en": "Right intrapulmonary bronchi",
+          "color": "#70b0a4",
+          "direction": [
+            -0.58,
+            0.04,
+            0.65
+          ],
+          "synonyms": [
+            "폐엽기관지",
+            "구역기관지",
+            "기관지 가지"
+          ],
+          "members": [
+            "Anterior basal segmental bronchus of right lung (BVIII)",
+            "Anterior segmental bronchus of right lung (BIII)",
+            "Apical segmental bronchus of right lung (BI)",
+            "Intermediate bronchus.r",
+            "Lateral basal segmental bronchus of right lung (BIX)",
+            "Lateral segmental bronchus of right lung (BIV)",
+            "Medial basal segmental bronchus of right lung (BVII)",
+            "Medial segmental bronchus of right lung (BV)",
+            "Middle lobar bronchus.r",
+            "Posterior basal segmental bronchus of right lung (BX)",
+            "Posterior segmental bronchus of right lung (BII)",
+            "Right inferior lobar bronchus",
+            "Right superior lobar bronchus",
+            "Superior segmental bronchus of right lung (BVI)"
+          ]
+        },
+        "esophagus": {
+          "label_ko": "식도",
+          "en": "Esophagus",
+          "color": "#bd805e",
+          "direction": [
+            0,
+            0.02,
+            -0.67
+          ],
+          "members": [
+            "Oesophagus"
+          ]
+        },
+        "heart_internal": {
+          "label_ko": "심장 판막 조각·유두근",
+          "en": "Heart valve leaflets and papillary muscles",
+          "color": "#bc8c85",
+          "direction": [
+            0.26,
+            0.08,
+            0.59
+          ],
+          "members": [
+            "Anterior papillary muscle of right ventricle",
+            "Anterior semilunar leaflet of pulmonary valve",
+            "Inferior leaflet of right atrioventricular valve",
+            "Inferior papillary muscle of left ventricle",
+            "Inferior papillary muscle of right ventricle",
+            "Left coronary leaflet",
+            "Left semilunar leaflet of pulmonary valve",
+            "Non-coronary leaflet",
+            "Posterior leaflet of left atrioventricular valve",
+            "Right coronary leaflet",
+            "Right semilunar leaflet of pulmonary valve",
+            "Septal leaflet of right atrioventricular valve",
+            "Septal papillary muscle of right ventricle"
+          ]
+        },
+        "great_vessels": {
+          "label_ko": "흉부 주요 혈관",
+          "en": "Great thoracic vessels",
+          "color": "#a95860",
+          "direction": [
+            -0.39,
+            0.38,
+            0.26
+          ],
+          "members": [
+            "Ascending aorta",
+            "Thoracic aorta",
+            "Pulmonary trunk"
+          ]
+        }
+      },
+      "file": "chest-region.glb",
+      "status": "흉부 전체 모델",
+      "visibilityControls": [
+        {
+          "label": "주요 혈관",
+          "groups": [
+            "great_vessels"
+          ]
+        }
+      ]
+    },
+    "abdomen": {
+      "title": "전체 복부",
+      "heading": "복부 탐색",
+      "en": "Abdomen",
+      "scope": "복부 장기, 횡격막, 허리뼈, 주요 혈관을 표시합니다. 복벽 근육과 배가로근막은 장기와 함께 보이도록 반투명으로 표시합니다.",
+      "groups": {
+        "liver": {
+          "label_ko": "간",
+          "members": [
+            "Liver"
+          ]
+        },
+        "gallbladder": {
+          "label_ko": "담낭",
+          "members": [
+            "Gallbladder"
+          ]
+        },
+        "stomach": {
+          "label_ko": "위",
+          "members": [
+            "Stomach"
+          ]
+        },
+        "pancreas": {
+          "label_ko": "췌장",
+          "members": [
+            "Pancreas"
+          ]
+        },
+        "spleen": {
+          "label_ko": "비장",
+          "members": [
+            "Spleen"
+          ]
+        },
+        "small_intestine": {
+          "label_ko": "소장(십이지장·공장)",
+          "members": [
+            "Duodenum",
+            "Jejunum"
+          ],
+          "synonyms": [
+            "소장",
+            "작은창자"
+          ]
+        },
+        "colon": {
+          "label_ko": "대장(결장)",
+          "members": [
+            "Ascending colon",
+            "Transverse colon",
+            "Descending colon",
+            "Sigmoid colon"
+          ],
+          "synonyms": [
+            "대장",
+            "큰창자",
+            "결장"
+          ]
+        },
+        "left_kidney": {
+          "label_ko": "왼쪽 콩팥(신장)",
+          "members": [
+            "Kidney.l"
+          ],
+          "synonyms": [
+            "콩팥",
+            "신장"
+          ]
+        },
+        "right_kidney": {
+          "label_ko": "오른쪽 콩팥(신장)",
+          "members": [
+            "Kidney.r"
+          ],
+          "synonyms": [
+            "콩팥",
+            "신장"
+          ]
+        },
+        "diaphragm": {
+          "label_ko": "횡격막",
+          "description": "흉부와 복부의 경계에서 간과 위 위쪽에 놓이는 근육입니다.",
+          "direction": [
+            0,
+            0.5,
+            -0.14
+          ],
+          "members": [
+            "Diaphragm"
+          ]
+        },
+        "lumbar_spine": {
+          "label_ko": "허리뼈(요추)",
+          "members": [
+            "Vertebra L1",
+            "Vertebra L2",
+            "Vertebra L3",
+            "Vertebra L4",
+            "Vertebra L5"
+          ]
+        },
+        "abdominal_aorta": {
+          "label_ko": "복부 대동맥",
+          "en": "Abdominal aorta",
+          "color": "#c05864",
+          "direction": [
+            0,
+            0,
+            -0.48
+          ],
+          "description": "횡격막 아래에서 척추 앞을 따라 내려가는 대동맥의 복부 구간입니다.",
+          "synonyms": [
+            "배대동맥",
+            "혈관",
+            "동맥"
+          ],
+          "members": [
+            "Abdominal aorta"
+          ]
+        },
+        "inferior_vena_cava": {
+          "label_ko": "아래대정맥(복부)",
+          "en": "Inferior vena cava (abdominal part)",
+          "color": "#6d8fc9",
+          "direction": [
+            0,
+            0,
+            -0.48
+          ],
+          "description": "복부 대동맥의 인체 오른쪽으로 올라가는 아래대정맥의 복부 구간입니다.",
+          "synonyms": [
+            "하대정맥",
+            "아래 대정맥",
+            "혈관",
+            "정맥",
+            "IVC"
+          ],
+          "members": [
+            "Inferior vena cava (abdominal part)"
+          ]
+        },
+        "rectus_abdominis": {
+          "label_ko": "배곧은근",
+          "en": "Rectus abdominis muscle",
+          "color": "#a76155",
+          "direction": [
+            0,
+            0.1,
+            0.74
+          ],
+          "description": "배 앞쪽 정중선 양옆을 세로로 지나는 좌우 근육입니다.",
+          "synonyms": [
+            "복직근",
+            "복벽",
+            "근육"
+          ],
+          "exportRatio": 0.25,
+          "members": [
+            "Rectus abdominis muscle.l",
+            "Rectus abdominis muscle.r"
+          ],
+          "opacity": 0.2
+        },
+        "external_abdominal_oblique": {
+          "label_ko": "배바깥빗근",
+          "en": "External abdominal oblique muscle",
+          "color": "#b96f56",
+          "direction": [
+            0,
+            0.22,
+            0.74
+          ],
+          "description": "배 옆쪽을 둘러싸는 근육 중 바깥쪽 층입니다.",
+          "synonyms": [
+            "외복사근",
+            "복벽",
+            "근육"
+          ],
+          "exportRatio": 0.25,
+          "members": [
+            "External abdominal oblique muscle.l",
+            "External abdominal oblique muscle.r"
+          ],
+          "opacity": 0.2
+        },
+        "internal_abdominal_oblique": {
+          "label_ko": "배속빗근",
+          "en": "Internal abdominal oblique muscle",
+          "color": "#ae665f",
+          "direction": [
+            0,
+            0.04,
+            0.62
+          ],
+          "description": "배바깥빗근 안쪽에 놓이는 좌우 근육입니다.",
+          "synonyms": [
+            "내복사근",
+            "복벽",
+            "근육"
+          ],
+          "exportRatio": 0.25,
+          "members": [
+            "Internal abdominal oblique muscle.l",
+            "Internal abdominal oblique muscle.r"
+          ],
+          "opacity": 0.2
+        },
+        "transversus_abdominis": {
+          "label_ko": "배가로근",
+          "en": "Transversus abdominis muscle",
+          "color": "#a65e68",
+          "direction": [
+            0,
+            -0.14,
+            0.52
+          ],
+          "description": "배 옆쪽 근육의 깊은 층으로, 근섬유가 주로 가로 방향으로 놓입니다.",
+          "synonyms": [
+            "복횡근",
+            "복벽",
+            "근육"
+          ],
+          "exportRatio": 0.25,
+          "members": [
+            "Transversus abdominis muscle.l",
+            "Transversus abdominis muscle.r"
+          ],
+          "opacity": 0.2
+        },
+        "transversalis_fascia": {
+          "label_ko": "배가로근막",
+          "en": "Transversalis fascia",
+          "color": "#c8b699",
+          "direction": [
+            0,
+            -0.24,
+            0.55
+          ],
+          "description": "배가로근의 안쪽에 놓이는 근막입니다. 원본의 배가로근막 표면을 표시합니다.",
+          "synonyms": [
+            "횡근막",
+            "가로근막",
+            "복벽",
+            "근막"
+          ],
+          "members": [
+            "Transversalis fascia"
+          ],
+          "opacity": 0.2
+        }
+      },
+      "file": "abdomen-region.glb",
+      "status": "복부 전체 모델",
+      "visibilityControls": [
+        {
+          "label": "주요 혈관",
+          "groups": [
+            "abdominal_aorta",
+            "inferior_vena_cava"
+          ]
+        },
+        {
+          "label": "복벽 근육",
+          "groups": [
+            "rectus_abdominis",
+            "external_abdominal_oblique",
+            "internal_abdominal_oblique",
+            "transversus_abdominis"
+          ]
+        },
+        {
+          "label": "배가로근막",
+          "groups": [
+            "transversalis_fascia"
+          ]
+        }
+      ]
+    },
+    "back-spine": {
+      "title": "등·척추",
+      "heading": "등·척추 탐색",
+      "en": "Back & spine",
+      "scope": "목뼈부터 꼬리뼈까지 척추 구간과 얕은·깊은 등 근육, 척수 경막을 표시합니다.",
+      "cameraDirection": [
+        0,
+        0.06,
+        -1
+      ],
+      "groups": {
+        "cervical_spine": {
+          "label_ko": "목뼈",
+          "en": "Cervical spine",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            0.44,
+            0.2
+          ],
+          "synonyms": [
+            "경추"
+          ],
+          "members": [
+            "Atlas (C1)",
+            "Axis (C2)",
+            "Vertebra C3",
+            "Vertebra C4",
+            "Vertebra C5",
+            "Vertebra C6",
+            "Vertebra C7"
+          ]
+        },
+        "thoracic_spine": {
+          "label_ko": "등뼈",
+          "en": "Thoracic spine",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            0,
+            0.34
+          ],
+          "synonyms": [
+            "흉추"
+          ],
+          "members": [
+            "Vertebra T1",
+            "Vertebra T2",
+            "Vertebra T3",
+            "Vertebra T4",
+            "Vertebra T5",
+            "Vertebra T6",
+            "Vertebra T7",
+            "Vertebra T8",
+            "Vertebra T9",
+            "Vertebra T10",
+            "Vertebra T11",
+            "Vertebra T12"
+          ]
+        },
+        "lumbar_spine": {
+          "label_ko": "허리뼈",
+          "en": "Lumbar spine",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.38,
+            0.24
+          ],
+          "synonyms": [
+            "요추"
+          ],
+          "members": [
+            "Vertebra L1",
+            "Vertebra L2",
+            "Vertebra L3",
+            "Vertebra L4",
+            "Vertebra L5"
+          ]
+        },
+        "sacrum": {
+          "label_ko": "엉치뼈·꼬리뼈",
+          "en": "Sacrum and coccyx",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.59,
+            -0.13
+          ],
+          "synonyms": [
+            "천골",
+            "미골"
+          ],
+          "members": [
+            "Sacrum",
+            "Coccyx"
+          ]
+        },
+        "superficial_back": {
+          "label_ko": "얕은 등 근육",
+          "en": "Superficial back muscles",
+          "color": "#b97770",
+          "direction": [
+            0.51,
+            0.12,
+            -0.44
+          ],
+          "synonyms": [
+            "승모근",
+            "광배근"
+          ],
+          "members": [
+            "Ascending part of trapezius muscle.l",
+            "Ascending part of trapezius muscle.r",
+            "Descending part of trapezius muscle.l",
+            "Descending part of trapezius muscle.r",
+            "Transverse part of trapezius muscle.l",
+            "Transverse part of trapezius muscle.r",
+            "Latissimus dorsi muscle.l",
+            "Latissimus dorsi muscle.r"
+          ]
+        },
+        "deep_back": {
+          "label_ko": "깊은 등 근육",
+          "en": "Deep back muscles",
+          "color": "#9c5c62",
+          "direction": [
+            -0.5,
+            0,
+            -0.33
+          ],
+          "synonyms": [
+            "다열근",
+            "요방형근"
+          ],
+          "members": [
+            "Multifidus colli muscle.l",
+            "Multifidus colli muscle.r",
+            "Multifidus thoracis muscle.l",
+            "Multifidus thoracis muscle.r",
+            "Multifidus lumborum muscle.l",
+            "Multifidus lumborum muscle.r",
+            "Quadratus lumborum muscle.l",
+            "Quadratus lumborum muscle.r"
+          ]
+        },
+        "spinal_dura": {
+          "label_ko": "척수 경막",
+          "en": "Spinal dura",
+          "color": "#92b5ad",
+          "direction": [
+            0.24,
+            -0.15,
+            0.48
+          ],
+          "members": [
+            "Spinal dura"
+          ]
+        }
+      },
+      "file": "back-spine-region.glb"
+    },
+    "pelvis": {
+      "title": "골반·회음",
+      "heading": "골반·회음 탐색",
+      "en": "Pelvis & perineum",
+      "scope": "골반뼈·골반저·방광·구불결장과 원본에 있는 남성 생식 구조를 표시합니다.",
+      "groups": {
+        "pelvic_bones": {
+          "label_ko": "골반뼈",
+          "en": "Pelvic girdle",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            0,
+            -0.56
+          ],
+          "synonyms": [
+            "엉덩뼈",
+            "골반"
+          ],
+          "members": [
+            "Hip bone.l",
+            "Hip bone.r",
+            "Sacrum",
+            "Coccyx",
+            "Pubic symphysis"
+          ]
+        },
+        "pelvic_floor": {
+          "label_ko": "골반저 근육",
+          "en": "Pelvic floor muscles",
+          "color": "#b97770",
+          "direction": [
+            0,
+            -0.62,
+            -0.18
+          ],
+          "members": [
+            "Pubococcygeus muscle.l",
+            "Pubococcygeus muscle.r",
+            "Iliococcygeus muscle.l",
+            "Iliococcygeus muscle.r",
+            "Coccygeus muscle.l",
+            "Coccygeus muscle.r"
+          ]
+        },
+        "pelvic_wall": {
+          "label_ko": "골반벽 근육",
+          "en": "Pelvic wall muscles",
+          "color": "#9c5c62",
+          "direction": [
+            0.58,
+            -0.08,
+            -0.2
+          ],
+          "members": [
+            "Obturator internus.l",
+            "Obturator internus.r",
+            "Piriformis muscle.l",
+            "Piriformis muscle.r"
+          ]
+        },
+        "bladder": {
+          "label_ko": "방광·요도",
+          "en": "Bladder and urethra",
+          "color": "#92b5ad",
+          "direction": [
+            0.42,
+            0.18,
+            0.5
+          ],
+          "members": [
+            "Urinary bladder",
+            "Urethra"
+          ]
+        },
+        "sigmoid": {
+          "label_ko": "구불결장",
+          "en": "Sigmoid colon",
+          "color": "#b67065",
+          "direction": [
+            -0.58,
+            0.22,
+            0.28
+          ],
+          "synonyms": [
+            "S자결장"
+          ],
+          "members": [
+            "Sigmoid colon"
+          ]
+        },
+        "male_glands": {
+          "label_ko": "전립샘·정낭",
+          "en": "Prostate and seminal glands",
+          "color": "#b9909a",
+          "direction": [
+            0.51,
+            -0.1,
+            0.43
+          ],
+          "synonyms": [
+            "전립선"
+          ],
+          "members": [
+            "Prostate",
+            "Seminal gland.l",
+            "Seminal gland.r"
+          ]
+        },
+        "male_reproductive": {
+          "label_ko": "고환·부고환·음경 구조",
+          "en": "Testes, epididymides and penile structures",
+          "color": "#b58189",
+          "direction": [
+            -0.51,
+            -0.28,
+            0.39
+          ],
+          "members": [
+            "Testis.l",
+            "Testis.r",
+            "Epididymis.l",
+            "Epididymis.r",
+            "Corpus cavernosum of penis",
+            "Corpus spongiosum of penis",
+            "Glans penis"
+          ]
+        },
+        "pelvic_nerves": {
+          "label_ko": "음부신경",
+          "en": "Pudendal nerves",
+          "color": "#c6a367",
+          "direction": [
+            -0.5,
+            0.12,
+            -0.36
+          ],
+          "members": [
+            "Pudendal nerve.l",
+            "Pudendal nerve.r"
+          ]
+        }
+      },
+      "file": "pelvis-region.glb"
+    },
+    "left-arm": {
+      "title": "왼쪽 어깨·팔·손",
+      "heading": "왼쪽 어깨·팔·손 탐색",
+      "en": "Left shoulder, arm & hand",
+      "scope": "어깨부터 손가락까지 뼈, 주요 관절 구조, 근육·힘줄과 주요 신경·동맥을 표시합니다.",
+      "side": "왼쪽",
+      "groups": {
+        "shoulder": {
+          "label_ko": "어깨뼈·빗장뼈",
+          "en": "Scapula and clavicle",
+          "color": "#d5cbb1",
+          "direction": [
+            -0.52,
+            0.24,
+            -0.18
+          ],
+          "synonyms": [
+            "견갑골",
+            "쇄골"
+          ],
+          "members": [
+            "Clavicle.l",
+            "Scapula.l"
+          ]
+        },
+        "upper_arm": {
+          "label_ko": "위팔뼈",
+          "en": "Humerus",
+          "color": "#d5cbb1",
+          "direction": [
+            0.24,
+            0.05,
+            -0.34
+          ],
+          "synonyms": [
+            "상완골"
+          ],
+          "members": [
+            "Humerus.l"
+          ]
+        },
+        "forearm": {
+          "label_ko": "아래팔뼈",
+          "en": "Radius and ulna",
+          "color": "#d5cbb1",
+          "direction": [
+            -0.23,
+            -0.1,
+            0.39
+          ],
+          "synonyms": [
+            "요골",
+            "척골"
+          ],
+          "members": [
+            "Radius.l",
+            "Ulna.l"
+          ]
+        },
+        "wrist": {
+          "label_ko": "손목뼈",
+          "en": "Carpal bones",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.32,
+            -0.29
+          ],
+          "members": [
+            "Scaphoid bone.l",
+            "Lunate bone.l",
+            "Triquetrum bone.l",
+            "Pisiform bone.l",
+            "Trapezium bone.l",
+            "Trapezoid bone.l",
+            "Capitate bone.l",
+            "Hamate bone.l"
+          ]
+        },
+        "palm": {
+          "label_ko": "손허리뼈",
+          "en": "Metacarpals",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.37,
+            -0.12
+          ],
+          "members": [
+            "First metacarpal bone.l",
+            "Second metacarpal bone.l",
+            "Third metacarpal bone.l",
+            "Fourth metacarpal bone.l",
+            "Fifth metacarpal bone.l"
+          ]
+        },
+        "hand_digit_1": {
+          "label_ko": "엄지손가락",
+          "en": "First finger",
+          "color": "#d5cbb1",
+          "direction": [
+            0.32,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of first finger of hand.l",
+            "Proximal phalanx of first finger of hand.l"
+          ]
+        },
+        "hand_digit_2": {
+          "label_ko": "검지손가락",
+          "en": "Second finger",
+          "color": "#d5cbb1",
+          "direction": [
+            0.16,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of second finger of hand.l",
+            "Middle phalanx of second finger of hand.l",
+            "Proximal phalanx of second finger of hand.l"
+          ]
+        },
+        "hand_digit_3": {
+          "label_ko": "중지손가락",
+          "en": "Third finger",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of third finger of hand.l",
+            "Middle phalanx of third finger of hand.l",
+            "Proximal phalanx of third finger of hand.l"
+          ]
+        },
+        "hand_digit_4": {
+          "label_ko": "약지손가락",
+          "en": "Fourth finger",
+          "color": "#d5cbb1",
+          "direction": [
+            -0.15999999999999998,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of fourth finger of hand.l",
+            "Middle phalanx of fourth finger of hand.l",
+            "Proximal phalanx of fourth finger of hand.l"
+          ]
+        },
+        "hand_digit_5": {
+          "label_ko": "새끼손가락",
+          "en": "Fifth finger",
+          "color": "#d5cbb1",
+          "direction": [
+            -0.32,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of fifth finger of hand.l",
+            "Middle phalanx of fifth finger of hand.l",
+            "Proximal phalanx of fifth finger of hand.l"
+          ]
+        },
+        "shoulder_joints": {
+          "label_ko": "어깨 관절테두리",
+          "en": "Glenoid labrum",
+          "color": "#92b5ad",
+          "direction": [
+            -0.47,
+            0.48,
+            0.19
+          ],
+          "members": [
+            "Glenoid labrum.l"
+          ]
+        },
+        "elbow_joints": {
+          "label_ko": "팔꿈치 인대",
+          "en": "Elbow ligaments",
+          "color": "#92b5ad",
+          "direction": [
+            0.52,
+            -0.02,
+            -0.35
+          ],
+          "members": [
+            "Annular ligament of radius.l",
+            "Ulnar collateral ligament.l"
+          ]
+        },
+        "shoulder_muscles": {
+          "label_ko": "어깨 근육",
+          "en": "Deltoid and rotator cuff",
+          "color": "#b97770",
+          "direction": [
+            0.7,
+            0.25,
+            0.3
+          ],
+          "synonyms": [
+            "삼각근",
+            "회전근개"
+          ],
+          "members": [
+            "Acromial part of deltoid muscle.l",
+            "Clavicular part of deltoid muscle.l",
+            "Scapular spinal part of deltoid muscle.l",
+            "Supraspinatus muscle.l",
+            "Infraspinatus muscle.l",
+            "Subscapularis muscle.l",
+            "Teres minor muscle.l"
+          ]
+        },
+        "upper_arm_muscles": {
+          "label_ko": "위팔 근육",
+          "en": "Upper arm muscles",
+          "color": "#b97770",
+          "direction": [
+            0.67,
+            0.02,
+            0.34
+          ],
+          "synonyms": [
+            "이두근",
+            "삼두근"
+          ],
+          "members": [
+            "Long head of biceps brachii.l",
+            "Short head of biceps brachii.l",
+            "Brachialis muscle.l",
+            "Lateral head of triceps brachii.l",
+            "Long head of triceps brachii.l",
+            "Medial head of triceps brachii.l"
+          ]
+        },
+        "forearm_muscles": {
+          "label_ko": "아래팔 근육·힘줄",
+          "en": "Forearm muscles and tendons",
+          "color": "#9c5c62",
+          "direction": [
+            0.52,
+            -0.21,
+            -0.28
+          ],
+          "members": [
+            "Brachioradialis muscle.l",
+            "Extensor digitorum.l",
+            "Flexor digitorum profundus.l"
+          ]
+        },
+        "hand_muscles": {
+          "label_ko": "손 근육",
+          "en": "Hand muscle",
+          "color": "#b97770",
+          "direction": [
+            0.3,
+            -0.28,
+            0.55
+          ],
+          "members": [
+            "Abductor pollicis brevis.l"
+          ]
+        },
+        "arm_nerves": {
+          "label_ko": "팔의 주요 신경",
+          "en": "Major arm nerves",
+          "color": "#c6a367",
+          "direction": [
+            -0.55,
+            -0.1,
+            0.37
+          ],
+          "members": [
+            "Axillary nerve.l",
+            "Median nerve.l",
+            "Ulnar nerve.l"
+          ]
+        },
+        "arm_arteries": {
+          "label_ko": "팔의 주요 동맥",
+          "en": "Major arm arteries",
+          "color": "#a95860",
+          "direction": [
+            -0.61,
+            0.13,
+            -0.4
+          ],
+          "members": [
+            "Axillary artery.l",
+            "Brachial artery.l",
+            "Radial artery.l",
+            "Ulnar artery.l"
+          ]
+        }
+      },
+      "file": "left-arm-region.glb",
+      "closeups": [
+        {
+          "label": "손바닥 쪽",
+          "groups": [
+            "wrist",
+            "palm",
+            "hand_muscles",
+            "hand_digit_1",
+            "hand_digit_2",
+            "hand_digit_3",
+            "hand_digit_4",
+            "hand_digit_5"
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "손등 쪽",
+          "groups": [
+            "wrist",
+            "palm",
+            "hand_muscles",
+            "hand_digit_1",
+            "hand_digit_2",
+            "hand_digit_3",
+            "hand_digit_4",
+            "hand_digit_5"
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ]
+        }
+      ],
+      "visibilityControls": [
+        {
+          "label": "주요 동맥",
+          "groups": [
+            "arm_arteries"
+          ]
+        }
+      ]
+    },
+    "right-arm": {
+      "title": "오른쪽 어깨·팔·손",
+      "heading": "오른쪽 어깨·팔·손 탐색",
+      "en": "Right shoulder, arm & hand",
+      "scope": "어깨부터 손가락까지 뼈, 주요 관절 구조, 근육·힘줄과 주요 신경·동맥을 표시합니다.",
+      "side": "오른쪽",
+      "groups": {
+        "shoulder": {
+          "label_ko": "어깨뼈·빗장뼈",
+          "en": "Scapula and clavicle",
+          "color": "#d5cbb1",
+          "direction": [
+            0.52,
+            0.24,
+            -0.18
+          ],
+          "synonyms": [
+            "견갑골",
+            "쇄골"
+          ],
+          "members": [
+            "Clavicle.r",
+            "Scapula.r"
+          ]
+        },
+        "upper_arm": {
+          "label_ko": "위팔뼈",
+          "en": "Humerus",
+          "color": "#d5cbb1",
+          "direction": [
+            -0.24,
+            0.05,
+            -0.34
+          ],
+          "synonyms": [
+            "상완골"
+          ],
+          "members": [
+            "Humerus.r"
+          ]
+        },
+        "forearm": {
+          "label_ko": "아래팔뼈",
+          "en": "Radius and ulna",
+          "color": "#d5cbb1",
+          "direction": [
+            0.23,
+            -0.1,
+            0.39
+          ],
+          "synonyms": [
+            "요골",
+            "척골"
+          ],
+          "members": [
+            "Radius.r",
+            "Ulna.r"
+          ]
+        },
+        "wrist": {
+          "label_ko": "손목뼈",
+          "en": "Carpal bones",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.32,
+            -0.29
+          ],
+          "members": [
+            "Scaphoid bone.r",
+            "Lunate bone.r",
+            "Triquetrum bone.r",
+            "Pisiform bone.r",
+            "Trapezium bone.r",
+            "Trapezoid bone.r",
+            "Capitate bone.r",
+            "Hamate bone.r"
+          ]
+        },
+        "palm": {
+          "label_ko": "손허리뼈",
+          "en": "Metacarpals",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.37,
+            -0.12
+          ],
+          "members": [
+            "First metacarpal bone.r",
+            "Second metacarpal bone.r",
+            "Third metacarpal bone.r",
+            "Fourth metacarpal bone.r",
+            "Fifth metacarpal bone.r"
+          ]
+        },
+        "hand_digit_1": {
+          "label_ko": "엄지손가락",
+          "en": "First finger",
+          "color": "#d5cbb1",
+          "direction": [
+            -0.32,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of first finger of hand.r",
+            "Proximal phalanx of first finger of hand.r"
+          ]
+        },
+        "hand_digit_2": {
+          "label_ko": "검지손가락",
+          "en": "Second finger",
+          "color": "#d5cbb1",
+          "direction": [
+            -0.16,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of second finger of hand.r",
+            "Middle phalanx of second finger of hand.r",
+            "Proximal phalanx of second finger of hand.r"
+          ]
+        },
+        "hand_digit_3": {
+          "label_ko": "중지손가락",
+          "en": "Third finger",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of third finger of hand.r",
+            "Middle phalanx of third finger of hand.r",
+            "Proximal phalanx of third finger of hand.r"
+          ]
+        },
+        "hand_digit_4": {
+          "label_ko": "약지손가락",
+          "en": "Fourth finger",
+          "color": "#d5cbb1",
+          "direction": [
+            0.15999999999999998,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of fourth finger of hand.r",
+            "Middle phalanx of fourth finger of hand.r",
+            "Proximal phalanx of fourth finger of hand.r"
+          ]
+        },
+        "hand_digit_5": {
+          "label_ko": "새끼손가락",
+          "en": "Fifth finger",
+          "color": "#d5cbb1",
+          "direction": [
+            0.32,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of fifth finger of hand.r",
+            "Middle phalanx of fifth finger of hand.r",
+            "Proximal phalanx of fifth finger of hand.r"
+          ]
+        },
+        "shoulder_joints": {
+          "label_ko": "어깨 관절테두리",
+          "en": "Glenoid labrum",
+          "color": "#92b5ad",
+          "direction": [
+            0.47,
+            0.48,
+            0.19
+          ],
+          "members": [
+            "Glenoid labrum.r"
+          ]
+        },
+        "elbow_joints": {
+          "label_ko": "팔꿈치 인대",
+          "en": "Elbow ligaments",
+          "color": "#92b5ad",
+          "direction": [
+            -0.52,
+            -0.02,
+            -0.35
+          ],
+          "members": [
+            "Annular ligament of radius.r",
+            "Ulnar collateral ligament.r"
+          ]
+        },
+        "shoulder_muscles": {
+          "label_ko": "어깨 근육",
+          "en": "Deltoid and rotator cuff",
+          "color": "#b97770",
+          "direction": [
+            -0.7,
+            0.25,
+            0.3
+          ],
+          "synonyms": [
+            "삼각근",
+            "회전근개"
+          ],
+          "members": [
+            "Acromial part of deltoid muscle.r",
+            "Clavicular part of deltoid muscle.r",
+            "Scapular spinal part of deltoid muscle.r",
+            "Supraspinatus muscle.r",
+            "Infraspinatus muscle.r",
+            "Subscapularis muscle.r",
+            "Teres minor muscle.r"
+          ]
+        },
+        "upper_arm_muscles": {
+          "label_ko": "위팔 근육",
+          "en": "Upper arm muscles",
+          "color": "#b97770",
+          "direction": [
+            -0.67,
+            0.02,
+            0.34
+          ],
+          "synonyms": [
+            "이두근",
+            "삼두근"
+          ],
+          "members": [
+            "Long head of biceps brachii.r",
+            "Short head of biceps brachii.r",
+            "Brachialis muscle.r",
+            "Lateral head of triceps brachii.r",
+            "Long head of triceps brachii.r",
+            "Medial head of triceps brachii.r"
+          ]
+        },
+        "forearm_muscles": {
+          "label_ko": "아래팔 근육·힘줄",
+          "en": "Forearm muscles and tendons",
+          "color": "#9c5c62",
+          "direction": [
+            -0.52,
+            -0.21,
+            -0.28
+          ],
+          "members": [
+            "Brachioradialis muscle.r",
+            "Extensor digitorum.r",
+            "Flexor digitorum profundus.r"
+          ]
+        },
+        "hand_muscles": {
+          "label_ko": "손 근육",
+          "en": "Hand muscle",
+          "color": "#b97770",
+          "direction": [
+            -0.3,
+            -0.28,
+            0.55
+          ],
+          "members": [
+            "Abductor pollicis brevis.r"
+          ]
+        },
+        "arm_nerves": {
+          "label_ko": "팔의 주요 신경",
+          "en": "Major arm nerves",
+          "color": "#c6a367",
+          "direction": [
+            0.55,
+            -0.1,
+            0.37
+          ],
+          "members": [
+            "Axillary nerve.r",
+            "Median nerve.r",
+            "Ulnar nerve.r"
+          ]
+        },
+        "arm_arteries": {
+          "label_ko": "팔의 주요 동맥",
+          "en": "Major arm arteries",
+          "color": "#a95860",
+          "direction": [
+            0.61,
+            0.13,
+            -0.4
+          ],
+          "members": [
+            "Axillary artery.r",
+            "Brachial artery.r",
+            "Radial artery.r",
+            "Ulnar artery.r"
+          ]
+        }
+      },
+      "file": "right-arm-region.glb",
+      "closeups": [
+        {
+          "label": "손바닥 쪽",
+          "groups": [
+            "wrist",
+            "palm",
+            "hand_muscles",
+            "hand_digit_1",
+            "hand_digit_2",
+            "hand_digit_3",
+            "hand_digit_4",
+            "hand_digit_5"
+          ],
+          "direction": [
+            0,
+            0,
+            1
+          ]
+        },
+        {
+          "label": "손등 쪽",
+          "groups": [
+            "wrist",
+            "palm",
+            "hand_muscles",
+            "hand_digit_1",
+            "hand_digit_2",
+            "hand_digit_3",
+            "hand_digit_4",
+            "hand_digit_5"
+          ],
+          "direction": [
+            0,
+            0,
+            -1
+          ]
+        }
+      ],
+      "visibilityControls": [
+        {
+          "label": "주요 동맥",
+          "groups": [
+            "arm_arteries"
+          ]
+        }
+      ]
+    },
+    "left-leg": {
+      "title": "왼쪽 엉덩이·다리·발",
+      "heading": "왼쪽 엉덩이·다리·발 탐색",
+      "en": "Left hip, leg & foot",
+      "scope": "엉덩관절부터 발가락까지 뼈, 무릎관절, 주요 근육·힘줄과 일부 신경·동맥을 표시합니다.",
+      "side": "왼쪽",
+      "groups": {
+        "hip": {
+          "label_ko": "엉덩뼈",
+          "en": "Hip bone",
+          "color": "#d5cbb1",
+          "direction": [
+            -0.48,
+            0.26,
+            -0.25
+          ],
+          "synonyms": [
+            "골반뼈"
+          ],
+          "members": [
+            "Hip bone.l"
+          ]
+        },
+        "thigh": {
+          "label_ko": "넙다리뼈",
+          "en": "Femur",
+          "color": "#d5cbb1",
+          "direction": [
+            -0.22,
+            0.18,
+            -0.16
+          ],
+          "synonyms": [
+            "대퇴골"
+          ],
+          "members": [
+            "Femur.l"
+          ]
+        },
+        "knee": {
+          "label_ko": "무릎뼈·무릎관절",
+          "en": "Patella and knee joint",
+          "color": "#92b5ad",
+          "direction": [
+            0.42,
+            0.01,
+            0.52
+          ],
+          "synonyms": [
+            "십자인대",
+            "반달연골",
+            "슬개골"
+          ],
+          "members": [
+            "Patella.l",
+            "Anterior cruciate ligament.l",
+            "Posterior cruciate ligament.l",
+            "Lateral meniscus.l",
+            "Medial meniscus.l"
+          ]
+        },
+        "shank": {
+          "label_ko": "종아리뼈",
+          "en": "Tibia and fibula",
+          "color": "#d5cbb1",
+          "direction": [
+            -0.28,
+            -0.11,
+            -0.27
+          ],
+          "synonyms": [
+            "경골",
+            "비골"
+          ],
+          "members": [
+            "Tibia.l",
+            "Fibula.l"
+          ]
+        },
+        "ankle": {
+          "label_ko": "발목뼈",
+          "en": "Tarsal bones",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.43,
+            -0.33
+          ],
+          "synonyms": [
+            "발꿈치뼈",
+            "거골"
+          ],
+          "members": [
+            "Talus.l",
+            "Calcaneus.l",
+            "Navicular bone.l",
+            "Medial cuneiform bone.l",
+            "Intermediate cuneiform bone.l",
+            "Lateral cuneiform bone.l",
+            "Cuboid bone.l"
+          ]
+        },
+        "foot": {
+          "label_ko": "발허리뼈",
+          "en": "Metatarsals",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.42,
+            0.26
+          ],
+          "members": [
+            "First metatarsal bone.l",
+            "Second metatarsal bone.l",
+            "Third metatarsal bone.l",
+            "Fourth metatarsal bone.l",
+            "Fifth metatarsal bone.l"
+          ]
+        },
+        "foot_digit_1": {
+          "label_ko": "엄지발가락",
+          "en": "First toe",
+          "color": "#d5cbb1",
+          "direction": [
+            0.32,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of first finger of foot.l",
+            "Proximal phalanx of first finger of foot.l"
+          ]
+        },
+        "foot_digit_2": {
+          "label_ko": "둘째 발가락",
+          "en": "Second toe",
+          "color": "#d5cbb1",
+          "direction": [
+            0.16,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of second finger of foot.l",
+            "Middle phalanx of second finger of foot.l",
+            "Proximal phalanx of second finger of foot.l"
+          ]
+        },
+        "foot_digit_3": {
+          "label_ko": "셋째 발가락",
+          "en": "Third toe",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of third finger of foot.l",
+            "Middle phalanx of third finger of foot.l",
+            "Proximal phalanx of third finger of foot.l"
+          ]
+        },
+        "foot_digit_4": {
+          "label_ko": "넷째 발가락",
+          "en": "Fourth toe",
+          "color": "#d5cbb1",
+          "direction": [
+            -0.15999999999999998,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of fourth finger of foot.l",
+            "Middle phalanx of fourth finger of foot.l",
+            "Proximal phalanx of fourth finger of foot.l"
+          ]
+        },
+        "foot_digit_5": {
+          "label_ko": "새끼발가락",
+          "en": "Fifth toe",
+          "color": "#d5cbb1",
+          "direction": [
+            -0.32,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of fifth finger of foot.l",
+            "Middle phalanx of fifth finger of foot.l",
+            "Proximal phalanx of fifth finger of foot.l"
+          ]
+        },
+        "hip_muscles": {
+          "label_ko": "엉덩이 근육",
+          "en": "Gluteal muscles",
+          "color": "#b97770",
+          "direction": [
+            0.52,
+            0.28,
+            -0.42
+          ],
+          "synonyms": [
+            "둔근"
+          ],
+          "members": [
+            "Gluteus maximus muscle.l",
+            "Gluteus medius muscle.l",
+            "Gluteus minimus muscle.l"
+          ]
+        },
+        "thigh_muscles": {
+          "label_ko": "넓적다리 근육",
+          "en": "Thigh muscles",
+          "color": "#b97770",
+          "direction": [
+            0.61,
+            0.02,
+            0.27
+          ],
+          "synonyms": [
+            "대퇴사두근",
+            "햄스트링"
+          ],
+          "members": [
+            "Rectus femoris muscle.l",
+            "Vastus lateralis muscle.l",
+            "Vastus medialis muscle.l",
+            "Vastus intermedius muscle.l",
+            "Long head of biceps femoris.l",
+            "Short head of biceps femoris.l",
+            "Semitendinosus muscle.l"
+          ]
+        },
+        "shank_muscles": {
+          "label_ko": "종아리 근육·아킬레스힘줄",
+          "en": "Leg muscles and calcaneal tendon",
+          "color": "#9c5c62",
+          "direction": [
+            0.43,
+            -0.18,
+            -0.31
+          ],
+          "synonyms": [
+            "장딴지",
+            "아킬레스건"
+          ],
+          "members": [
+            "Tibialis anterior muscle.l",
+            "Tibialis posterior muscle.l",
+            "Medial head of gastrocnemius.l",
+            "Lateral head of gastrocnemius.l",
+            "Soleus muscle.l",
+            "Calcaneal tendon.l"
+          ]
+        },
+        "foot_muscles": {
+          "label_ko": "발 근육",
+          "en": "Foot muscles",
+          "color": "#b97770",
+          "direction": [
+            0.38,
+            -0.32,
+            0.43
+          ],
+          "members": [
+            "Flexor digitorum brevis.l",
+            "Extensor digitorum brevis.l"
+          ]
+        },
+        "leg_nerves": {
+          "label_ko": "다리의 주요 신경",
+          "en": "Major leg nerves",
+          "color": "#c6a367",
+          "direction": [
+            -0.46,
+            0.04,
+            -0.35
+          ],
+          "synonyms": [
+            "좌골신경"
+          ],
+          "members": [
+            "Sciatic nerve.l",
+            "Tibial nerve.l"
+          ]
+        },
+        "leg_arteries": {
+          "label_ko": "다리의 주요 동맥",
+          "en": "Major leg arteries",
+          "color": "#a95860",
+          "direction": [
+            -0.45,
+            0.13,
+            0.47
+          ],
+          "members": [
+            "Femoral artery.l",
+            "Fibular artery.l"
+          ]
+        }
+      },
+      "file": "left-leg-region.glb",
+      "closeups": [
+        {
+          "label": "발등 쪽",
+          "groups": [
+            "ankle",
+            "foot",
+            "foot_muscles",
+            "foot_digit_1",
+            "foot_digit_2",
+            "foot_digit_3",
+            "foot_digit_4",
+            "foot_digit_5"
+          ],
+          "direction": [
+            0,
+            1,
+            0.12
+          ]
+        },
+        {
+          "label": "발바닥 쪽",
+          "groups": [
+            "ankle",
+            "foot",
+            "foot_muscles",
+            "foot_digit_1",
+            "foot_digit_2",
+            "foot_digit_3",
+            "foot_digit_4",
+            "foot_digit_5"
+          ],
+          "direction": [
+            0,
+            -1,
+            0.12
+          ]
+        }
+      ],
+      "visibilityControls": [
+        {
+          "label": "주요 동맥",
+          "groups": [
+            "leg_arteries"
+          ]
+        }
+      ]
+    },
+    "right-leg": {
+      "title": "오른쪽 엉덩이·다리·발",
+      "heading": "오른쪽 엉덩이·다리·발 탐색",
+      "en": "Right hip, leg & foot",
+      "scope": "엉덩관절부터 발가락까지 뼈, 무릎관절, 주요 근육·힘줄과 일부 신경·동맥을 표시합니다.",
+      "side": "오른쪽",
+      "groups": {
+        "hip": {
+          "label_ko": "엉덩뼈",
+          "en": "Hip bone",
+          "color": "#d5cbb1",
+          "direction": [
+            0.48,
+            0.26,
+            -0.25
+          ],
+          "synonyms": [
+            "골반뼈"
+          ],
+          "members": [
+            "Hip bone.r"
+          ]
+        },
+        "thigh": {
+          "label_ko": "넙다리뼈",
+          "en": "Femur",
+          "color": "#d5cbb1",
+          "direction": [
+            0.22,
+            0.18,
+            -0.16
+          ],
+          "synonyms": [
+            "대퇴골"
+          ],
+          "members": [
+            "Femur.r"
+          ]
+        },
+        "knee": {
+          "label_ko": "무릎뼈·무릎관절",
+          "en": "Patella and knee joint",
+          "color": "#92b5ad",
+          "direction": [
+            -0.42,
+            0.01,
+            0.52
+          ],
+          "synonyms": [
+            "십자인대",
+            "반달연골",
+            "슬개골"
+          ],
+          "members": [
+            "Patella.r",
+            "Anterior cruciate ligament.r",
+            "Posterior cruciate ligament.r",
+            "Lateral meniscus.r",
+            "Medial meniscus.r"
+          ]
+        },
+        "shank": {
+          "label_ko": "종아리뼈",
+          "en": "Tibia and fibula",
+          "color": "#d5cbb1",
+          "direction": [
+            0.28,
+            -0.11,
+            -0.27
+          ],
+          "synonyms": [
+            "경골",
+            "비골"
+          ],
+          "members": [
+            "Tibia.r",
+            "Fibula.r"
+          ]
+        },
+        "ankle": {
+          "label_ko": "발목뼈",
+          "en": "Tarsal bones",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.43,
+            -0.33
+          ],
+          "synonyms": [
+            "발꿈치뼈",
+            "거골"
+          ],
+          "members": [
+            "Talus.r",
+            "Calcaneus.r",
+            "Navicular bone.r",
+            "Medial cuneiform bone.r",
+            "Intermediate cuneiform bone.r",
+            "Lateral cuneiform bone.r",
+            "Cuboid bone.r"
+          ]
+        },
+        "foot": {
+          "label_ko": "발허리뼈",
+          "en": "Metatarsals",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.42,
+            0.26
+          ],
+          "members": [
+            "First metatarsal bone.r",
+            "Second metatarsal bone.r",
+            "Third metatarsal bone.r",
+            "Fourth metatarsal bone.r",
+            "Fifth metatarsal bone.r"
+          ]
+        },
+        "foot_digit_1": {
+          "label_ko": "엄지발가락",
+          "en": "First toe",
+          "color": "#d5cbb1",
+          "direction": [
+            -0.32,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of first finger of foot.r",
+            "Proximal phalanx of first finger of foot.r"
+          ]
+        },
+        "foot_digit_2": {
+          "label_ko": "둘째 발가락",
+          "en": "Second toe",
+          "color": "#d5cbb1",
+          "direction": [
+            -0.16,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of second finger of foot.r",
+            "Middle phalanx of second finger of foot.r",
+            "Proximal phalanx of second finger of foot.r"
+          ]
+        },
+        "foot_digit_3": {
+          "label_ko": "셋째 발가락",
+          "en": "Third toe",
+          "color": "#d5cbb1",
+          "direction": [
+            0,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of third finger of foot.r",
+            "Middle phalanx of third finger of foot.r",
+            "Proximal phalanx of third finger of foot.r"
+          ]
+        },
+        "foot_digit_4": {
+          "label_ko": "넷째 발가락",
+          "en": "Fourth toe",
+          "color": "#d5cbb1",
+          "direction": [
+            0.15999999999999998,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of fourth finger of foot.r",
+            "Middle phalanx of fourth finger of foot.r",
+            "Proximal phalanx of fourth finger of foot.r"
+          ]
+        },
+        "foot_digit_5": {
+          "label_ko": "새끼발가락",
+          "en": "Fifth toe",
+          "color": "#d5cbb1",
+          "direction": [
+            0.32,
+            -0.26,
+            0.23
+          ],
+          "members": [
+            "Distal phalanx of fifth finger of foot.r",
+            "Middle phalanx of fifth finger of foot.r",
+            "Proximal phalanx of fifth finger of foot.r"
+          ]
+        },
+        "hip_muscles": {
+          "label_ko": "엉덩이 근육",
+          "en": "Gluteal muscles",
+          "color": "#b97770",
+          "direction": [
+            -0.52,
+            0.28,
+            -0.42
+          ],
+          "synonyms": [
+            "둔근"
+          ],
+          "members": [
+            "Gluteus maximus muscle.r",
+            "Gluteus medius muscle.r",
+            "Gluteus minimus muscle.r"
+          ]
+        },
+        "thigh_muscles": {
+          "label_ko": "넓적다리 근육",
+          "en": "Thigh muscles",
+          "color": "#b97770",
+          "direction": [
+            -0.61,
+            0.02,
+            0.27
+          ],
+          "synonyms": [
+            "대퇴사두근",
+            "햄스트링"
+          ],
+          "members": [
+            "Rectus femoris muscle.r",
+            "Vastus lateralis muscle.r",
+            "Vastus medialis muscle.r",
+            "Vastus intermedius muscle.r",
+            "Long head of biceps femoris.r",
+            "Short head of biceps femoris.r",
+            "Semitendinosus muscle.r"
+          ]
+        },
+        "shank_muscles": {
+          "label_ko": "종아리 근육·아킬레스힘줄",
+          "en": "Leg muscles and calcaneal tendon",
+          "color": "#9c5c62",
+          "direction": [
+            -0.43,
+            -0.18,
+            -0.31
+          ],
+          "synonyms": [
+            "장딴지",
+            "아킬레스건"
+          ],
+          "members": [
+            "Tibialis anterior muscle.r",
+            "Tibialis posterior muscle.r",
+            "Medial head of gastrocnemius.r",
+            "Lateral head of gastrocnemius.r",
+            "Soleus muscle.r",
+            "Calcaneal tendon.r"
+          ]
+        },
+        "foot_muscles": {
+          "label_ko": "발 근육",
+          "en": "Foot muscles",
+          "color": "#b97770",
+          "direction": [
+            -0.38,
+            -0.32,
+            0.43
+          ],
+          "members": [
+            "Flexor digitorum brevis.r",
+            "Extensor digitorum brevis.r"
+          ]
+        },
+        "leg_nerves": {
+          "label_ko": "다리의 주요 신경",
+          "en": "Major leg nerves",
+          "color": "#c6a367",
+          "direction": [
+            0.46,
+            0.04,
+            -0.35
+          ],
+          "synonyms": [
+            "좌골신경"
+          ],
+          "members": [
+            "Sciatic nerve.r",
+            "Tibial nerve.r"
+          ]
+        },
+        "leg_arteries": {
+          "label_ko": "다리의 주요 동맥",
+          "en": "Major leg arteries",
+          "color": "#a95860",
+          "direction": [
+            0.45,
+            0.13,
+            0.47
+          ],
+          "members": [
+            "Femoral artery.r",
+            "Fibular artery.r"
+          ]
+        }
+      },
+      "file": "right-leg-region.glb",
+      "closeups": [
+        {
+          "label": "발등 쪽",
+          "groups": [
+            "ankle",
+            "foot",
+            "foot_muscles",
+            "foot_digit_1",
+            "foot_digit_2",
+            "foot_digit_3",
+            "foot_digit_4",
+            "foot_digit_5"
+          ],
+          "direction": [
+            0,
+            1,
+            0.12
+          ]
+        },
+        {
+          "label": "발바닥 쪽",
+          "groups": [
+            "ankle",
+            "foot",
+            "foot_muscles",
+            "foot_digit_1",
+            "foot_digit_2",
+            "foot_digit_3",
+            "foot_digit_4",
+            "foot_digit_5"
+          ],
+          "direction": [
+            0,
+            -1,
+            0.12
+          ]
+        }
+      ],
+      "visibilityControls": [
+        {
+          "label": "주요 동맥",
+          "groups": [
+            "leg_arteries"
+          ]
+        }
+      ]
+    }
+  },
+  "fallback": {
+    "file": "lungs-smooth.glb",
+    "groupIds": [
+      "left_lung",
+      "right_lung"
+    ]
+  }
+}

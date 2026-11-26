@@ -1,0 +1,4578 @@
+{
+  "source_sha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "blender": "3.6.23",
+  "autoexec": false,
+  "method": "Native polygons; new isolated objects; source world transforms; exact-coordinate welding for metrics only.",
+  "deviation_method": "All evaluated vertices to nearest base triangle, one direction only; normalized by individual base bounding-box diagonal; not Hausdorff or medical tolerance.",
+  "render": {
+    "engine": "Cycles CPU",
+    "samples": 24,
+    "seed": 7,
+    "resolution": [
+      640,
+      640
+    ],
+    "view_transform": "Filmic",
+    "look": "Medium High Contrast",
+    "materials": "constant procedural-free review colors, identical across variants",
+    "units": "source coordinates; physical calibration not verified"
+  },
+  "inventory": [
+    {
+      "name": "Body of sternum",
+      "group": "sternum",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          10.0,
+          0.0,
+          0.0,
+          -8.790661013335921e-06
+        ],
+        [
+          0.0,
+          9.999993324279785,
+          -5.68434784919275e-13,
+          -0.09217386692762375
+        ],
+        [
+          0.0,
+          5.684341886080801e-13,
+          10.000003814697266,
+          1.2961254119873047
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 2240,
+        "triangles": 4466,
+        "unreferenced_vertices": 5,
+        "surface_bounds": [
+          [
+            -0.024674177169799805,
+            -0.11218427866697311,
+            1.2395915985107422
+          ],
+          [
+            0.024674180895090103,
+            -0.06913609802722931,
+            1.3589444160461426
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.024674177169799805,
+            -0.13079418241977692,
+            1.2395915985107422
+          ],
+          [
+            0.024674180895090103,
+            -0.06913609802722931,
+            1.3589444160461426
+          ]
+        ],
+        "surface_area_source_units_squared": 0.013689294701991594,
+        "geometry_sha256": "cccfcc8420895278dc7b347b29a0c791caf0a241beeae802c7c563bd27940201"
+      }
+    },
+    {
+      "name": "Costal cartilage of eighth rib.l",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.07320865988731384
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -4.263256414560601e-14,
+          -0.09163571894168854
+        ],
+        [
+          0.0,
+          4.263256414560601e-14,
+          0.9999996423721313,
+          1.155562162399292
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 328,
+        "triangles": 652,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.0350993312895298,
+            -0.1088070273399353,
+            1.1286519765853882
+          ],
+          [
+            0.1192827969789505,
+            -0.057411856949329376,
+            1.194269061088562
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.0350993312895298,
+            -0.1088070273399353,
+            1.1286519765853882
+          ],
+          [
+            0.1192827969789505,
+            -0.057411856949329376,
+            1.194269061088562
+          ]
+        ],
+        "surface_area_source_units_squared": 0.005410216137855328,
+        "geometry_sha256": "0984f85715d623185508044be9e9f14b9ff07955c21cd21421448583c723ff69"
+      }
+    },
+    {
+      "name": "Costal cartilage of eighth rib.r",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.07320865988731384
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -4.263256414560601e-14,
+          -0.09163571894168854
+        ],
+        [
+          0.0,
+          4.263256414560601e-14,
+          0.9999996423721313,
+          1.155562162399292
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 328,
+        "triangles": 652,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.1192827969789505,
+            -0.1088070347905159,
+            1.1286519765853882
+          ],
+          [
+            -0.0350993312895298,
+            -0.057411856949329376,
+            1.194269061088562
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.1192827969789505,
+            -0.1088070347905159,
+            1.1286519765853882
+          ],
+          [
+            -0.0350993312895298,
+            -0.057411856949329376,
+            1.194269061088562
+          ]
+        ],
+        "surface_area_source_units_squared": 0.005410216544617187,
+        "geometry_sha256": "cf61755e320bf51c2ead59510f40ad50b338187e8f7bba12f90112b6c85a4b6d"
+      }
+    },
+    {
+      "name": "Costal cartilage of fifth rib.l",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.0491655096411705
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -4.263256414560601e-14,
+          -0.10129359364509583
+        ],
+        [
+          0.0,
+          4.263256414560601e-14,
+          0.9999996423721313,
+          1.2584271430969238
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 543,
+        "triangles": 1082,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.019015809521079063,
+            -0.10973897576332092,
+            1.240627408027649
+          ],
+          [
+            0.08486345410346985,
+            -0.09315415471792221,
+            1.2800569534301758
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.019015809521079063,
+            -0.10973897576332092,
+            1.240627408027649
+          ],
+          [
+            0.08486345410346985,
+            -0.09315415471792221,
+            1.2800569534301758
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0031391040480806594,
+        "geometry_sha256": "66f206dce3c4d47ac31d1b8fdc56653d01fc768afabc91de84524b885f605095"
+      }
+    },
+    {
+      "name": "Costal cartilage of fifth rib.r",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.0491655096411705
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -4.263256414560601e-14,
+          -0.10129359364509583
+        ],
+        [
+          0.0,
+          4.263256414560601e-14,
+          0.9999996423721313,
+          1.2584271430969238
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 543,
+        "triangles": 1082,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.08486345410346985,
+            -0.10973897576332092,
+            1.240627408027649
+          ],
+          [
+            -0.019015809521079063,
+            -0.09315414726734161,
+            1.2800569534301758
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.08486345410346985,
+            -0.10973897576332092,
+            1.240627408027649
+          ],
+          [
+            -0.019015809521079063,
+            -0.09315414726734161,
+            1.2800569534301758
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0031391042659919635,
+        "geometry_sha256": "eb17756ffc0afa93d32f36af09b30bb4cd370c1b7c9185eca615515930476050"
+      }
+    },
+    {
+      "name": "Costal cartilage of first rib.l",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          -0.9999963045120239,
+          0.0,
+          0.0,
+          0.03631478548049927
+        ],
+        [
+          0.0,
+          1.0000011920928955,
+          -4.263263190824179e-14,
+          -0.038397304713726044
+        ],
+        [
+          0.0,
+          4.263263190824179e-14,
+          1.0000011920928955,
+          1.3889423608779907
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 233,
+        "triangles": 462,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.023472856730222702,
+            -0.05178653821349144,
+            1.3785710334777832
+          ],
+          [
+            0.054415639489889145,
+            -0.02745419554412365,
+            1.3976402282714844
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.023472856730222702,
+            -0.05178653821349144,
+            1.3785710334777832
+          ],
+          [
+            0.054415639489889145,
+            -0.02745419554412365,
+            1.3976402282714844
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0014071688773680225,
+        "geometry_sha256": "258e08bae950b5b5af0f4e4e897061de6cc2b133c7db71c011c6529c8aeff4ba"
+      }
+    },
+    {
+      "name": "Costal cartilage of first rib.r",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          0.9999963045120239,
+          0.0,
+          0.0,
+          -0.03631478548049927
+        ],
+        [
+          0.0,
+          1.0000011920928955,
+          -4.263263190824179e-14,
+          -0.038397304713726044
+        ],
+        [
+          0.0,
+          4.263263190824179e-14,
+          1.0000011920928955,
+          1.3889423608779907
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 233,
+        "triangles": 462,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.054415639489889145,
+            -0.05178653821349144,
+            1.3785710334777832
+          ],
+          [
+            -0.023472856730222702,
+            -0.02745419554412365,
+            1.3976402282714844
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.054415639489889145,
+            -0.05178653821349144,
+            1.3785710334777832
+          ],
+          [
+            -0.023472856730222702,
+            -0.02745419554412365,
+            1.3976402282714844
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0014071688416269542,
+        "geometry_sha256": "469da68fde5400a295b5a97541ed2a70295f1bfa3f21b774ed95fad68ce9098c"
+      }
+    },
+    {
+      "name": "Costal cartilage of fourth rib.l",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.04040708392858505
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -4.263256414560601e-14,
+          -0.09136050194501877
+        ],
+        [
+          0.0,
+          4.263256414560601e-14,
+          0.9999996423721313,
+          1.290143609046936
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 375,
+        "triangles": 746,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.01615491509437561,
+            -0.09740830957889557,
+            1.2769311666488647
+          ],
+          [
+            0.07076528668403625,
+            -0.08444622904062271,
+            1.306010127067566
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.01615491509437561,
+            -0.09740830957889557,
+            1.2769311666488647
+          ],
+          [
+            0.07076528668403625,
+            -0.08444622904062271,
+            1.306010127067566
+          ]
+        ],
+        "surface_area_source_units_squared": 0.002324845621158678,
+        "geometry_sha256": "fa7929b64f914997090c62dee64b8c8871cd468a43620988e96fd3a5e1b75fe7"
+      }
+    },
+    {
+      "name": "Costal cartilage of fourth rib.r",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.04040708392858505
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -4.263256414560601e-14,
+          -0.09136050194501877
+        ],
+        [
+          0.0,
+          4.263256414560601e-14,
+          0.9999996423721313,
+          1.290143609046936
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 375,
+        "triangles": 746,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.07076528668403625,
+            -0.09740830957889557,
+            1.2769311666488647
+          ],
+          [
+            -0.01615491509437561,
+            -0.08444622159004211,
+            1.306010127067566
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.07076528668403625,
+            -0.09740830957889557,
+            1.2769311666488647
+          ],
+          [
+            -0.01615491509437561,
+            -0.08444622159004211,
+            1.306010127067566
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0023248457508900046,
+        "geometry_sha256": "92b9fbd97cf2b8398783f1bb84dc694534fcccf022e1ee2f002cd9015afa73eb"
+      }
+    },
+    {
+      "name": "Costal cartilage of ninth rib.l",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.09755206108093262
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -5.684341886080802e-14,
+          -0.06968316435813904
+        ],
+        [
+          0.0,
+          5.684341886080802e-14,
+          0.9999996423721313,
+          1.1118249893188477
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 246,
+        "triangles": 488,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.06367117911577225,
+            -0.09755043685436249,
+            1.0951472520828247
+          ],
+          [
+            0.12767675518989563,
+            -0.029385149478912354,
+            1.13523530960083
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.06367117911577225,
+            -0.09755043685436249,
+            1.0951472520828247
+          ],
+          [
+            0.12767675518989563,
+            -0.029385149478912354,
+            1.13523530960083
+          ]
+        ],
+        "surface_area_source_units_squared": 0.004621396064660435,
+        "geometry_sha256": "e4c4daf5e94a57a088b3c43bf34fa85d5cc1ba9a8297e0522a1569b56363cb8a"
+      }
+    },
+    {
+      "name": "Costal cartilage of ninth rib.r",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.09755206108093262
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -5.684341886080802e-14,
+          -0.06968316435813904
+        ],
+        [
+          0.0,
+          5.684341886080802e-14,
+          0.9999996423721313,
+          1.1118249893188477
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 246,
+        "triangles": 488,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.12767675518989563,
+            -0.09755043685436249,
+            1.0951472520828247
+          ],
+          [
+            -0.06367117911577225,
+            -0.029385149478912354,
+            1.13523530960083
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.12767675518989563,
+            -0.09755043685436249,
+            1.0951472520828247
+          ],
+          [
+            -0.06367117911577225,
+            -0.029385149478912354,
+            1.13523530960083
+          ]
+        ],
+        "surface_area_source_units_squared": 0.004621396113922982,
+        "geometry_sha256": "5cc07bd3653c289204ee2651cd505e97b609d07e3731d77d07d6118770b0a698"
+      }
+    },
+    {
+      "name": "Costal cartilage of second rib.l",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.050322383642196655
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -4.263256414560601e-14,
+          -0.0853358581662178
+        ],
+        [
+          0.0,
+          4.263256414560601e-14,
+          0.9999996423721313,
+          1.2554469108581543
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 286,
+        "triangles": 568,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.01259787380695343,
+            -0.08181321620941162,
+            1.3430345058441162
+          ],
+          [
+            0.04600467532873154,
+            -0.057350754737854004,
+            1.3598723411560059
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.01259787380695343,
+            -0.08181321620941162,
+            1.3430345058441162
+          ],
+          [
+            0.04600467532873154,
+            -0.057350754737854004,
+            1.3598723411560059
+          ]
+        ],
+        "surface_area_source_units_squared": 0.001535612080367928,
+        "geometry_sha256": "7d577cb6f235a530d7e829bc8b57575eebd561436dd5121f6683fc640b55ace4"
+      }
+    },
+    {
+      "name": "Costal cartilage of second rib.r",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.050322383642196655
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -4.263256414560601e-14,
+          -0.0853358581662178
+        ],
+        [
+          0.0,
+          4.263256414560601e-14,
+          0.9999996423721313,
+          1.2554469108581543
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 286,
+        "triangles": 568,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.04600467532873154,
+            -0.08181322365999222,
+            1.3430345058441162
+          ],
+          [
+            -0.01259787380695343,
+            -0.0573507659137249,
+            1.3598723411560059
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.04600467532873154,
+            -0.08181322365999222,
+            1.3430345058441162
+          ],
+          [
+            -0.01259787380695343,
+            -0.0573507659137249,
+            1.3598723411560059
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0015356120351084671,
+        "geometry_sha256": "34868d6eb26c399ec83923cb77b18159c191cc1353df07b9f8e2d26e24e91d8e"
+      }
+    },
+    {
+      "name": "Costal cartilage of seventh rib.l",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.05267658084630966
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -4.263256414560601e-14,
+          -0.10109815746545792
+        ],
+        [
+          0.0,
+          4.263256414560601e-14,
+          0.9999996423721313,
+          1.2052795886993408
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 1149,
+        "triangles": 2294,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.006203144788742065,
+            -0.11197231709957123,
+            1.1688129901885986
+          ],
+          [
+            0.11441107094287872,
+            -0.07510905712842941,
+            1.2443562746047974
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.006203144788742065,
+            -0.11197231709957123,
+            1.1688129901885986
+          ],
+          [
+            0.11441107094287872,
+            -0.07510905712842941,
+            1.2443562746047974
+          ]
+        ],
+        "surface_area_source_units_squared": 0.00663608937066871,
+        "geometry_sha256": "55321ffae609f9baed225baf7f185b9c13727442b710a07e18b749bc254b5a3b"
+      }
+    },
+    {
+      "name": "Costal cartilage of seventh rib.r",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.05267658084630966
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -4.263256414560601e-14,
+          -0.10109815746545792
+        ],
+        [
+          0.0,
+          4.263256414560601e-14,
+          0.9999996423721313,
+          1.2052795886993408
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 1149,
+        "triangles": 2294,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.11441107094287872,
+            -0.11197231709957123,
+            1.1688129901885986
+          ],
+          [
+            -0.006203144788742065,
+            -0.07510904967784882,
+            1.2443562746047974
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.11441107094287872,
+            -0.11197231709957123,
+            1.1688129901885986
+          ],
+          [
+            -0.006203144788742065,
+            -0.07510904967784882,
+            1.2443562746047974
+          ]
+        ],
+        "surface_area_source_units_squared": 0.006636089240175454,
+        "geometry_sha256": "09585c55bea9c321c94c8ec11acad31b4eb74f6acc43c65dbddd2bf6acabd0d3"
+      }
+    },
+    {
+      "name": "Costal cartilage of sixth rib.l",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.05721132457256317
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -4.263256414560601e-14,
+          -0.1030367985367775
+        ],
+        [
+          0.0,
+          4.263256414560601e-14,
+          0.9999996423721313,
+          1.228140950202942
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 679,
+        "triangles": 1354,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.01365707814693451,
+            -0.11288534849882126,
+            1.205708384513855
+          ],
+          [
+            0.09640997648239136,
+            -0.09002893418073654,
+            1.2614645957946777
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.01365707814693451,
+            -0.11288534849882126,
+            1.205708384513855
+          ],
+          [
+            0.09640997648239136,
+            -0.09002893418073654,
+            1.2614645957946777
+          ]
+        ],
+        "surface_area_source_units_squared": 0.004075326659046894,
+        "geometry_sha256": "eb04f6152de3a650efe7104d8cc206ffc690918ab75771627d9f653131a28ca5"
+      }
+    },
+    {
+      "name": "Costal cartilage of sixth rib.r",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.05721132457256317
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -4.263256414560601e-14,
+          -0.1030367985367775
+        ],
+        [
+          0.0,
+          4.263256414560601e-14,
+          0.9999996423721313,
+          1.228140950202942
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 679,
+        "triangles": 1354,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.09640997648239136,
+            -0.11288534849882126,
+            1.205708384513855
+          ],
+          [
+            -0.01365707814693451,
+            -0.09002893418073654,
+            1.2614645957946777
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.09640997648239136,
+            -0.11288534849882126,
+            1.205708384513855
+          ],
+          [
+            -0.01365707814693451,
+            -0.09002893418073654,
+            1.2614645957946777
+          ]
+        ],
+        "surface_area_source_units_squared": 0.004075326622072108,
+        "geometry_sha256": "b60668e347c5fa0a4182aea5b893c9ed95cc138617c4029e6d387ca707b7377a"
+      }
+    },
+    {
+      "name": "Costal cartilage of tenth rib.l",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.1066998839378357
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -5.684341886080802e-14,
+          -0.04999290406703949
+        ],
+        [
+          0.0,
+          5.684341886080802e-14,
+          0.9999996423721313,
+          1.0794551372528076
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 191,
+        "triangles": 378,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.07837547361850739,
+            -0.0851282924413681,
+            1.0615862607955933
+          ],
+          [
+            0.1285306215286255,
+            -0.015616405755281448,
+            1.099400520324707
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.07837547361850739,
+            -0.0851282924413681,
+            1.0615862607955933
+          ],
+          [
+            0.1285306215286255,
+            -0.015616405755281448,
+            1.099400520324707
+          ]
+        ],
+        "surface_area_source_units_squared": 0.004001043777636895,
+        "geometry_sha256": "1ab2ad86619e9fac500a3005d99a9430162b97d037c25cc849f6c901bcab4fec"
+      }
+    },
+    {
+      "name": "Costal cartilage of tenth rib.r",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.1066998839378357
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -5.684341886080802e-14,
+          -0.04999290406703949
+        ],
+        [
+          0.0,
+          5.684341886080802e-14,
+          0.9999996423721313,
+          1.0794551372528076
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 191,
+        "triangles": 378,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.1285306215286255,
+            -0.0851282998919487,
+            1.0615862607955933
+          ],
+          [
+            -0.07837547361850739,
+            -0.015616405755281448,
+            1.099400520324707
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.1285306215286255,
+            -0.0851282998919487,
+            1.0615862607955933
+          ],
+          [
+            -0.07837547361850739,
+            -0.015616405755281448,
+            1.099400520324707
+          ]
+        ],
+        "surface_area_source_units_squared": 0.004001042570620708,
+        "geometry_sha256": "b2305da690d82ac8cde3000d019258049228f66bc11e61a7be4b07a73532f94b"
+      }
+    },
+    {
+      "name": "Costal cartilage of third rib.l",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.031338028609752655
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -4.263256414560601e-14,
+          -0.08047226071357727
+        ],
+        [
+          0.0,
+          4.263256414560601e-14,
+          0.9999996423721313,
+          1.3204213380813599
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 302,
+        "triangles": 600,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.01531754620373249,
+            -0.09116699546575546,
+            1.3104455471038818
+          ],
+          [
+            0.052785590291023254,
+            -0.06873541325330734,
+            1.3299072980880737
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.01531754620373249,
+            -0.09116699546575546,
+            1.3104455471038818
+          ],
+          [
+            0.052785590291023254,
+            -0.06873541325330734,
+            1.3299072980880737
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0016734018744545773,
+        "geometry_sha256": "6e52601ce5fe4ff4d564e3d635750e93fed9854e6fff155566bd1eb25834b58f"
+      }
+    },
+    {
+      "name": "Costal cartilage of third rib.r",
+      "group": "costal_cartilage",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.031338028609752655
+        ],
+        [
+          0.0,
+          0.9999996423721313,
+          -4.263256414560601e-14,
+          -0.08047226071357727
+        ],
+        [
+          0.0,
+          4.263256414560601e-14,
+          0.9999996423721313,
+          1.3204213380813599
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 302,
+        "triangles": 600,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.052785590291023254,
+            -0.09116698801517487,
+            1.3104455471038818
+          ],
+          [
+            -0.01531754620373249,
+            -0.06873541325330734,
+            1.3299072980880737
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.052785590291023254,
+            -0.09116698801517487,
+            1.3104455471038818
+          ],
+          [
+            -0.01531754620373249,
+            -0.06873541325330734,
+            1.3299072980880737
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0016734018758360247,
+        "geometry_sha256": "2e27540b6f7978741fded45b5618e9a225e2152f14aad0f952581873f2e10a50"
+      }
+    },
+    {
+      "name": "Diaphragm",
+      "group": "diaphragm",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.013290932402014732
+        ],
+        [
+          0.0,
+          0.9999998807907104,
+          -1.4210854715202004e-14,
+          -0.008662796579301357
+        ],
+        [
+          0.0,
+          1.4210854715202004e-14,
+          0.9999998807907104,
+          1.1620349884033203
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 4796,
+        "triangles": 9592,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.12599299848079681,
+            -0.10127320885658264,
+            1.0404101610183716
+          ],
+          [
+            0.12514400482177734,
+            0.0673791766166687,
+            1.2623600959777832
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.12599299848079681,
+            -0.10127320885658264,
+            1.0404101610183716
+          ],
+          [
+            0.12514400482177734,
+            0.0673791766166687,
+            1.2623600959777832
+          ]
+        ],
+        "surface_area_source_units_squared": 0.24879674990166695,
+        "geometry_sha256": "2a541b3a888959aadfbd7c5acae0a9bcdc300ae331a9311914beb1048b431534"
+      }
+    },
+    {
+      "name": "Eighth rib.l",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          -1.0000001192092896,
+          3.725295627532432e-09,
+          9.313236848385031e-10,
+          0.08391059935092926
+        ],
+        [
+          3.725290742551124e-09,
+          0.9999992847442627,
+          -1.8626467035431915e-09,
+          0.03820858523249626
+        ],
+        [
+          2.3283064365386963e-10,
+          -1.862645149230957e-09,
+          1.0,
+          1.223750114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 4137,
+        "triangles": 8270,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.01740984618663788,
+            -0.06704045832157135,
+            1.1352980136871338
+          ],
+          [
+            0.1352900266647339,
+            0.09638124704360962,
+            1.286828875541687
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.01740984618663788,
+            -0.06704045832157135,
+            1.1352980136871338
+          ],
+          [
+            0.1352900266647339,
+            0.09638124704360962,
+            1.286828875541687
+          ]
+        ],
+        "surface_area_source_units_squared": 0.011057202230698608,
+        "geometry_sha256": "6235d2fc0e8c6464fcb9f4c35e715494e321ea3624a42587782ed8228a1f5507"
+      }
+    },
+    {
+      "name": "Eighth rib.r",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          1.0000001192092896,
+          -3.725290298461914e-09,
+          4.656616758857979e-10,
+          -0.08391059935092926
+        ],
+        [
+          3.725290742551124e-09,
+          0.9999992847442627,
+          -1.8626467035431915e-09,
+          0.03820858523249626
+        ],
+        [
+          2.3283067140944524e-10,
+          -1.862645149230957e-09,
+          1.0,
+          1.223750114440918
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 4137,
+        "triangles": 8270,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.1352900266647339,
+            -0.06704045832157135,
+            1.1352980136871338
+          ],
+          [
+            -0.01740984618663788,
+            0.09638124704360962,
+            1.286828875541687
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.1352900266647339,
+            -0.06704045832157135,
+            1.1352980136871338
+          ],
+          [
+            -0.01740984618663788,
+            0.09638124704360962,
+            1.286828875541687
+          ]
+        ],
+        "surface_area_source_units_squared": 0.011057202410910174,
+        "geometry_sha256": "a3d6f0526d58d7dfed5409142b30be588c30181fb23b2daa8aeeeca67e6f3200"
+      }
+    },
+    {
+      "name": "Eleventh rib.l",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          -0.999999463558197,
+          -3.119930624961853e-08,
+          5.980846040642973e-09,
+          0.07191670686006546
+        ],
+        [
+          -1.2107188140930703e-08,
+          0.9999990463256836,
+          -7.450585037815927e-09,
+          0.04407043755054474
+        ],
+        [
+          -4.860341462631368e-09,
+          1.676380350090767e-07,
+          0.9999997019767761,
+          1.1306840181350708
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 2519,
+        "triangles": 5034,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.019885830581188202,
+            -0.0029321725014597178,
+            1.0590535402297974
+          ],
+          [
+            0.11971871554851532,
+            0.07825521379709244,
+            1.1910812854766846
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.019885830581188202,
+            -0.0029321725014597178,
+            1.0590535402297974
+          ],
+          [
+            0.11971871554851532,
+            0.07825521379709244,
+            1.1910812854766846
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0066282981004270065,
+        "geometry_sha256": "007d2148a4460bff877f84b15a7442d14456926964a6d5d6315b3a8135459663"
+      }
+    },
+    {
+      "name": "Eleventh rib.r",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          0.999999463558197,
+          -2.3283060812673284e-08,
+          -4.409232978730415e-09,
+          -0.07191672176122665
+        ],
+        [
+          4.190950253502024e-09,
+          0.9999990463256836,
+          -7.450585037815927e-09,
+          0.04407043755054474
+        ],
+        [
+          1.5250401830257942e-08,
+          1.676380350090767e-07,
+          0.9999997019767761,
+          1.1306840181350708
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 2519,
+        "triangles": 5034,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.11971873044967651,
+            -0.0029321780893951654,
+            1.0590535402297974
+          ],
+          [
+            -0.019885845482349396,
+            0.07825521379709244,
+            1.1910812854766846
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.11971873044967651,
+            -0.0029321780893951654,
+            1.0590535402297974
+          ],
+          [
+            -0.019885845482349396,
+            0.07825521379709244,
+            1.1910812854766846
+          ]
+        ],
+        "surface_area_source_units_squared": 0.006628298289997097,
+        "geometry_sha256": "0cbfe47cb4eab49f55fa6e3ce7ab0e83a26d4b647505f2710ee28bf50683099d"
+      }
+    },
+    {
+      "name": "Fifth rib.l",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          -0.9999998807907104,
+          1.1920937481590954e-07,
+          -2.584428493435098e-08,
+          0.07866037636995316
+        ],
+        [
+          7.450581307466564e-08,
+          0.9999996423721313,
+          -3.4086417599610286e-07,
+          0.02499683015048504
+        ],
+        [
+          -2.6542693376541138e-08,
+          3.334135669774696e-07,
+          0.9999997615814209,
+          1.321190595626831
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 4690,
+        "triangles": 9376,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.015495771542191505,
+            -0.10210645943880081,
+            1.2413113117218018
+          ],
+          [
+            0.1313079595565796,
+            0.08722754567861557,
+            1.3672959804534912
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.015495771542191505,
+            -0.10210645943880081,
+            1.2413113117218018
+          ],
+          [
+            0.1313079595565796,
+            0.08722754567861557,
+            1.3672959804534912
+          ]
+        ],
+        "surface_area_source_units_squared": 0.012548536595290278,
+        "geometry_sha256": "04e3589bfb86d1da7cedd08447a7a2fe3aabb65af02fc32888f80349beb05ba5"
+      }
+    },
+    {
+      "name": "Fifth rib.r",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          0.9999998807907104,
+          -2.980232949312267e-08,
+          2.7241194189286944e-08,
+          -0.07866037636995316
+        ],
+        [
+          7.450580596923828e-08,
+          0.9999996423721313,
+          -3.4086417599610286e-07,
+          0.02499683015048504
+        ],
+        [
+          -2.6542693376541138e-08,
+          3.334135669774696e-07,
+          0.9999997615814209,
+          1.321190595626831
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 4690,
+        "triangles": 9376,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.1313079595565796,
+            -0.10210645943880081,
+            1.2413113117218018
+          ],
+          [
+            -0.01549577061086893,
+            0.08722754567861557,
+            1.3672958612442017
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.1313079595565796,
+            -0.10210645943880081,
+            1.2413113117218018
+          ],
+          [
+            -0.01549577061086893,
+            0.08722754567861557,
+            1.3672958612442017
+          ]
+        ],
+        "surface_area_source_units_squared": 0.012548533555812787,
+        "geometry_sha256": "79a9a3f4cc8d32ac960fb18c352f2c202e0ff8b9df4a61e9097f4b762ea32104"
+      }
+    },
+    {
+      "name": "First rib.l",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          -0.999999463558197,
+          5.960463766996327e-08,
+          -2.747409233450071e-08,
+          0.04373091459274292
+        ],
+        [
+          4.4703462265260896e-08,
+          0.9999988675117493,
+          -3.4458946629456477e-07,
+          0.0053034196607768536
+        ],
+        [
+          -2.7241187083859586e-08,
+          3.4086389177900855e-07,
+          0.9999997615814209,
+          1.421472191810608
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 1607,
+        "triangles": 3210,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.016273505985736847,
+            -0.03712939843535423,
+            1.3871432542800903
+          ],
+          [
+            0.0711754634976387,
+            0.03353792428970337,
+            1.4465407133102417
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.016273505985736847,
+            -0.03712939843535423,
+            1.3871432542800903
+          ],
+          [
+            0.0711754634976387,
+            0.03353792428970337,
+            1.4465407133102417
+          ]
+        ],
+        "surface_area_source_units_squared": 0.004353140485995931,
+        "geometry_sha256": "fa4ac13f4febb13d8fc08d4694783bc644ba78a3edbf4eb11017dcb4c6f5aebe"
+      }
+    },
+    {
+      "name": "First rib.r",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          0.999999463558197,
+          -2.9802306400483758e-08,
+          2.7008363545633074e-08,
+          -0.04373092204332352
+        ],
+        [
+          4.4703465817974575e-08,
+          0.9999988675117493,
+          -3.4458946629456477e-07,
+          0.0053034196607768536
+        ],
+        [
+          -2.724117464936171e-08,
+          3.4086389177900855e-07,
+          0.9999997615814209,
+          1.421472191810608
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 1607,
+        "triangles": 3210,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.0711754709482193,
+            -0.03712939843535423,
+            1.3871432542800903
+          ],
+          [
+            -0.016273513436317444,
+            0.03353792428970337,
+            1.4465407133102417
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.0711754709482193,
+            -0.03712939843535423,
+            1.3871432542800903
+          ],
+          [
+            -0.016273513436317444,
+            0.03353792428970337,
+            1.4465407133102417
+          ]
+        ],
+        "surface_area_source_units_squared": 0.004353140544309195,
+        "geometry_sha256": "ee6d47f26837c0239a567d1aa1ddc051a5260f0dd7cd2a7c463688b7737c5531"
+      }
+    },
+    {
+      "name": "Fourth rib.l",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          -0.999999463558197,
+          -5.329071365233699e-15,
+          -2.7939728752812698e-08,
+          0.07453610002994537
+        ],
+        [
+          1.4901154088420299e-08,
+          0.999998927116394,
+          -3.408642044178123e-07,
+          0.01778447814285755
+        ],
+        [
+          -2.724117820207539e-08,
+          3.4458915365576104e-07,
+          0.9999998807907104,
+          1.3504539728164673
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 4325,
+        "triangles": 8646,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.015797894448041916,
+            -0.09279832988977432,
+            1.277517557144165
+          ],
+          [
+            0.1253829151391983,
+            0.07701116055250168,
+            1.3946081399917603
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.015797894448041916,
+            -0.09279832988977432,
+            1.277517557144165
+          ],
+          [
+            0.1253829151391983,
+            0.07701116055250168,
+            1.3946081399917603
+          ]
+        ],
+        "surface_area_source_units_squared": 0.011228791497607688,
+        "geometry_sha256": "beb641087a641357c474414ef7a585637d68c6f3eb76ce96b9f38d3f5192b6ee"
+      }
+    },
+    {
+      "name": "Fourth rib.r",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          0.999999463558197,
+          -2.9802308176840597e-08,
+          2.6542705811039013e-08,
+          -0.07453610002994537
+        ],
+        [
+          1.4901154976598718e-08,
+          0.999998927116394,
+          -3.408642328395217e-07,
+          0.017784476280212402
+        ],
+        [
+          -2.724117464936171e-08,
+          3.4458918207747047e-07,
+          0.9999998807907104,
+          1.3504539728164673
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 4325,
+        "triangles": 8646,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.1253829151391983,
+            -0.09279833734035492,
+            1.277517557144165
+          ],
+          [
+            -0.015797894448041916,
+            0.07701116055250168,
+            1.3946081399917603
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.1253829151391983,
+            -0.09279833734035492,
+            1.277517557144165
+          ],
+          [
+            -0.015797894448041916,
+            0.07701116055250168,
+            1.3946081399917603
+          ]
+        ],
+        "surface_area_source_units_squared": 0.011228791854708198,
+        "geometry_sha256": "6a131fa915cf9b1fccb9ba82d049d3efefeda3c6914b686e88772c82268121ed"
+      }
+    },
+    {
+      "name": "Inferior lobe of left lung",
+      "group": "lung",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.4901161193847656e-08
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          -1.0,
+          -1.4205880916051683e-09
+        ],
+        [
+          0.0,
+          1.0,
+          -1.6292068494294654e-07,
+          -1.1920928955078125e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 1142,
+        "triangles": 2275,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.01708998531103134,
+            -0.10166934132575989,
+            1.1660847663879395
+          ],
+          [
+            0.1301649808883667,
+            0.08309674263000488,
+            1.3634698390960693
+          ]
+        ],
+        "boundary_edges_exact_weld": 7,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.01708998531103134,
+            -0.10166934132575989,
+            1.1660847663879395
+          ],
+          [
+            0.1301649808883667,
+            0.08309674263000488,
+            1.3634698390960693
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0801006784910232,
+        "geometry_sha256": "79fd9feeb18ab7332cf3f075c8a02f97bd4535c565a98012f55044d228c221ee"
+      }
+    },
+    {
+      "name": "Inferior lobe of right lung",
+      "group": "lung",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.9802322387695312e-08
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          -1.0,
+          -8.289617881018785e-10
+        ],
+        [
+          0.0,
+          1.0,
+          -1.6292068494294654e-07,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 1040,
+        "triangles": 2074,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.13165897130966187,
+            -0.09476161748170853,
+            1.16960871219635
+          ],
+          [
+            -0.0015243601519614458,
+            0.08386295288801193,
+            1.3532600402832031
+          ]
+        ],
+        "boundary_edges_exact_weld": 8,
+        "nonmanifold_edges_exact_weld": 5,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.13165897130966187,
+            -0.09476161748170853,
+            1.16960871219635
+          ],
+          [
+            -0.0015243601519614458,
+            0.08386295288801193,
+            1.3532600402832031
+          ]
+        ],
+        "surface_area_source_units_squared": 0.07615551604715909,
+        "geometry_sha256": "853ccdf3ef74565bfd52c72d95cc93d368cb10988ba126481f7b21ee9f2c7f37"
+      }
+    },
+    {
+      "name": "Left atrium",
+      "group": "heart_chamber",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.862645149230957e-09
+        ],
+        [
+          0.0,
+          -1.6292067073209182e-07,
+          -0.9999999403953552,
+          -6.63820287627459e-09
+        ],
+        [
+          0.0,
+          0.9999999403953552,
+          -1.6292067073209182e-07,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 2609,
+        "triangles": 5105,
+        "unreferenced_vertices": 2,
+        "surface_bounds": [
+          [
+            -0.023833898827433586,
+            -0.05466637387871742,
+            1.2629199028015137
+          ],
+          [
+            0.06556069850921631,
+            0.03165822476148605,
+            1.338149905204773
+          ]
+        ],
+        "boundary_edges_exact_weld": 121,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.023833898827433586,
+            -0.05466637387871742,
+            1.2629199028015137
+          ],
+          [
+            0.06556069850921631,
+            0.03165822476148605,
+            1.338149905204773
+          ]
+        ],
+        "surface_area_source_units_squared": 0.021847117402370803,
+        "geometry_sha256": "d819b2a88136a9ee9a3fe6ec60b26feda83c020c2684fa50cc8dbb34b4b1d933"
+      }
+    },
+    {
+      "name": "Left ventricle",
+      "group": "heart_chamber",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.862645149230957e-09
+        ],
+        [
+          0.0,
+          -1.6292067073209182e-07,
+          -0.9999999403953552,
+          -6.63820287627459e-09
+        ],
+        [
+          0.0,
+          0.9999999403953552,
+          -1.6292067073209182e-07,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 2856,
+        "triangles": 5532,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.0023722518235445023,
+            -0.07194935530424118,
+            1.2366398572921753
+          ],
+          [
+            0.08236219733953476,
+            0.015657033771276474,
+            1.326789379119873
+          ]
+        ],
+        "boundary_edges_exact_weld": 180,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.0023722518235445023,
+            -0.07194935530424118,
+            1.2366398572921753
+          ],
+          [
+            0.08236219733953476,
+            0.015657033771276474,
+            1.326789379119873
+          ]
+        ],
+        "surface_area_source_units_squared": 0.02432720524676368,
+        "geometry_sha256": "f130a2a91e882e4a894eb5cbde7aed4845deef16b32a59e3f77b09501bd83230"
+      }
+    },
+    {
+      "name": "Manubrium of sternum",
+      "group": "sternum",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          10.000003814697266,
+          0.0,
+          0.0,
+          -1.649724435992539e-05
+        ],
+        [
+          0.0,
+          9.999992370605469,
+          -5.684346764990578e-13,
+          -0.055000271648168564
+        ],
+        [
+          0.0,
+          5.684341343979715e-13,
+          10.000001907348633,
+          1.377386212348938
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 1336,
+        "triangles": 2662,
+        "unreferenced_vertices": 3,
+        "surface_bounds": [
+          [
+            -0.028658593073487282,
+            -0.08383230119943619,
+            1.3499360084533691
+          ],
+          [
+            0.028399184346199036,
+            -0.03160178288817406,
+            1.4039206504821777
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.028658593073487282,
+            -0.08383230119943619,
+            1.3499360084533691
+          ],
+          [
+            0.028399184346199036,
+            -0.03160178288817406,
+            1.4039206504821777
+          ]
+        ],
+        "surface_area_source_units_squared": 0.007969184327528984,
+        "geometry_sha256": "61fcad0974fff53aa51a0468abc63c9bca2b16d4e321bcfabbde3cb412f0cfe4"
+      }
+    },
+    {
+      "name": "Middle lobe of right lung",
+      "group": "lung",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.9802322387695312e-08
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          -1.0,
+          -8.289617881018785e-10
+        ],
+        [
+          0.0,
+          1.0,
+          -1.6292068494294654e-07,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 914,
+        "triangles": 1818,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.12449897080659866,
+            -0.10271035134792328,
+            1.2130399942398071
+          ],
+          [
+            -0.0052590700797736645,
+            0.04808621481060982,
+            1.3195668458938599
+          ]
+        ],
+        "boundary_edges_exact_weld": 10,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.12449897080659866,
+            -0.10271035134792328,
+            1.2130399942398071
+          ],
+          [
+            -0.0052590700797736645,
+            0.04808621481060982,
+            1.3195668458938599
+          ]
+        ],
+        "surface_area_source_units_squared": 0.04348213944419854,
+        "geometry_sha256": "3c4d66b9795efcff67a9085f891859518ec6eb413fd7351b0a2aaaaa2ba1072a"
+      }
+    },
+    {
+      "name": "Ninth rib.l",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          -1.000000238418579,
+          -1.8626460374093767e-08,
+          6.984925970954237e-10,
+          0.0795888677239418
+        ],
+        [
+          -3.725291186640334e-09,
+          0.9999992847442627,
+          -5.58793944449576e-09,
+          0.0494687482714653
+        ],
+        [
+          1.1641534958251043e-10,
+          -3.725290742551124e-09,
+          0.9999998211860657,
+          1.1977888345718384
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 3891,
+        "triangles": 7778,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.018174856901168823,
+            -0.03908303380012512,
+            1.1038496494293213
+          ],
+          [
+            0.1333899199962616,
+            0.09331294149160385,
+            1.2589752674102783
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.018174856901168823,
+            -0.03908303380012512,
+            1.1038496494293213
+          ],
+          [
+            0.1333899199962616,
+            0.09331294149160385,
+            1.2589752674102783
+          ]
+        ],
+        "surface_area_source_units_squared": 0.010306662066483242,
+        "geometry_sha256": "7d027f0276536f96efaf23d1bbb35fdc35114067df5c26f2136e9300626cb3cb"
+      }
+    },
+    {
+      "name": "Ninth rib.r",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          1.000000238418579,
+          -1.1175872671742582e-08,
+          4.656616203746466e-10,
+          -0.0795888677239418
+        ],
+        [
+          -3.725291186640334e-09,
+          0.9999992847442627,
+          -5.58793944449576e-09,
+          0.0494687482714653
+        ],
+        [
+          1.1641534958251043e-10,
+          -3.725290742551124e-09,
+          0.9999998211860657,
+          1.1977888345718384
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 3891,
+        "triangles": 7778,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.1333899199962616,
+            -0.039083026349544525,
+            1.1038496494293213
+          ],
+          [
+            -0.018174856901168823,
+            0.09331294149160385,
+            1.2589752674102783
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.1333899199962616,
+            -0.039083026349544525,
+            1.1038496494293213
+          ],
+          [
+            -0.018174856901168823,
+            0.09331294149160385,
+            1.2589752674102783
+          ]
+        ],
+        "surface_area_source_units_squared": 0.010306662296644575,
+        "geometry_sha256": "a84323de60df7fa19914351c5566ffc31611504cb6d9df1dbdaa4c694fd5ce21"
+      }
+    },
+    {
+      "name": "Second rib.r",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          0.9999997615814209,
+          -1.4901161193847656e-08,
+          2.6542709363752692e-08,
+          -0.056707385927438736
+        ],
+        [
+          5.960464477539063e-08,
+          0.9999992847442627,
+          -3.390016161120002e-07,
+          0.006084678694605827
+        ],
+        [
+          -2.7241185307502747e-08,
+          3.3527612686157227e-07,
+          0.9999998807907104,
+          1.401396632194519
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 2684,
+        "triangles": 5364,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.0994008481502533,
+            -0.06669198721647263,
+            1.3450919389724731
+          ],
+          [
+            -0.017274372279644012,
+            0.045289330184459686,
+            1.4363986253738403
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.0994008481502533,
+            -0.06669198721647263,
+            1.3450919389724731
+          ],
+          [
+            -0.017274372279644012,
+            0.045289330184459686,
+            1.4363986253738403
+          ]
+        ],
+        "surface_area_source_units_squared": 0.007373573900754376,
+        "geometry_sha256": "df2b84a335638589e2f6f7253266c56e240a37f94b67a0aa3d1f1cf2575a519a"
+      }
+    },
+    {
+      "name": "Right atrium",
+      "group": "heart_chamber",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.862645149230957e-09
+        ],
+        [
+          0.0,
+          -1.6292067073209182e-07,
+          -0.9999999403953552,
+          -6.63820287627459e-09
+        ],
+        [
+          0.0,
+          0.9999999403953552,
+          -1.6292067073209182e-07,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 2878,
+        "triangles": 5641,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.0368758961558342,
+            -0.06666576862335205,
+            1.245789885520935
+          ],
+          [
+            0.00811536144465208,
+            0.007817897014319897,
+            1.345499873161316
+          ]
+        ],
+        "boundary_edges_exact_weld": 119,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.0368758961558342,
+            -0.06666576862335205,
+            1.245789885520935
+          ],
+          [
+            0.00811536144465208,
+            0.007817897014319897,
+            1.345499873161316
+          ]
+        ],
+        "surface_area_source_units_squared": 0.024107816417844492,
+        "geometry_sha256": "9d929608d0568a57bcbef53e94fc3f2364d8f69bc1c834b3de7817b068bbf1ef"
+      }
+    },
+    {
+      "name": "Right ventricle",
+      "group": "heart_chamber",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          1.862645149230957e-09
+        ],
+        [
+          0.0,
+          -1.6292067073209182e-07,
+          -0.9999999403953552,
+          -6.63820287627459e-09
+        ],
+        [
+          0.0,
+          0.9999999403953552,
+          -1.6292067073209182e-07,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 2850,
+        "triangles": 5533,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.0217283982783556,
+            -0.08126596361398697,
+            1.238879919052124
+          ],
+          [
+            0.06130310148000717,
+            -0.014148298650979996,
+            1.33164381980896
+          ]
+        ],
+        "boundary_edges_exact_weld": 167,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.0217283982783556,
+            -0.08126596361398697,
+            1.238879919052124
+          ],
+          [
+            0.06130310148000717,
+            -0.014148298650979996,
+            1.33164381980896
+          ]
+        ],
+        "surface_area_source_units_squared": 0.024283235321488635,
+        "geometry_sha256": "2649ca5df7a46633a47a33f19b66b8d534585135d38bef9888e111d377f0bd39"
+      }
+    },
+    {
+      "name": "Second rib.l",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          -0.9999997615814209,
+          1.0430817098949774e-07,
+          -2.793975717452213e-08,
+          0.056707385927438736
+        ],
+        [
+          5.960465188081798e-08,
+          0.9999992847442627,
+          -3.3900158769029076e-07,
+          0.00608467822894454
+        ],
+        [
+          -2.7241183531145907e-08,
+          3.3527609843986284e-07,
+          0.9999998807907104,
+          1.401396632194519
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 2684,
+        "triangles": 5364,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.01727437414228916,
+            -0.06669197976589203,
+            1.3450919389724731
+          ],
+          [
+            0.0994008481502533,
+            0.045289330184459686,
+            1.4363986253738403
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.01727437414228916,
+            -0.06669197976589203,
+            1.3450919389724731
+          ],
+          [
+            0.0994008481502533,
+            0.045289330184459686,
+            1.4363986253738403
+          ]
+        ],
+        "surface_area_source_units_squared": 0.007373573683228203,
+        "geometry_sha256": "ca579c5decfb23ca349e12589759623ae47aaaa9973ea30033e420d333ca7259"
+      }
+    },
+    {
+      "name": "Seventh rib.l",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          -0.9999998807907104,
+          8.940695295223122e-08,
+          -2.8871056656498695e-08,
+          0.08636890351772308
+        ],
+        [
+          4.4703465817974575e-08,
+          0.9999991655349731,
+          -3.408640338875557e-07,
+          0.03294989839196205
+        ],
+        [
+          -2.7474017727513456e-08,
+          3.3900130347319646e-07,
+          0.9999994039535522,
+          1.2568691968917847
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 4890,
+        "triangles": 9776,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.016455024480819702,
+            -0.08515874296426773,
+            1.1714482307434082
+          ],
+          [
+            0.14164014160633087,
+            0.09646569937467575,
+            1.3157997131347656
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.016455024480819702,
+            -0.08515874296426773,
+            1.1714482307434082
+          ],
+          [
+            0.14164014160633087,
+            0.09646569937467575,
+            1.3157997131347656
+          ]
+        ],
+        "surface_area_source_units_squared": 0.013176869771179427,
+        "geometry_sha256": "38898799ab67d5f1d760d9653871ba3f6142d5891b41e37e08b519925963893d"
+      }
+    },
+    {
+      "name": "Seventh rib.r",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          0.9999998807907104,
+          0.0,
+          2.60770320892334e-08,
+          -0.08636890351772308
+        ],
+        [
+          4.470348358154297e-08,
+          0.9999991655349731,
+          -3.4086406230926514e-07,
+          0.03294989839196205
+        ],
+        [
+          -2.7474015951156616e-08,
+          3.390013318949059e-07,
+          0.9999994039535522,
+          1.2568691968917847
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 4890,
+        "triangles": 9776,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.14164014160633087,
+            -0.08515874296426773,
+            1.1714482307434082
+          ],
+          [
+            -0.016455024480819702,
+            0.09646570682525635,
+            1.3157997131347656
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.14164014160633087,
+            -0.08515874296426773,
+            1.1714482307434082
+          ],
+          [
+            -0.016455024480819702,
+            0.09646570682525635,
+            1.3157997131347656
+          ]
+        ],
+        "surface_area_source_units_squared": 0.013176870248363205,
+        "geometry_sha256": "b86797f88e86a05cf1f5c513f1dfc4182e74d360753ebe1e2e3c9791f7773001"
+      }
+    },
+    {
+      "name": "Sixth rib.l",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          -9.999998092651367,
+          -1.4901166878189542e-07,
+          -2.607709745916509e-07,
+          0.08676940947771072
+        ],
+        [
+          1.4901161193847656e-07,
+          9.999993324279785,
+          -3.3900166727107717e-06,
+          0.025506077334284782
+        ],
+        [
+          -2.654269621871208e-07,
+          3.3527610412420472e-06,
+          10.0,
+          1.2867975234985352
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 5078,
+        "triangles": 10132,
+        "unreferenced_vertices": 10,
+        "surface_bounds": [
+          [
+            0.015731526538729668,
+            -0.0988650918006897,
+            1.2058148384094238
+          ],
+          [
+            0.13881564140319824,
+            0.09734213352203369,
+            1.3444126844406128
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.015731526538729668,
+            -0.0988650918006897,
+            1.2058148384094238
+          ],
+          [
+            0.13881564140319824,
+            0.09734213352203369,
+            1.3444126844406128
+          ]
+        ],
+        "surface_area_source_units_squared": 0.013290636039645781,
+        "geometry_sha256": "f9926da6c365370385535cc4c6e5d77a6b8401db42acc9832ecd9cd664f38940"
+      }
+    },
+    {
+      "name": "Sixth rib.r",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          9.999998092651367,
+          -4.4703477897201083e-07,
+          2.700837455904548e-07,
+          -0.08676940947771072
+        ],
+        [
+          1.4901162614933128e-07,
+          9.999993324279785,
+          -3.3900166727107717e-06,
+          0.025506075471639633
+        ],
+        [
+          -2.654269621871208e-07,
+          3.3527610412420472e-06,
+          10.0,
+          1.2867975234985352
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 5078,
+        "triangles": 10132,
+        "unreferenced_vertices": 10,
+        "surface_bounds": [
+          [
+            -0.13881562650203705,
+            -0.0988650918006897,
+            1.2058148384094238
+          ],
+          [
+            -0.015731528401374817,
+            0.09734213352203369,
+            1.3444126844406128
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.13881562650203705,
+            -0.0988650918006897,
+            1.2058148384094238
+          ],
+          [
+            -0.015731528401374817,
+            0.09734213352203369,
+            1.3444126844406128
+          ]
+        ],
+        "surface_area_source_units_squared": 0.013290635968447552,
+        "geometry_sha256": "a71f91ece288478cd5e422bea15fceaa63a006d16eea37dc1791a13a33375c3e"
+      }
+    },
+    {
+      "name": "Superior lobe of left lung",
+      "group": "lung",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          -1.4901161193847656e-08
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          -1.0,
+          -1.4205880916051683e-09
+        ],
+        [
+          0.0,
+          1.0,
+          -1.6292068494294654e-07,
+          -1.1920928955078125e-07
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 1141,
+        "triangles": 2265,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.007127814926207066,
+            -0.10226234793663025,
+            1.2188299894332886
+          ],
+          [
+            0.12371944636106491,
+            0.07120601832866669,
+            1.4320999383926392
+          ]
+        ],
+        "boundary_edges_exact_weld": 17,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.007127814926207066,
+            -0.10226234793663025,
+            1.2188299894332886
+          ],
+          [
+            0.12371944636106491,
+            0.07120601832866669,
+            1.4320999383926392
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0694921644032592,
+        "geometry_sha256": "ddf8f7696367c63e87c5368b4b1e672b813e9fe14ba52619ebde03a19f2fd415"
+      }
+    },
+    {
+      "name": "Superior lobe of right lung",
+      "group": "lung",
+      "source_modifiers": [
+        {
+          "type": "SUBSURF",
+          "levels": 1
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          2.9802322387695312e-08
+        ],
+        [
+          0.0,
+          -1.6292068494294654e-07,
+          -1.0,
+          -8.289617881018785e-10
+        ],
+        [
+          0.0,
+          1.0,
+          -1.6292068494294654e-07,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 968,
+        "triangles": 1910,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.11916796863079071,
+            -0.08585096150636673,
+            1.2913399934768677
+          ],
+          [
+            -0.006744940299540758,
+            0.07285311818122864,
+            1.430780053138733
+          ]
+        ],
+        "boundary_edges_exact_weld": 30,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.11916796863079071,
+            -0.08585096150636673,
+            1.2913399934768677
+          ],
+          [
+            -0.006744940299540758,
+            0.07285311818122864,
+            1.430780053138733
+          ]
+        ],
+        "surface_area_source_units_squared": 0.05375131009702862,
+        "geometry_sha256": "420018f22fb3ff6342536d27eeffc0eee92fcc44be10d3337056541dd4810172"
+      }
+    },
+    {
+      "name": "Tenth rib.l",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          -0.9999992251396179,
+          -2.23517560016262e-08,
+          4.656618979304028e-10,
+          0.07664182782173157
+        ],
+        [
+          -7.4505748237641e-09,
+          0.999999463558197,
+          -3.725293851175593e-09,
+          0.04563765600323677
+        ],
+        [
+          1.1641527325467749e-10,
+          -7.450581485102248e-09,
+          1.0000001192092896,
+          1.1639047861099243
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 3515,
+        "triangles": 7026,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.018531862646341324,
+            -0.02418261393904686,
+            1.0724345445632935
+          ],
+          [
+            0.13145633041858673,
+            0.085206538438797,
+            1.229274868965149
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.018531862646341324,
+            -0.02418261393904686,
+            1.0724345445632935
+          ],
+          [
+            0.13145633041858673,
+            0.085206538438797,
+            1.229274868965149
+          ]
+        ],
+        "surface_area_source_units_squared": 0.009021761202802648,
+        "geometry_sha256": "8376353d986116aaf6deaebfeb82a76f7bf475539fd8a7a26e5d8b8b563df2b4"
+      }
+    },
+    {
+      "name": "Tenth rib.r",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          0.9999992251396179,
+          -7.450581485102248e-09,
+          2.3283086569847455e-10,
+          -0.07664184272289276
+        ],
+        [
+          -7.45057393558568e-09,
+          0.999999463558197,
+          -3.725293851175593e-09,
+          0.04563765600323677
+        ],
+        [
+          1.1641521774352626e-10,
+          -7.450581485102248e-09,
+          1.0000001192092896,
+          1.1639047861099243
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 3515,
+        "triangles": 7026,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.13145634531974792,
+            -0.024182621389627457,
+            1.0724345445632935
+          ],
+          [
+            -0.018531877547502518,
+            0.0852065458893776,
+            1.229274868965149
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.13145634531974792,
+            -0.024182621389627457,
+            1.0724345445632935
+          ],
+          [
+            -0.018531877547502518,
+            0.0852065458893776,
+            1.229274868965149
+          ]
+        ],
+        "surface_area_source_units_squared": 0.009021761194115125,
+        "geometry_sha256": "00015eee9e2cee16b3b0c0284710634fdbfc573e85f17be68c39e1cc0658d3c1"
+      }
+    },
+    {
+      "name": "Third rib.l",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          -0.9999991059303284,
+          1.0430801467009587e-07,
+          -2.8871085078208125e-08,
+          0.06240692734718323
+        ],
+        [
+          5.960457372111705e-08,
+          0.9999982714653015,
+          -3.3713888569764094e-07,
+          0.015050052665174007
+        ],
+        [
+          -2.7473996411231383e-08,
+          3.408636359836237e-07,
+          0.9999998807907104,
+          1.3785711526870728
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 3492,
+        "triangles": 6980,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.017041468992829323,
+            -0.07643289864063263,
+            1.3107261657714844
+          ],
+          [
+            0.11254553496837616,
+            0.06279156357049942,
+            1.4165053367614746
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.017041468992829323,
+            -0.07643289864063263,
+            1.3107261657714844
+          ],
+          [
+            0.11254553496837616,
+            0.06279156357049942,
+            1.4165053367614746
+          ]
+        ],
+        "surface_area_source_units_squared": 0.009148160807084384,
+        "geometry_sha256": "c7a220eff764846486d5362c6761b974ba3f98ff68e034931786836d8e74e43d"
+      }
+    },
+    {
+      "name": "Third rib.r",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          0.9999991059303284,
+          -1.4901140765744003e-08,
+          2.6077039194660756e-08,
+          -0.062406934797763824
+        ],
+        [
+          5.9604584379258085e-08,
+          0.9999982714653015,
+          -3.371388572759315e-07,
+          0.015050052665174007
+        ],
+        [
+          -2.7473987529447186e-08,
+          3.4086360756191425e-07,
+          0.9999998807907104,
+          1.3785711526870728
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.9999999403953552
+        ]
+      ],
+      "base": {
+        "vertices": 3492,
+        "triangles": 6980,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.11254554241895676,
+            -0.07643289864063263,
+            1.3107261657714844
+          ],
+          [
+            -0.01704147458076477,
+            0.06279156357049942,
+            1.4165053367614746
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.11254554241895676,
+            -0.07643289864063263,
+            1.3107261657714844
+          ],
+          [
+            -0.01704147458076477,
+            0.06279156357049942,
+            1.4165053367614746
+          ]
+        ],
+        "surface_area_source_units_squared": 0.009148160761323767,
+        "geometry_sha256": "8856ca8bfebfc96bcd1f51defaf18ac145f2ff520e9dc2430df94ad6181b1dca"
+      }
+    },
+    {
+      "name": "Trachea",
+      "group": "trachea",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          0.9999999403953552,
+          0.0,
+          0.0,
+          -0.00024861074052751064
+        ],
+        [
+          0.0,
+          1.0,
+          -1.4210854715202004e-14,
+          -0.002633399795740843
+        ],
+        [
+          0.0,
+          1.4210854715202004e-14,
+          1.0,
+          1.4213535785675049
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 2400,
+        "triangles": 4756,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.01382692065089941,
+            -0.01765947975218296,
+            1.3551961183547974
+          ],
+          [
+            0.013329698704183102,
+            0.021299146115779877,
+            1.4605664014816284
+          ]
+        ],
+        "boundary_edges_exact_weld": 42,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.01382692065089941,
+            -0.01765947975218296,
+            1.3551961183547974
+          ],
+          [
+            0.013329698704183102,
+            0.021299146115779877,
+            1.4605664014816284
+          ]
+        ],
+        "surface_area_source_units_squared": 0.00704143915152561,
+        "geometry_sha256": "2a52f653c2b98e41950d3060ec2c562d5e01e72ceb399c096182155552bf6bc2"
+      }
+    },
+    {
+      "name": "Twelfth rib.l",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          -0.9999998211860657,
+          -3.119930624961853e-08,
+          5.980845596553763e-09,
+          0.04998653009533882
+        ],
+        [
+          -1.2107192581822801e-08,
+          0.9999991655349731,
+          -7.450584149637507e-09,
+          0.04611882567405701
+        ],
+        [
+          -4.860343238988207e-09,
+          1.6763804921993142e-07,
+          0.9999995827674866,
+          1.1127233505249023
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 1503,
+        "triangles": 3002,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.019427787512540817,
+            0.023724136874079704,
+            1.056445837020874
+          ],
+          [
+            0.08543668687343597,
+            0.0681144967675209,
+            1.1543327569961548
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.019427787512540817,
+            0.023724136874079704,
+            1.056445837020874
+          ],
+          [
+            0.08543668687343597,
+            0.0681144967675209,
+            1.1543327569961548
+          ]
+        ],
+        "surface_area_source_units_squared": 0.004018126584545004,
+        "geometry_sha256": "7b7ae3e8d981f74c480559a79b545e1b40135ae67b7f0d62dedf0e332b4ae424"
+      }
+    },
+    {
+      "name": "Twelfth rib.r",
+      "group": "rib",
+      "source_modifiers": [],
+      "source_matrix_world": [
+        [
+          0.9999998211860657,
+          -2.3283062589030123e-08,
+          -4.409232534641205e-09,
+          -0.049986544996500015
+        ],
+        [
+          4.190951585769653e-09,
+          0.9999991655349731,
+          -7.450584149637507e-09,
+          0.04611882567405701
+        ],
+        [
+          1.525040715932846e-08,
+          1.6763804921993142e-07,
+          0.9999995827674866,
+          1.1127233505249023
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 1503,
+        "triangles": 3002,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.08543669432401657,
+            0.023724140599370003,
+            1.056445837020874
+          ],
+          [
+            -0.01942780241370201,
+            0.0681144967675209,
+            1.1543327569961548
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.08543669432401657,
+            0.023724140599370003,
+            1.056445837020874
+          ],
+          [
+            -0.01942780241370201,
+            0.0681144967675209,
+            1.1543327569961548
+          ]
+        ],
+        "surface_area_source_units_squared": 0.00401812630429453,
+        "geometry_sha256": "ed8b620997d317681d13c1b30e436b8205bebc3039443d614736d70219decb5a"
+      }
+    },
+    {
+      "name": "Xiphoid process",
+      "group": "sternum",
+      "source_modifiers": [
+        {
+          "type": "MIRROR",
+          "levels": null
+        }
+      ],
+      "source_matrix_world": [
+        [
+          1.0000001192092896,
+          0.0,
+          0.0,
+          -1.21259613461433e-09
+        ],
+        [
+          0.0,
+          0.9999991059303284,
+          -5.684345951838948e-14,
+          -0.10393266379833221
+        ],
+        [
+          0.0,
+          5.684340530828086e-14,
+          1.0,
+          1.235361933708191
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "base": {
+        "vertices": 459,
+        "triangles": 914,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.01085023395717144,
+            -0.11124718934297562,
+            1.2209054231643677
+          ],
+          [
+            0.010879780165851116,
+            -0.09588754177093506,
+            1.2435901165008545
+          ]
+        ],
+        "boundary_edges_exact_weld": 0,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.01085023395717144,
+            -0.11124718934297562,
+            1.2209054231643677
+          ],
+          [
+            0.010879780165851116,
+            -0.09588754177093506,
+            1.2435901165008545
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0012013373416718395,
+        "geometry_sha256": "f1cd5740ba5d901c6535b55b1418220f9f02a5e0f51483142e57dadea78130e6"
+      }
+    }
+  ],
+  "variants": {
+    "flat": [
+      {
+        "name": "Inferior lobe of left lung",
+        "vertices": 1142,
+        "triangles": 2275,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.01708998531103134,
+            -0.10166934132575989,
+            1.1660847663879395
+          ],
+          [
+            0.1301649808883667,
+            0.08309674263000488,
+            1.3634698390960693
+          ]
+        ],
+        "boundary_edges_exact_weld": 7,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.01708998531103134,
+            -0.10166934132575989,
+            1.1660847663879395
+          ],
+          [
+            0.1301649808883667,
+            0.08309674263000488,
+            1.3634698390960693
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0801006784910232,
+        "geometry_sha256": "79fd9feeb18ab7332cf3f075c8a02f97bd4535c565a98012f55044d228c221ee",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0,
+          "p95_source_units": 0.0,
+          "max_percent_base_diagonal": 0.0
+        }
+      },
+      {
+        "name": "Inferior lobe of right lung",
+        "vertices": 1040,
+        "triangles": 2074,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.13165897130966187,
+            -0.09476161748170853,
+            1.16960871219635
+          ],
+          [
+            -0.0015243601519614458,
+            0.08386295288801193,
+            1.3532600402832031
+          ]
+        ],
+        "boundary_edges_exact_weld": 8,
+        "nonmanifold_edges_exact_weld": 5,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.13165897130966187,
+            -0.09476161748170853,
+            1.16960871219635
+          ],
+          [
+            -0.0015243601519614458,
+            0.08386295288801193,
+            1.3532600402832031
+          ]
+        ],
+        "surface_area_source_units_squared": 0.07615551604715909,
+        "geometry_sha256": "853ccdf3ef74565bfd52c72d95cc93d368cb10988ba126481f7b21ee9f2c7f37",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0,
+          "p95_source_units": 0.0,
+          "max_percent_base_diagonal": 0.0
+        }
+      },
+      {
+        "name": "Middle lobe of right lung",
+        "vertices": 914,
+        "triangles": 1818,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.12449897080659866,
+            -0.10271035134792328,
+            1.2130399942398071
+          ],
+          [
+            -0.0052590700797736645,
+            0.04808621481060982,
+            1.3195668458938599
+          ]
+        ],
+        "boundary_edges_exact_weld": 10,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.12449897080659866,
+            -0.10271035134792328,
+            1.2130399942398071
+          ],
+          [
+            -0.0052590700797736645,
+            0.04808621481060982,
+            1.3195668458938599
+          ]
+        ],
+        "surface_area_source_units_squared": 0.04348213944419854,
+        "geometry_sha256": "3c4d66b9795efcff67a9085f891859518ec6eb413fd7351b0a2aaaaa2ba1072a",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0,
+          "p95_source_units": 0.0,
+          "max_percent_base_diagonal": 0.0
+        }
+      },
+      {
+        "name": "Superior lobe of left lung",
+        "vertices": 1141,
+        "triangles": 2265,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.007127814926207066,
+            -0.10226234793663025,
+            1.2188299894332886
+          ],
+          [
+            0.12371944636106491,
+            0.07120601832866669,
+            1.4320999383926392
+          ]
+        ],
+        "boundary_edges_exact_weld": 17,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.007127814926207066,
+            -0.10226234793663025,
+            1.2188299894332886
+          ],
+          [
+            0.12371944636106491,
+            0.07120601832866669,
+            1.4320999383926392
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0694921644032592,
+        "geometry_sha256": "ddf8f7696367c63e87c5368b4b1e672b813e9fe14ba52619ebde03a19f2fd415",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0,
+          "p95_source_units": 0.0,
+          "max_percent_base_diagonal": 0.0
+        }
+      },
+      {
+        "name": "Superior lobe of right lung",
+        "vertices": 968,
+        "triangles": 1910,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.11916796863079071,
+            -0.08585096150636673,
+            1.2913399934768677
+          ],
+          [
+            -0.006744940299540758,
+            0.07285311818122864,
+            1.430780053138733
+          ]
+        ],
+        "boundary_edges_exact_weld": 30,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.11916796863079071,
+            -0.08585096150636673,
+            1.2913399934768677
+          ],
+          [
+            -0.006744940299540758,
+            0.07285311818122864,
+            1.430780053138733
+          ]
+        ],
+        "surface_area_source_units_squared": 0.05375131009702862,
+        "geometry_sha256": "420018f22fb3ff6342536d27eeffc0eee92fcc44be10d3337056541dd4810172",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0,
+          "p95_source_units": 0.0,
+          "max_percent_base_diagonal": 0.0
+        }
+      }
+    ],
+    "smooth": [
+      {
+        "name": "Inferior lobe of left lung",
+        "vertices": 1142,
+        "triangles": 2275,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.01708998531103134,
+            -0.10166934132575989,
+            1.1660847663879395
+          ],
+          [
+            0.1301649808883667,
+            0.08309674263000488,
+            1.3634698390960693
+          ]
+        ],
+        "boundary_edges_exact_weld": 7,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.01708998531103134,
+            -0.10166934132575989,
+            1.1660847663879395
+          ],
+          [
+            0.1301649808883667,
+            0.08309674263000488,
+            1.3634698390960693
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0801006784910232,
+        "geometry_sha256": "79fd9feeb18ab7332cf3f075c8a02f97bd4535c565a98012f55044d228c221ee",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0,
+          "p95_source_units": 0.0,
+          "max_percent_base_diagonal": 0.0
+        }
+      },
+      {
+        "name": "Inferior lobe of right lung",
+        "vertices": 1040,
+        "triangles": 2074,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.13165897130966187,
+            -0.09476161748170853,
+            1.16960871219635
+          ],
+          [
+            -0.0015243601519614458,
+            0.08386295288801193,
+            1.3532600402832031
+          ]
+        ],
+        "boundary_edges_exact_weld": 8,
+        "nonmanifold_edges_exact_weld": 5,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.13165897130966187,
+            -0.09476161748170853,
+            1.16960871219635
+          ],
+          [
+            -0.0015243601519614458,
+            0.08386295288801193,
+            1.3532600402832031
+          ]
+        ],
+        "surface_area_source_units_squared": 0.07615551604715909,
+        "geometry_sha256": "853ccdf3ef74565bfd52c72d95cc93d368cb10988ba126481f7b21ee9f2c7f37",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0,
+          "p95_source_units": 0.0,
+          "max_percent_base_diagonal": 0.0
+        }
+      },
+      {
+        "name": "Middle lobe of right lung",
+        "vertices": 914,
+        "triangles": 1818,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.12449897080659866,
+            -0.10271035134792328,
+            1.2130399942398071
+          ],
+          [
+            -0.0052590700797736645,
+            0.04808621481060982,
+            1.3195668458938599
+          ]
+        ],
+        "boundary_edges_exact_weld": 10,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.12449897080659866,
+            -0.10271035134792328,
+            1.2130399942398071
+          ],
+          [
+            -0.0052590700797736645,
+            0.04808621481060982,
+            1.3195668458938599
+          ]
+        ],
+        "surface_area_source_units_squared": 0.04348213944419854,
+        "geometry_sha256": "3c4d66b9795efcff67a9085f891859518ec6eb413fd7351b0a2aaaaa2ba1072a",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0,
+          "p95_source_units": 0.0,
+          "max_percent_base_diagonal": 0.0
+        }
+      },
+      {
+        "name": "Superior lobe of left lung",
+        "vertices": 1141,
+        "triangles": 2265,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.007127814926207066,
+            -0.10226234793663025,
+            1.2188299894332886
+          ],
+          [
+            0.12371944636106491,
+            0.07120601832866669,
+            1.4320999383926392
+          ]
+        ],
+        "boundary_edges_exact_weld": 17,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.007127814926207066,
+            -0.10226234793663025,
+            1.2188299894332886
+          ],
+          [
+            0.12371944636106491,
+            0.07120601832866669,
+            1.4320999383926392
+          ]
+        ],
+        "surface_area_source_units_squared": 0.0694921644032592,
+        "geometry_sha256": "ddf8f7696367c63e87c5368b4b1e672b813e9fe14ba52619ebde03a19f2fd415",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0,
+          "p95_source_units": 0.0,
+          "max_percent_base_diagonal": 0.0
+        }
+      },
+      {
+        "name": "Superior lobe of right lung",
+        "vertices": 968,
+        "triangles": 1910,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.11916796863079071,
+            -0.08585096150636673,
+            1.2913399934768677
+          ],
+          [
+            -0.006744940299540758,
+            0.07285311818122864,
+            1.430780053138733
+          ]
+        ],
+        "boundary_edges_exact_weld": 30,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.11916796863079071,
+            -0.08585096150636673,
+            1.2913399934768677
+          ],
+          [
+            -0.006744940299540758,
+            0.07285311818122864,
+            1.430780053138733
+          ]
+        ],
+        "surface_area_source_units_squared": 0.05375131009702862,
+        "geometry_sha256": "420018f22fb3ff6342536d27eeffc0eee92fcc44be10d3337056541dd4810172",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0,
+          "p95_source_units": 0.0,
+          "max_percent_base_diagonal": 0.0
+        }
+      }
+    ],
+    "subdivision1": [
+      {
+        "name": "Inferior lobe of left lung",
+        "vertices": 4637,
+        "triangles": 9258,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.01839153841137886,
+            -0.0991467535495758,
+            1.1669811010360718
+          ],
+          [
+            0.12984852492809296,
+            0.0827648937702179,
+            1.3604663610458374
+          ]
+        ],
+        "boundary_edges_exact_weld": 14,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.01839153841137886,
+            -0.0991467535495758,
+            1.1669811010360718
+          ],
+          [
+            0.12984852492809296,
+            0.0827648937702179,
+            1.3604663610458374
+          ]
+        ],
+        "surface_area_source_units_squared": 0.07617259876376233,
+        "geometry_sha256": "00890be23308057294db21131e23fbee7862715d9c1d98197d59337106a689e4",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0018721474334597588,
+          "p95_source_units": 0.0007315398077480492,
+          "max_percent_base_diagonal": 0.6388230225073127
+        }
+      },
+      {
+        "name": "Inferior lobe of right lung",
+        "vertices": 4231,
+        "triangles": 8452,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.13113145530223846,
+            -0.09258320927619934,
+            1.1699010133743286
+          ],
+          [
+            -0.0027444232255220413,
+            0.08324287831783295,
+            1.3503797054290771
+          ]
+        ],
+        "boundary_edges_exact_weld": 16,
+        "nonmanifold_edges_exact_weld": 8,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.13113145530223846,
+            -0.09258320927619934,
+            1.1699010133743286
+          ],
+          [
+            -0.0027444232255220413,
+            0.08324287831783295,
+            1.3503797054290771
+          ]
+        ],
+        "surface_area_source_units_squared": 0.07316662693720802,
+        "geometry_sha256": "f7b94b08cf5952fe36acc8a784b2579d24dfb526c80543896cb03b53d9694515",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0017775228479877114,
+          "p95_source_units": 0.0005643427721224725,
+          "max_percent_base_diagonal": 0.6185932758413906
+        }
+      },
+      {
+        "name": "Middle lobe of right lung",
+        "vertices": 3708,
+        "triangles": 7396,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.12358243763446808,
+            -0.10247445106506348,
+            1.215562343597412
+          ],
+          [
+            -0.005739775951951742,
+            0.04751281067728996,
+            1.3191828727722168
+          ]
+        ],
+        "boundary_edges_exact_weld": 20,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.12358243763446808,
+            -0.10247445106506348,
+            1.215562343597412
+          ],
+          [
+            -0.005739775951951742,
+            0.04751281067728996,
+            1.3191828727722168
+          ]
+        ],
+        "surface_area_source_units_squared": 0.04160321190752288,
+        "geometry_sha256": "6ccd69f364e2b8c7e4cde47fbe3a55d84a67776a344fcfc91c95bd23148577c7",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0014472759794443846,
+          "p95_source_units": 0.0007342007011175145,
+          "max_percent_base_diagonal": 0.6584943249733647
+        }
+      },
+      {
+        "name": "Superior lobe of left lung",
+        "vertices": 4662,
+        "triangles": 9290,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            0.008857928216457367,
+            -0.10149390995502472,
+            1.219520092010498
+          ],
+          [
+            0.122981496155262,
+            0.06927720457315445,
+            1.431017518043518
+          ]
+        ],
+        "boundary_edges_exact_weld": 34,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            0.008857928216457367,
+            -0.10149390995502472,
+            1.219520092010498
+          ],
+          [
+            0.122981496155262,
+            0.06927720457315445,
+            1.431017518043518
+          ]
+        ],
+        "surface_area_source_units_squared": 0.06664105340853568,
+        "geometry_sha256": "00c13ec58960f65d436df8f3122fa19ae8ccf4f9c1bc04444dd9e06ea4da17f0",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0016916125314310193,
+          "p95_source_units": 0.0007725887262495231,
+          "max_percent_base_diagonal": 0.5664923614953166
+        }
+      },
+      {
+        "name": "Superior lobe of right lung",
+        "vertices": 3902,
+        "triangles": 7748,
+        "unreferenced_vertices": 0,
+        "surface_bounds": [
+          [
+            -0.11816653609275818,
+            -0.08427950739860535,
+            1.292089581489563
+          ],
+          [
+            -0.00795898400247097,
+            0.07137651741504669,
+            1.4294832944869995
+          ]
+        ],
+        "boundary_edges_exact_weld": 60,
+        "nonmanifold_edges_exact_weld": 0,
+        "degenerate_triangles_area_le_1e_12": 0,
+        "bounds": [
+          [
+            -0.11816653609275818,
+            -0.08427950739860535,
+            1.292089581489563
+          ],
+          [
+            -0.00795898400247097,
+            0.07137651741504669,
+            1.4294832944869995
+          ]
+        ],
+        "surface_area_source_units_squared": 0.05179132406465219,
+        "geometry_sha256": "c743d4b2a64f32a7177eaa30a7ec1b953542e59447c7cfc02dadc16013be89f8",
+        "vertex_to_base_distance": {
+          "max_source_units": 0.0016183655243366957,
+          "p95_source_units": 0.0007534224714618175,
+          "max_percent_base_diagonal": 0.676262184052463
+        }
+      }
+    ]
+  },
+  "exports": [
+    {
+      "path": "samples/chest-review/lungs-smooth.glb",
+      "scope": "lungs",
+      "variant": "smooth",
+      "bytes": 203056,
+      "sha256": "d0e8b36ae21b0d4761e200cae7bdb034f788c4d78dad42563635cf58c468086d"
+    },
+    {
+      "path": "samples/chest-review/lungs-subdivision1.glb",
+      "scope": "lungs",
+      "variant": "subdivision1",
+      "bytes": 776508,
+      "sha256": "a929d664af24e04c6222aa0fc04ea4c0ceddb582d6bc0b94d8c33db42005cd4d"
+    },
+    {
+      "path": "samples/chest-review/chest-smooth.glb",
+      "scope": "chest",
+      "variant": "smooth",
+      "bytes": 3861948,
+      "sha256": "28e2339415eb42aa5d937a971f79c6763a0567531ad13ea7ab783a38339d8024"
+    }
+  ]
+}
