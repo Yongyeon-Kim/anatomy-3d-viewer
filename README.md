@@ -4,13 +4,11 @@
 | --- | --- |
 | [![전신 골격과 장기, 혈관을 함께 표시한 기본 화면](docs/media/whole-body.png)](docs/media/whole-body.png) | [![주변 조직을 반투명하게 표시하고 오른심실을 확대한 화면과 해부학 도판](docs/media/right-ventricle.png)](docs/media/right-ventricle.png) |
 
-### 시연 영상
+### 시연 영상 (13초)
 
-[![13초 시연 영상 재생 · 흉부의 주변 조직을 반투명하게 표시한 장면](docs/media/demo-poster.webp)][demo-video]
+https://github.com/user-attachments/assets/0c2ce1b7-576b-42a8-98be-2c890187d0ba
 
-[▶ 시연 재생 (13초)][demo-video] — 전신 모델을 돌려 본 뒤 흉부로 이동합니다. 심장을 선택하고 주변 조직을 반투명하게 바꿔 오른심실을 확대합니다.
-
-[demo-video]: https://cdn.jsdelivr.net/gh/Yongyeon-Kim/anatomy-3d-viewer@be8e00515765c618e1d009f7e7b046fd4c363df2/docs/media/anatomy-demo.mp4
+전신 모델을 돌려 본 뒤 흉부로 이동합니다. 심장을 선택하고 주변 조직을 반투명하게 바꿔 오른심실을 확대합니다.
 
 화면과 영상은 실제 뷰어에서 캡처했습니다. 모델 원본은 Z-Anatomy와 BodyParts3D이며, 개별 구조의 제공자와 이용 조건은 [출처와 라이선스](#출처와-라이선스)에 기재했습니다.
 
