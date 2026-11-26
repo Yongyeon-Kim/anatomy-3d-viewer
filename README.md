@@ -8,7 +8,7 @@
 
 [![13초 시연 영상 재생 · 흉부의 주변 조직을 반투명하게 표시한 장면](docs/media/demo-poster.webp)][demo-video]
 
-[▶ 시연 재생 · 13초][demo-video] — 전신 모델을 돌려 본 뒤 흉부로 이동합니다. 심장을 선택하고 주변 조직을 반투명하게 바꿔 오른심실을 확대합니다.
+[▶ 시연 재생 (13초)][demo-video] — 전신 모델을 돌려 본 뒤 흉부로 이동합니다. 심장을 선택하고 주변 조직을 반투명하게 바꿔 오른심실을 확대합니다.
 
 [demo-video]: https://cdn.jsdelivr.net/gh/Yongyeon-Kim/anatomy-3d-viewer@be8e00515765c618e1d009f7e7b046fd4c363df2/docs/media/anatomy-demo.mp4
 
